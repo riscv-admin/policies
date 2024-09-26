@@ -1,8 +1,8 @@
 = RISC-V Specification Template
 
-This repository serves as a template for creating GitHub repositories within the RISC-V organization for the purpose of developing specifications. It aims to facilitate and standardize the process of specification development.
+This repository contains all Technical policies for the RISC-V organization. They support the Technical Steering Committee (TSC) and all of its working groups.  Guidance is provided by the Board.
 
-NOTE: If you are viewing this in a specification repository, kindly update the title for this section and provide an introduction relevant to your repository.
+Contents for this information was migrated from the RISC-V Google Drive link:https://drive.google.com/drive/folders/1DemKMAD3D0Ka1MeESRoVCJipSrwiUlEs?usp=drive_link[for risc-v members] / link:https://drive.google.com/drive/u/2/folders/17huuOKXafR5n4tbxZfzSnAakmgHnipo[Policies] folder in October 2024.
 
 == License
 
