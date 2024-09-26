@@ -1,10 +1,9 @@
-= RISC-V Example Specification Document (Zexmpl)
-Authors: Author 1, Author 2
+= RISC-V Technical Policies
 include::../docs-resources/global-config.adoc[]
 :docgroup: RISC-V Task Group
-:description: RISC-V Example Specification Document (Zexmpl)
-:revdate: 1/2023
-:revnumber: 1.0
+:description: RISC-V Technical Policies
+:revdate: 10/2024
+:revnumber: 1.0_rc1
 :revremark: This document is under development. Expect potential changes. Visit http://riscv.org/spec-state for further details.
 :revinfo:
 :preface-title: Preamble
@@ -71,7 +70,7 @@ Copyright 2024 by RISC-V International.
 include::contributors.adoc[]
 
 include::intro.adoc[]
-include::chapter2.adoc[]
+include::technical_voting.adoc[]
 
 // The index must precede the bibliography
 include::index.adoc[]
