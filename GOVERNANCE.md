@@ -1,8 +1,2 @@
 # Governance
-This project for the template specification is governed by the Documentation SIG.
-
-The group can be joined by RISC-V members at: https://lists.riscv.org/g/sig-documentation.
-
-Mailing list archives are available at: https://lists.riscv.org/g/sig-documentation/topics.
-
-**_NOTE:_** PROJECTS BUILT USING THE TEMPLATE SHOULD UPDATE THE ABOVE TEXT AS-NEEDED.
+This project is governed by the RISC-V Technical Steer Committee (TSC) with guidance from the Board of Directors.  Maintenance of the policies is provided by the RISC-V Staff who can be contacted via email at help@riscv.org.
