@@ -1,4 +1,4 @@
-= Technical Voting Policy
+=== Technical Voting Policy
 
 Version: 1.2 +
 One line description: The types of votes we use in our technical
@@ -6,7 +6,7 @@ leadership groups. +
 Author(s): Mark I Himelstein, Stephano Cetola +
 Status: approved +
 
-== Version History
+==== Version History
 
 [width="100%",cols="<25%,<25%,<25%,<25%",options="header",]
 |===
@@ -19,7 +19,7 @@ creation. At the TSC level. Cleaned up language. |mark@riscv.org
 |1.0 |2021-05-12 |Initial commit. |stephano@riscv.org
 |===
 
-== Rationale
+==== Rationale
 
 Voting at the Board of Directors level is defined by the RISC-V
 Regulations. Those regulations leave it to the discretion of the
@@ -29,13 +29,13 @@ on how they each conduct voting.
 We have been implementing all or part of this policy for a while and as
 of May 2021 finalized the type of votes necessary for each item.
 
-== Policy
+==== Policy
 
 For all votes, dissenting votes (objections) are allowed and must be
 discussed by the committee in email or in a TSC meeting before a measure
 is approved.
 
-=== Technical Steering Committee (TSC)
+===== Technical Steering Committee (TSC)
 
 The two forms of votes are called *Majority* and *6+ Majority*.
 
@@ -60,7 +60,7 @@ about whether it should be a 6+majority or a majority vote, the item
 should be discussed at TSC before issuing the vote. +
 . Ratification waivers or blanket waivers
 
-== Task Group Chairs
+===== Task Group Chairs
 
 The only vote is called *6+ Majority*.
 
@@ -79,11 +79,11 @@ https://docs.google.com/document/d/1_0Mnd5sXn8KcyOUI4-qvCdG7ITPY6vSAIhFc5Iy-URI/
 and Elections Policy] for details on the exact steps for HC/IC/TG/SIG
 creation and elections.
 
-== Exception handling
+==== Exception handling
 
 For any questions or comments on our voting process please contact the
 RISC-V CTO directly.
 
-== Transition to start using policy
+==== Transition to start using policy
 
 Immediate
