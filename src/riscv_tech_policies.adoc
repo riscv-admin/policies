@@ -70,7 +70,7 @@ Copyright 2024 by RISC-V International.
 include::contributors.adoc[]
 
 include::intro.adoc[]
-include::technical_voting.adoc[]
+include::approved.adoc[]
 
 // The index must precede the bibliography
 include::index.adoc[]
