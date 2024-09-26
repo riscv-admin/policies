@@ -1,0 +1,5 @@
+== Approved Policies
+
+Policies in this section have been approved.
+
+include::technical_voting.adoc[]
