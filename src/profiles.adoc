@@ -129,7 +129,7 @@ don’t conflict in any way with required or optional standard extensions.
 
 === Transition to start using policy
 
-This will be the acting policy until approved (possibly with modifications before approval). 
+This will be the acting policy until approved (possibly with modifications before approval).
 
 Upon approval of this policy, implementations must adhere to the policy.
 Existing branding must transition within 12 months unless an exception

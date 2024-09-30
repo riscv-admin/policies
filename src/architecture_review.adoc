@@ -21,7 +21,7 @@
 
 === Rationale
 
-We need to produce robust extensions that are consistent with the ratified RISC-V specifications and RISC-V overall strategy. 
+We need to produce robust extensions that are consistent with the ratified RISC-V specifications and RISC-V overall strategy.
 
 We also need to coordinate assignments of opcode encodings, mnemonics,
 CSRs, etc so we have a consistent set of conventions across extensions,
@@ -95,7 +95,7 @@ choices and suggestions for improvement. However, the Architecture Review conduc
 during the Freeze stage is particularly important and mandatory, as it determines 
 whether the specification is genuinely prepared to advance or if modifications 
 and enhancements are needed. Lastly, AR is required during the Ratification-Ready 
-phase if the specification text has undergone any significant changes (i.e. past 
+phase if the specification text has undergone any significant changes (i.e. past 
 simple typo corrections, formatting corrections, and very simple clarifications).
 
 === Exception handling
