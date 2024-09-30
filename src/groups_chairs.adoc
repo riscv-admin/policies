@@ -521,4 +521,3 @@ the CTO. the CTO may further escalate to TSC or the BOD.
 Members who feel their escalation is not being addressed appropriately
 should send email to help@riscv.org. Members should try to work through
 their HC or IC first, if possible, before sending email.
-

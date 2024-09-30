@@ -139,4 +139,3 @@ email to help@riscv.org.
 
 === Transition to start using policy +
 Immediately upon approval
-

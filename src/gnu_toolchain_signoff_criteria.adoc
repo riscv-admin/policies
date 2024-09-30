@@ -64,4 +64,3 @@ Immediate on approval
 . Identify at least two specific people from TSC to review the policy before it is approved. +
 . Have the TSC chair and CTO review the proposal. +
 . If approved, communicate to all task/sig groups commissioning GNU tool chain work. +
-

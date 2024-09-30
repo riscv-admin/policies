@@ -141,4 +141,3 @@ described in this policy immediately.
 === Exceptions
 
 Profile naming and versioning exceptions must be approved by the TSC.
-

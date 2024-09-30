@@ -187,4 +187,3 @@ changes.
 === Exception Handling
 
 The CTO is the escalation path for all policy issues, with the authority to resolve them or, if necessary, escalate further to the TSC or the BOD.
-

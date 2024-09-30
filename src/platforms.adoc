@@ -388,4 +388,3 @@ Compatibility test.* +
 specifications and provide additional functionality, as long as they
 remain compatible* (i.e., they may not implement incompatible features
 unless these are disabled by default).
-

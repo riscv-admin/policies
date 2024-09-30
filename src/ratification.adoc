@@ -286,4 +286,3 @@ ratified specification.
 
 Any exceptions get escalated to the CTO who may choose to resolve the
 issue, or escalate to the TSC or the CEO or the BOD.
-

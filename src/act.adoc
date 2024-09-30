@@ -331,4 +331,3 @@ be only supported through vendor efforts and not through RISC-V.
 
 Any escalation should occur to the CTO who may choose to resolve the
 issue, or escalate to the TSC or the CEO or the BOD.
-
