@@ -1,4 +1,52 @@
-[[intro]]
 == Introduction
 
-The RISC-V Policies are here...
+The RISC-V technical policies are detailed in this document.  Each policy is defined in a standalone chapter which are provided in alphabetical order by name.  A template for new policies has been included in the Appendix.
+
+The project to build the document is maintained in GitHub at https://github.com/riscv-admin/policies by the RISC-V Staff.  Use the project issues to propose updates, make suggestions, or raise issues.
+
+
+=== Approved policy list
+
+The following policies are in the Approved state and are in use:
+
+* Acceptance Criteria +
+* Architectural Compatibility Test +
+* Architecture Review +
+* Committee Chair Meeting (CCM) Guests +
+* Chairs Best Practices +
+* Contributor +
+* Development Partner Model +
+* Ecosystem Labs +
+* Encumbered Information +
+* Fast Track Architecture Extension +
+* Friendly Terminology +
+* GitHub Repo Structure & Administration +
+* GNU Tool Chain Sign-Off Criteria +
+* Group Chair and Vice-Chair Approvals +
+* ISA & Non-ISA Specifications +
+* Joint Working Groups with External Organizations +
+* Platforms +
+* Policy +
+* Profiles +
+* Questions Response +
+* Ratification +
+* Rationale +
+* Technical Voting +
+
+=== Draft policy list
+
+Policies in this section have been been drafted but not yet approved:
+
+* LLVM Tool Chain Sign-Off Criteria +
+* OS & Hypervisor Requirements for Specification Ratification +
+* Universes +
+* Versioning +
+
+=== Archived policy list
+
+Policies in this section are no longer in use by RISC-V:
+
+* ACT Requirements for Privileged 1.11 Specification +
+* Non-ISA Definition of Done +
+* SAIL Requirements for Privileged 1.11 Extensions +
+

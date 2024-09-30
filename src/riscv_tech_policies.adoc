@@ -5,7 +5,7 @@ include::../docs-resources/global-config.adoc[]
 :revdate: 10/2024
 :revnumber: 1.0_rc1
 :revremark: This document is under development. Expect potential changes. Visit http://riscv.org/spec-state for further details.
-:revinfo:
+:revinfo: 1.0_rc1
 :preface-title: Preamble
 :colophon:
 :appendix-caption: Appendix
@@ -37,6 +37,8 @@ endif::[]
 :footnote:
 :xrefstyle: short
 
+// Block comment for lists which are empty at this time
+////
 [preface]
 == List of figures
 list-of::image[hide_empty_section=true, enhanced_rendering=true]
@@ -48,6 +50,7 @@ list-of::table[hide_empty_section=true, enhanced_rendering=true]
 [preface]
 == List of listings
 list-of::listing[hide_empty_section=true, enhanced_rendering=true]
+////
 
 [WARNING]
 .This document is in the link:http://riscv.org/spec-state[Development state]
@@ -69,9 +72,47 @@ Copyright 2024 by RISC-V International.
 [preface]
 include::contributors.adoc[]
 
+[preface]
 include::intro.adoc[]
-include::approved.adoc[]
+
+// The following chapters should be in alphabetical order
+include::acceptance_criteria.adoc[]
+include::act.adoc[]
+include::act_priv_spec_1_11.adoc[]
+include::architecture_review.adoc[]
+include::ccm_guest_policy.adoc[]
+include::chairs_best_practices.adoc[]
+include::riscv_contributor.adoc[]
+include::dev_partner.adoc[]
+include::ecosystem_labs.adoc[]
+include::encumbered_info.adoc[]
+include::fast_track_extension.adoc[]
+include::friendly_terminology.adoc[]
+include::github_administration.adoc[]
+include::gnu_toolchain_signoff_criteria.adoc[]
+include::groups_chairs.adoc[]
+include::isa_nonisa.adoc[]
+include::joint_working_groups.adoc[]
+include::llvm_toolchain_signoff.adoc[]
+include::nonisa_definition_of_done.adoc[]
+include::os_hypervisor_requirements.adoc[]
+include::platforms.adoc[]
+include::policy.adoc[]
+include::profiles.adoc[]
+include::question_response.adoc[]
+include::ratification.adoc[]
+include::rationale.adoc[]
+include::sail_priv_spec_1_11.adoc[]
+include::technical_voting.adoc[]
+include::universes.adoc[]
+include::versioning.adoc[]
+
+[appendex]
+include::template.adoc[]
 
 // The index must precede the bibliography
 include::index.adoc[]
+
+////
 include::bibliography.adoc[]
+////

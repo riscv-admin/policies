@@ -1,0 +1,141 @@
+[[acceptance_criteria]]
+== Acceptance Criteria
+
+*Version:* 1.2 +
+*One line description:* What must be complete before TSC can approve a specification for ratification +
+*Author(s)*: Mark I Himelstein, Stephano Cetola +
+*Status:* Approved +
+
+*Version History:* +
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+|1.2 |2024-01-12 |Clarify escalation path through CTO |Jeff Scheel
+
+|1.1 |2022-10-03 |Update criteria regarding infrastructure. See section
+"Waivers". |Stephano Cetola
+
+|1.0 |2022-06-05 |TSC Approved, vote completed |Stephano Cetola
+
+|0.1 |2022-04-22 |This is based off the old
+https://docs.google.com/document/d/1Hp9ZZSzjk6Tp2pIvh33mNCj6wAoJCEqsdENQUTSruQg/edit?usp=sharing[Definition
+of Done] policy as well as the new
+https://docs.google.com/spreadsheets/d/1iXUZdNH6aZ-EDxsOqhYW82Ha6L7K4uVZt0-Rw9ZR-nY/edit?usp=sharing[ISA
+Status Checklist] |Stephano Cetola
+|===
+
+=== Rationale
+
+This document acts as a minimum viable definition of tasks, while the
+https://docs.google.com/spreadsheets/d/1iXUZdNH6aZ-EDxsOqhYW82Ha6L7K4uVZt0-Rw9ZR-nY/edit?usp=sharing[ISA
+Status Checklist] contains the details. For any given specification, see
+the relevant status checklist for how that specification meets the
+requirements defined in this policy.
+
+=== Related documentation
+
+==== Milestone
+See the
+https://docs.google.com/presentation/d/1nQ5uFb39KA6gvUi5SReWfIQSiRN7hp6z7ZPfctE4mKk/edit?usp=sharing[Specification
+Lifecycle and Milestone Definitions] for more detailed milestone
+definitions.
+
+==== Task
+
+See the
+https://docs.google.com/spreadsheets/d/1iXUZdNH6aZ-EDxsOqhYW82Ha6L7K4uVZt0-Rw9ZR-nY/edit?usp=sharing[ISA
+Status Checklist Template] and milestone tabs for details on the tasks
+required for each milestone.
+https://docs.google.com/spreadsheets/d/1D2YFdbX0ikurULz71VRP2T8LCTSnWtBS-CUwJYR_VA8/edit?usp=sharing[Tasks
+for Non-ISA Specifications] are much more flexible based on the nature
+of Non-ISA Specifications. This document is meant only as a guide for
+Non-ISA Specifications and Architectural Overview specifications.
+
+=== Policy
+
+The TG must complete or provide waivers for all of the
+link:#list-of-tasks[List of Tasks] to reach the given milestone. The TG
+must maintain and keep up to date their
+https://docs.google.com/spreadsheets/d/1iXUZdNH6aZ-EDxsOqhYW82Ha6L7K4uVZt0-Rw9ZR-nY/edit?usp=sharing[status
+checklist] by:
+
+. Identifying the work that needs to be done +
+. Identifying and documenting the resources needed +
+. Providing milestone date projections and a monthly status updates +
+. Identifying any delays and providing mitigation plans
+
+==== List of Tasks
+
+===== Freeze
+
+. *Document Complete* - the document must describe the semantics of
+instructions or operations and any other extension-specific visible
+state. +
+. *Opcode Support* - there must be enough opcode support for GCC to be
+functional but not optimized. +
+. *Simulators* - There must be enough simulator support so that basic
+RISC-V tests can be run. See the
+https://docs.google.com/document/d/1bXzONWVxXCp0wUigVDE2bQDU13uQRsZM80pmbXbERQc/edit?usp=sharing[Architectural
+Compatibility Test policy] for more details. +
+. *Application Binary Interface* - All applicable ABIs must be updated
+as relevant and changes must be discussed during architecture review +
+. *Compiler Support* - Support GCC without optimizations. +
+. *Architecture Compatibility Tests* (ACT) - Create tests and test
+input. See the
+https://docs.google.com/document/d/1bXzONWVxXCp0wUigVDE2bQDU13uQRsZM80pmbXbERQc/edit?usp=sharing[Architectural
+Compatibility Test policy] for details. +
+. *Sail Golden Model* - Work with RISC-V staff to update the Sail Golden
+Model as appropriate. +
+. *Architecture Review* - See the
+https://docs.google.com/document/d/1Ng03zfzUBoUacATyV1mxQE9oLVeyBOdzGseLD15mdFo/edit?usp=sharing[Architecture
+Review Policy] for details (currently in development). +
+. *Proof of Concept* (POC) - Propose POCs to the governing committees
+for approval, or approve the waiver of PoC at the governing committee’s
+discretion. The TSC must be informed of this waiver and may reject the
+waiver. The committee may ask for revisions in the POC. +
+. *RISC-V Publication Policies* - Abide by other pertinent policy
+(e.g. encumbered information, friendly terminology, anonymous
+contributor) currently in development.
+
+===== Ratification Ready
+
+. *Resolve Freeze Waivers* - Either resolve freeze waivers or get new
+waivers for vote-ready updating the status of the old waivers. +
+. *Document Complete* - Complete updates to the specification based on
+review comments. +
+. *Architecture Review* - See the
+https://docs.google.com/document/d/1Ng03zfzUBoUacATyV1mxQE9oLVeyBOdzGseLD15mdFo/edit?usp=sharing[Architecture
+Review Policy] currently in development. This step is only required if
+there were changes after public review. +
+. *Unified Discovery* - TBD, waiting on Unified Discovery specification
+to be ratified. +
+. *Regression Testing* - Identify and test interactions with previously
+ratified specifications. +
+. *Architecture Compatibility Tests* (ACT) - All tests and inputs should
+be updated with any changes since public review. +
+. *Industry Standard Tests* - Generate correct test results from any
+appropriate industry-available license-friendly tests (e.g. IBM floating
+point tests, AES tests, etc). +
+. *OS Enablement* - See the
+https://docs.google.com/document/d/17_iBms-zh55SB1Hkjn0cp7Ns5LOdcnlvsN88ymWoRzI/edit?usp=sharing[policy]
+for details, currently in development. +
+. *RISC-V Profiles* - The extension(s) must be included in at least 1
+RISC-V profile. +
+. *RISC-V Publication Policies* - Abide by other pertinent policy
+(e.g. encumbered information, friendly terminology, anonymous
+contributor) currently in development.
+
+==== Waivers
+
+Waivers for Freeze are approved by Tech Chairs 6+ majority vote. Waivers
+for ratification are approved by TSC 6+ majority vote.
+
+For ratification, any infrastructure that does not exist and will not
+exist within the next year requires a Committee Chairs majority vote to
+waive, and for the TSC to be notified of the waiver (and may override).
+
+=== Exceptions
+
+The CTO is the escalation path for all policy issues, with the authority
+to resolve them or, if necessary, escalate further to the TSC or the
+BOD.

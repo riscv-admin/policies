@@ -1,0 +1,130 @@
+[[dev_partner]]
+== Development Partner Model
+
+*Version:* 1.1 +
+*One line description:* Process and policies regarding being a development
+partner and doing projects to help Task Groups complete DoD tasks for
+public review and ratification +
+*Author(s):* Mark Himelstein +
+*Status:* Approved +
+
+*Version History:* +
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+
+|1.1 |2021-02-02 
+
+a| Updates:
+
+. Requiring Development Partner to be able to do 3 medium sized project
+simultaneously +
+. SOW & Status folder, README, templates +
+. Approval process to initiate a Development Partner project.
+
+|Mark Himelstein
+
+|1.0 |2020-11-25 |Original version | Mark Himelstein
+
+|===
+
+=== Rationale
+
+We are starting to work with Development Partners (i.e. institutions or
+groups that are volunteering to take on Development tasks for RISC-V
+TGs).
+
+We developed this Model so that we could get help for architects working
+on RISC-V projects requiring their skills who may be spending their time
+instead both architecting and delivering Ecosystem components that could
+be done by non-architect level Developments. In this way architects
+could spend their time on architecture and help get the extensions and
+work products finished.
+
+We also have accumulated technical debt (i.e. things we did not do --
+for example we did not do the architecture tests for floating point when
+we ratified the extension). This model will also be used to address the
+technical debt.
+
+=== Policy
+
+Ramp project to on board get a Development Partner productive :
+
+. RISC-V folks pick a ramp project. This should be a project where the
+initial results can be visible in a month (not including holidays). When
+we make enough progress to know we are being productive, we can expand
+the work to include more projects.
+
+==== General process
+
+. The RISC-V group driving the work (IC, HC, HSC, or TG) picks a liaison
+to work with the Development Partner. +
+. Development Partner picks a non-student liaison to work with RISC-V. +
+. Liaisons should be both technically and organizationally capable +
+. While RISC-V TGs have oversight, the liaisons will be the main point
+of interaction. This is done to minimize the impact on the RISC-V
+architects and ensure that RISC-V architects are not managing the
+Development Partner Developments directly. The hope is that we can have
+one liaison from each organization but there may have to be more
+depending on the variation in project skills and areas needed. If we
+have more than one liaison, we will pick a primary one from RISC-V and
+the Development Partner to coordinate across a number of projects and
+liaisons as appropriate. +
+. The SOW and status are stored on the shared drive
+https://drive.google.com/drive/folders/1x5gzhPtKqcHFgX8t3h55qSsKhDkIOCMJ?usp=sharing[here]
+and the
+https://docs.google.com/document/d/1zyrpBB-EzXcJj7UuGQhnIfFyKRav0z2GyPyTRf-bjOM/edit?usp=sharing[README]
+in that directory has conventions including templates for the SOW and
+status. +
+. RISC-V will provide the following initial deliverables to start a
+project: requirements, deliverables, and acceptance criteria which make
+up the SOW. For a small project this should all fit on one page. An
+example of acceptance criteria in the industry from the GNU toolchain is
+available
+https://www.google.com/url?q=https://docs.google.com/document/d/1Eio39QTHNM9Lmi1VXoH7PYLgBGUscvpdPxB6YmZonVk&sa=D&source=editors&ust=1612297663762000&usg=AOvVaw1KGxbfwRv1tCPTsd_fuiei[here]. +
+. Once you develop a SOW, the liaison sends an email to the
+cto-group-contributor lists.riscv.org email group asking for a resource
+and places the task in the status spreadsheet tab used to identify tasks
+you need resource help with. Please do not approach Development Partners
+yourself as the TSC has set priorities and we are working to address
+their priorities first. +
+. The Development Partner and RISC-V will review the RISC-V initial
+deliverables until both teams feel the Development Partner understands
+the task and has the beginnings of a plan to get the work done as per
+the requirements. +
+. Regular status is due monthly and will be reported to the appropriate
+groups (chairs, BOD, etc.). There is a self-serve
+https://docs.google.com/spreadsheets/d/1qzu6b9kgADGjaa5fd1Qla7b9gCMOaEnGO5bUVu2oPys/edit?usp=sharing[status
+spreadsheet] on the shared drive in the status folder with a projects
+tab where we will track progress rollup. The full report is in the
+directory specified above. +
+. The RISC-V liaison will drive the review of deliverables and adherence
+to acceptance criteria with the RISC-V TG and work with the Development
+Partner liaison to resolve any issues. +
+. The following skillsets are needed: +
+.. Formal model (SAIL) +
+.. Architecture tests (ISA, assembler) +
+.. Toolchain support (GCC, LLVM, debugger, profiler, …) +
+.. Simulators (SPIKE, QEMU, SAIL generated, …) +
+.. Hypervisors (KVM, etc.) +
+.. Operating Systems (both Linux like and RTOS like) +
+.. Library support (e.g. crypto libs, npi libs, ml libs, java runtime,
+…) +
+.. Prototyping (FPGA, simulator, RTL, etc.) +
+.. Documentation +
+. A Development Partner should be able to support a minimum of 3 medium
+sized projects simultaneously after the proof of concept project. It
+takes effort to spin up a Development Partner and we would like to
+leverage that effort on the RISC-V side). +
+. Development Partners should have approximately 1 non-student
+manager/project leader per 15 students or junior Developments maximum
+(so a big project may need both a liaison and some managers).
+
+=== Exception handling
+
+Not applicable
+
+=== Transition to start using policy
+
+Immediately
+

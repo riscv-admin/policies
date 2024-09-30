@@ -1,0 +1,121 @@
+[[os_hypervisor_requirements]]
+== OS & Hypervisor Requirements for Specification Ratification
+
+*Version:* 0.1 +
+*One line description:* Provide a reference implementation (as a patchset)
+providing basic enablement for Linux (including KVM) and
+FreeRTOS/Zephyr. +
+*Author(s):* Philipp Tomsich +
+*Status:* Draft +
+
+*Version History:* +
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+
+|0.1 |2021-10-15 |Converted to policy from emails |Philipp Tomsich
+
+|0.1 |2021-09-24 |Original draft |Philip Tomsich
+
+|===
+
+=== Rationale
+
+This policy provides a reference implementation (as a patchset)
+providing basic enablement for the following (see `Plan Requirements'):
+
+* Linux stack (for applicability & impact on general-purpose software)
+(i.e.: OpenSBI, Bootloader, Kernel (incl. kvm), Program loader, C
+runtime, domain-specific core libraries [e.g. OpenSSL]) +
+* FreeRTOS and/or Zephyr (for applicability & impact on hard real-time
+software)
+
+To allow experimentation and evaluation of proposed extensions, an
+end-to-end test case is required: this will ensure that there are no
+"blind spots" (e.g., an example would be that the overhead of
+vector-context switch in the OS could easily be missed otherwise) in the
+evaluation and that feedback on the applicability/integration for
+established operating systems can be gathered.
+
+The implementation is not intended as a "full" or "optimized"
+implementation, but rather as a reference implementation that
+illustrates an expected/envisioned baseline implementation. +
+The choice of Linux as an evaluation platform is not intended to prefer
+Linux over *BSD (or any other open or closed source OS), but derives
+from practical considerations: most of the RISC-V software ecosystem has
+already been proven with and integrated with Linux; for this reason (and
+due to the resulting familiarity of our community with it), it offers
+the quickest path to an end-to-end prototype. The availability of soft
+real-time (Xenomai), hypervisors (kvm), and rich list of core libraries
+(e.g. OpenSSL) confirm this choice. Given that hard-realtime aspects can
+neither be demonstrated nor evaluated with Linux, a real-time OS target
+is also needed: the choice of FreeRTOS is based on its minimalist design
+(which we consider to cause the least learning curve and smallest
+possible reference case for implementers).
+
+=== Policy +
+*Application Notes* +
+Application notes for the Plan milestone, Freeze milestone, and
+Approval-milestone follow. +
+Note that the general requirement states that reference implementations
+for both a complete Linux stack (i.e. OpenSBI, Bootloader, Kernel, C
+runtime, core libraries) and FreeRTOS need to be completed: this can be
+qualified through an `applicability and impact statement' that needs to
+be presented (by the group developing the extension) and approved (by
+the Software HC) — i.e., the group states what parts of the stack they
+will modify and why only these are required.
+
+==== Plan requirements
+
+* The group responsible for an extension shall create an `applicability
+& impact statement' for the extension, which details the software
+ecosystem impact:
+** if and how boot-flow will be impacted or on-boot configuration is
+required +
+** if and how context-switching will be impacted +
+** if and how interrupt handling will be impacted +
+** if and how virtualisation will be impacted +
+** if and how program startup will be impacted +
+** if and how the C runtime will be impacted +
+** if and how domain-specific OS libraries (e.g. OpenSSL) will be
+impacted +
+** if and how real-time will be impacted +
+** if and how security will be impacted +
+* Based on this `applicability and impact statement', the group shall
+provide an explanation of the components of the Linux software stack
+that will be addressed as part of their reference software enablement.
+For impact in the soft-realtime domain, a reference implementation with
+Linux is sufficient; if hard-realtime software is also impacted, a
+reference enablement of FreeRTOS is required either instead-of (if no
+demonstrable impact on a Linux stack exists) or in-addition-to Linux. +
+* The `applicability & impact statement' and the `enablement plan' has
+been presented to the Software HC (mailing list and/or discussion at a
+HC meeting) and received sign-off from the Software HC. +
+* The Software HC shall review these planning documents considering the
+impact on the software ecosystem and whether independent evaluation and
+experimentation are possible with the proposed plan.
+
+==== Freeze requirements
+
+* The proposed patches for the enablement have been sent to the
+communities governing the upstream projects identified in the Plan as
+RFC (request-for-comment) patches, including a reference to the
+documentation about to be sent to public review. +
+* This submission of RFC patches must:
+** follow the processes of each community (e.g., being split into
+individual logical patches instead of being a big-bang patch to enable
+an effective review and foster good community relations), +
+** CC the submission to the software mailing list +
+** include a cover letter explaining the purpose of the extension,
+request a community review, and reference the frozen documentation
+
+==== Ratification-ready requirements
+
+* Feedback from the upstream communities (e.g. Linux, KVM, OpenSSL,
+etc.) has been received (if not: it is the TGs responsibility to follow
+up!) and any comments have been treated as public review comments (and,
+consequently, been addressed)
+
+=== Transition to start using policy +
+Immediate
+

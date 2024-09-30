@@ -1,25 +1,25 @@
-=== Technical Voting Policy
+[[technical_voting]]
+== Technical Voting
 
-Version: 1.2 +
-One line description: The types of votes we use in our technical
+*Version:* 1.2 +
+*One line description:* The types of votes we use in our technical
 leadership groups. +
-Author(s): Mark I Himelstein, Stephano Cetola +
-Status: approved +
+*Author(s):* Mark I Himelstein, Stephano Cetola +
+*Status:* Approved +
 
-==== Version History
-
-[width="100%",cols="<25%,<25%,<25%,<25%",options="header",]
+*Version History:* +
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
-|Ver |Date |Details |Email
+|Ver |Date |Details |Name(s)
 |1.2 |2022-10-24 |Add 6+ majority for TSC for policies and group
-creation. At the TSC level. Cleaned up language. |mark@riscv.org
+creation. At the TSC level. Cleaned up language. |Mark Himelstein
 
-|1.1 |2021-11-22 |Comment review and clarification |jeff@riscv.org
+|1.1 |2021-11-22 |Comment review and clarification |Jeff Scheel
 
-|1.0 |2021-05-12 |Initial commit. |stephano@riscv.org
+|1.0 |2021-05-12 |Initial commit. |Stephano Cetola
 |===
 
-==== Rationale
+=== Rationale
 
 Voting at the Board of Directors level is defined by the RISC-V
 Regulations. Those regulations leave it to the discretion of the
@@ -29,20 +29,19 @@ on how they each conduct voting.
 We have been implementing all or part of this policy for a while and as
 of May 2021 finalized the type of votes necessary for each item.
 
-==== Policy
+=== Policy
 
 For all votes, dissenting votes (objections) are allowed and must be
 discussed by the committee in email or in a TSC meeting before a measure
 is approved.
 
-===== Technical Steering Committee (TSC)
+==== Technical Steering Committee (TSC)
 
 The two forms of votes are called *Majority* and *6+ Majority*.
 
 *Majority* vote requires approval from the majority of all eligible
 voters. This type of vote is used for:
 
-[arabic]
 . Approval to send specifications to the BOD for ratification. +
 . HC/IC charter and chair and vice-chair approval. +
 . Any major organizational restructuring, voting changes, exceptions,
@@ -52,7 +51,6 @@ and any other TSC specific votes not covered by the vote types below.
 vote is a majority of voters who voted not including abstentions. This
 type of vote is used for:
 
-[arabic]
 . Task group preliminary charter and chair and vice chair approval +
 . Policies affecting TSC (e.g. group, chair, vice chair
 creation/election, acceptance criteria, etc.). If there is any question
@@ -60,7 +58,7 @@ about whether it should be a 6+majority or a majority vote, the item
 should be discussed at TSC before issuing the vote. +
 . Ratification waivers or blanket waivers
 
-===== Task Group Chairs
+==== Task Group Chairs
 
 The only vote is called *6+ Majority*.
 
@@ -68,7 +66,6 @@ The only vote is called *6+ Majority*.
 the vote is a majority of voters who voted not including abstentions.
 This type of vote is used for:
 
-[arabic]
 . Approving policies that do not affect the TSC directly. +
 . Approving waivers for the Freeze Milestone +
 . Other technical chairs business (e.g. approving decisions we want to
@@ -79,11 +76,12 @@ https://docs.google.com/document/d/1_0Mnd5sXn8KcyOUI4-qvCdG7ITPY6vSAIhFc5Iy-URI/
 and Elections Policy] for details on the exact steps for HC/IC/TG/SIG
 creation and elections.
 
-==== Exception handling
+=== Exception handling
 
 For any questions or comments on our voting process please contact the
 RISC-V CTO directly.
 
-==== Transition to start using policy
+=== Transition to start using policy
 
 Immediate
+

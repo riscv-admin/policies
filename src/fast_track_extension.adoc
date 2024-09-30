@@ -1,0 +1,197 @@
+[[fast_track_extension]]
+== Fast Track Architecture Extension
+
+*One line description:* ast track process for developing "small"
+architecture extensions +
+*Author(s):* Greg Favor +
+*Status:* Approved +
+
+*Version History:* +
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+
+|1.7 |02-03-2024 |Clarify difference between fast track and TG-developed
+extensions, venue for discussions, ownership, and "relatively
+uncontentious" requirement |Greg Favor
+
+|1.6 |01-12/2024 |Clarify escalation path through CTO |Jeff Scheel
+
+|1.5 |11-02-2023 |Ensure Plan Milestone occurs |Jeff Scheel
+
+|1.4 |07-03-2023 |Update to reflect 30-day public review |Jeff Scheel
+
+|1.3 |03-15-2023 |Ensure ownership verification in the process
+|Greg Favor, Jeff Scheel
+
+|1.2 |02-10-2022 |Clarify section 4 regarding how the TSC responds to
+requests to move from Fast Track to a full TG. |Stephano Cetola
+
+|1.1 |02-01-2022 |Clarify getting approval from AR Committee to be fast
+track and notifying TSC of fast track status. |Greg Favor
+
+|===
+
+[IMPORTANT]
+*TSC Required Notification Statement:* This document contains delegated tasks from the Technical Steering
+Committee (TSC). The TSC requires notification of these delegated tasks
+(highlighted in red) and reserves the right to object. If no objection
+is received within 14 days after notification the decision can be
+considered approved. +
+
+=== Rationale
+
+The standard Task Group process is unnecessarily heavyweight,
+cumbersome, and slow for developing and standardizing "small"
+architecture extensions that are relatively straightforward and
+uncontentious. This proposal provides an efficient and fast way to
+handle such architecture-extension proposals, without creating and
+conducting a new Task Group, while ensuring suitable quality control
+over this process under the oversight and approval of the relevant
+Horizontal or ISA Committee.
+
+=== Policy
+
+This fast track process is a means to create a relatively small
+architecture extension without the overheads of creating and running a
+Task Group over several quarters or more. After initial fast track
+approval (see below), all other key steps in the standard process for
+development and ratification of an architecture extension apply to both
+fast track and Task Group-developed extensions.
+
+The proposed extension should be of a relatively straightforward nature
+that is of value to a significant portion of the RISC-V community. It
+should address a specific and clear-cut issue or need, and cleanly fit
+into the existing architecture and current solid draft extensions. This
+extension may (likely will) be subject to discussion, questions, and
+contention that should take place and be resolved on the relevant
+governing IC/HC email list. (In contrast, where substantial actual
+development work and associated discussions and decision-making -
+spanning months - are needed, a Task Group should be formed to pursue
+these more substantial efforts. Fast track extensions should be more
+contained efforts where discussion spanning over days or weeks suffice
+to resolve questions and contentions.)
+
+A specific person (the "proposer") should champion and shepherd the
+proposal through this process. This person is also the "owner" of this
+proposal.
+
+. Fast track architecture extension specification required before
+internal RISC-V membership (not public isa-dev) review begins:
+
+* Indicates that it is following the "Fast Track Architecture
+Extension" process. +
+* Explains the motivation for and goals of the proposed extension (as
+well as addressing why this extension proposal meets the criterion for
+use of the "fast track architecture extension" process). +
+* Describes the notable use cases. +
+* Provides a complete (high level and detailed) description of the
+extension including any new registers and/or new bits/fields, and any
+proposed instruction or CSR encodings. +
+* Typically fits within 1-4 pages of text (plus any diagrams). But the
+size may be larger for some specifications that, for example, include a
+set of instructions with per-instruction descriptions, or a set of CSRs
+with per-CSR descriptions. +
+* Generally adheres to a general RISC architectural approach, e.g., keep
+hardware simple; enable and let software efficiently handle complicated
+and/or corner cases; address first-order needs, not third-order needs. +
+* Explains the reasoning behind any notable and non-obvious trade-off
+choices, where appropriate +
+* Indicates the proposed extension name which must be consistent with
+the "ISA Extension Naming Conventions" chapter of the Unprivileged ISA
+spec and the "ISA string branding, naming, and versioning" policy. +
+* Identifies the owner/drive who will drive all activity through
+ratification, including specification work and acceptance criteria
+checklist items. +
+. Approval for Fast Track status +
+* Submit the draft specification to the AR Committee with a request for
+approval to be pursued as a fast track extension (versus a request for
+architecture review). +
+* Owning IC/HC committee approves the owner/driver of the proposal +
+* Notify TSC of fast track status approval (see above) +
+. Plan Milestone +
+* Fast Track specifications require a Plan Milestone Review by the Tech
+Chairs as defined in the Ratification Policy. +
+. Starting the internal (non-public) review process +
+* Announcement of the draft specification and subsequent discussions of
+it will take place using the email list of the relevant Horizontal or
+ISA Committee. Announcement of this specification, including a pointer
+to the mailing list that will be used for discussion, should also be
+made to the email list(s) of any directly relevant Task Group(s) - so as
+to attract a suitable audience for review and feedback. +
+* This announcement must also be sent to help@riscv.org. +
+* Two suitable required reviewers of the proposed specification should
+be identified (with their agreement) - to ensure a minimum level of
+meaningful review. Preferably these should come from outside the
+proposer’s organization. +
+. During the internal review process +
+* Comments and questions should be addressed as appropriate via the
+email list. +
+* Changes should be incorporated into a revised draft specification for
+final review via the email list. +
+* For smaller proposals, it is suggested that the time elapsed between
+the announcement of a draft specification and a subsequent revised draft
+specification should be at most four weeks, with an additional week for
+the last review. Some draft specifications may warrant a longer review
+period. +
+* Anyone can request to the TSC at any time that this extension proposal
+switch to following the "full" process for developing an extension
+(i.e. becoming part of the work of an existing or new Task Group).
+Generally this would be in response to it becoming clear that the
+proposal does not meet the criterion for using the "Fast Track
+Architecture Extension" process. The TSC will consider these requests,
+vote if necessary, and respond by explaining their reasoning to either
+keep the Fast Track or change to a full Task Group.
++
+To make such a request, send an email to help@riscv.org with the name of
+the extensions and brief rationale for the request. The RISC-V Staff
+will then work with you and the TSC to handle the request. +
+. Deliverables required before public review can begin*+
+* Final draft specification of the proposed extension +
+* The checklist requirements and related guidances in the standard
+Definition of Done Policy apply to fast track extensions as well. In
+particular, all "freeze" deliverables are required. But some of these
+can be proposed to be delivered after the official freeze and/or
+ratification vote - with identification of a date and the resources to
+complete the work (on a time-scale of weeks to months, not quarters to a
+year). The Opcode and Consistency Review requirement cannot be postponed
+though. +
+* Filled out Fast Track Definition of Done spreadsheet. (Make a copy of
+the template found in the template directory
+https://drive.google.com/drive/folders/1hzoPukaf5I-r12kdjpMY5KetoYfvHeCb?usp=sharing[here].) +
+* This spreadsheet and any associated waivers must be submitted to Tech
+Chairs and approved. +
+. Public review +
+* The proposer, the two chairs of the relevant Horizontal or ISA
+Committee, and two others outside the proposer’s organization must agree
+to push for public review and then present such a motion to the `tech'
+email list - with a two-week period for objections to be raised. +
+* Barring any "reasonable" objection, the final draft specification
+enters the standard 30-day public review process. This is announced via
+email to `isa-dev' and to the `tech' email list. +
+. Approval by TSC +
+* All comments from the public review must be addressed. +
+* The proposer, the two chairs of the relevant Horizontal or ISA 
+Committee, and two others outside the proposer’s organization must agree
+to push for approval and then present such a motion to the
+`tech-announce' email list (tech-announce@lists.riscv.org) - with a
+two-week period for objections to be raised. +
+* Barring any reasonable objection, the final proposal is submitted to
+the TSC for an approval vote once the two-week window has passed. The
+final proposal must include discussion of the results of the public
+review including any outstanding objections. +
+* Once approved by the TSC, a top sheet is sent to the board with links
+to: each of the DoD deliverables, waiver requests and explanations. The
+links are to the extension-specific documents for each line item to
+enable the TSC and Board members to quickly and easily look up the
+specific details. +
+
+=== Transition to start using policy
+
+Immediately, once approved.
+
+=== Exceptions
+
+The CTO is the escalation path for all policy issues, with the authority
+to resolve them or, if necessary, escalate further to the TSC or the
+BOD.

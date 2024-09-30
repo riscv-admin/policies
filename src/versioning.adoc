@@ -1,0 +1,68 @@
+[[versioning]]
+== Versioning
+
+*Version:* 0.1 +
+*One line description:* Rules governing how we version RISC-V
+artifacts +
+*Author(s):* Philipp Tomsich, Stephano Cetola, Rafael Sene +
+*Status:* Draft +
+
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+
+|0.1 |2019-12-16 |Original draft
+|Stephano Cetola, Philipp Tomsich, Rafael Sene
+
+|===
+
+=== Rationale
+
+We use version numbers for RISC-V items like specifications, standards,
+and software. It’s crucial for everyone, both inside and outside of the
+RISC-V community, to understand these version numbers.
+
+=== Policy
+
+==== Versioning Standard
+
+* We follow "semantic versioning" 2.0.0. Details can be found at
+https://semver.org/spec/v2.0.0.html[SemVer]. +
+* The first official version of any item is 1.0.0.
+
+==== Version Structure
+
+We follow the X.Y.Z-STATUS:
+
+* X (Major version): incompatible changes or major new features. +
+* Y (Minor version): fixes, compatible extensions w/ limited new
+functionality. +
+* Z (Patch version): minor corrections and editorial adjustments.
+
+STATUS:
+
+* Development (dev): early versions with active changes, like 1.0.0-dev,
+1.0.1-dev, etc. +
+* Frozen (frz): versions deemed feature-complete, like 1.0.0-frz,
+1.0.1-frz, etc. +
+* Main/master (ratified): The final approved version without a suffix,
+such as 1.0.0.
+
+Additional Information:
+
+* If need be, non-final versions can include a build date as metadata
+like +[build-date]. +
+* Once a ratified version is complete, any new changes begin with a new
+development version and the cycle restarts. For instance, if the last
+ratified version is 1.2.3, the next cycle will start with 2.0.0-dev.
+
+=== Exception handling
+
+None.
+
+=== Transition to start using policy +
+[TEXT or "Immediate on approval"]
+
+=== Next steps
+
+. ...

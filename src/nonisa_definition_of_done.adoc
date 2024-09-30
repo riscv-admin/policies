@@ -1,0 +1,119 @@
+[[nonisa_definition_of_done]]
+== Non-ISA Definition of Done
+
+*Version:*  1.2 +
+*One line description:* What must be completed before TSC can ratify a specification or change to a specification +
+*Author(s):* Gajinder Panesar, Arun Thomas and Greg Favor +
+*Status:* Archived +
+
+*Version History:* +
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+
+|1.2 |2021-10-05 |elaborate on custom plans | 
+|1.1 |2021-09-28 |require sign off for non isa specs | 
+|1.0 |2021-08-16 |who approves customized portions of Non-ISA DoD | 
+|0.1 |2021-03-22 |Original draft |Gajinder Panesar, Arun Thomas and Greg Favor +
+|===
+
+=== Rationale
+
+There needs to be a documented, detailed, and consistent set of tasks to be completed during specification development to ensure that all non-ISA work items and changes are well documented, implementable and testable at all levels.
+
+=== Definitions
+
+See the
+https://docs.google.com/presentation/d/1nQ5uFb39KA6gvUi5SReWfIQSiRN7hp6z7ZPfctE4mKk/edit?usp=sharing[extension
+lifecycle deck] for milestone definitions.
+
+"Definition of Done" is also called DoD.
+
+The non-ISA DoD checklist contains both plan and status of non-ISA DoD
+tasks.
+
+=== Policy
+
+. When a non-ISA TGs completes the definition of done tasks and wishes
+to transition to the next phase by passing the milestone, it needs to
+send the definition of done checklist to chairs along with any waivers
+they received prior to the milestone. +
+. The TG must provide the initial copy of the checklist with their
+expectations for the tasks as soon after the Kickoff milestone as
+possible. The checklist for each milestone must contain committee
+sign-off exactly like ISA documents. +
+. The DoD checklist contains the items required for each milestone as
+described in prose below. TGs should fill in the requested and status
+column as appropriate. +
+. The TG shall complete all of the tasks in the "List of Tasks"
+section of this document. +
+.. Tasks that must be completed by a specific milestone are: Plan (P),
+Freeze (F), Ratification Ready (R) and Complete (C) +
+.. The TG shall assign all other tasks to one of the four milestones
+that is appropriate for their specific situation +
+. The TG is responsible for identifying and documenting the resources
+needed to get to the next milestone +
+.. The group shall use the appropriate checklist template found in the
+template’s directory (links below). +
+.. The document shall be revision controlled so that it can be
+changed. +
+. The TG shall reach out to the Tech Chairs if there are any technical
+or resource issues that are interfering with their completing their
+tasks. +
+. The TG that owns a specification is responsible for tracking the tasks
+to be completed for each milestone. This is true even if some other
+group does the work. +
+. The TG shall follow the format and attributes of deliverables where
+described in other policies. +
+. The checklist also contains sign-off requirements from the HCs, ICs,
+and CTO at milestones as specified in the checklist. HSCs work through
+their HCs. +
+. The TG shall produce and maintain their own checklist spreadsheet
+(_add location link_) +
+.. the task group shall identify the work that needs to be done, provide
+milestone date projections, and a monthly status of each deliverable and
+identify the work they can’t do with a line in the Status Spreadsheet
+(_add location link_) +
+.. The checklist shall be held in the "status/Per Projects Definition
+of Done checklists" folder. +
+.. If a task is delayed and will hold up a milestone, the group shall
+send an email to Chairs explaining the issue and provide: a mitigation
+plan, a date for when a mitigation plan will be ready, or a request for
+help. +
+.. The checklist will be used to provide an update to the TG Chairs
+Committee, TSC and the CTO monthly for the board meeting.
+
+==== List of tasks
+
+. Specification: content is complete, and approved by the task group +
+. Consistency cross-check. This is to ensure any new extensions that
+have reached a stable milestone can operate with the non-ISA extension
+seeking ratification +
+. Reference model. This will have multiple uses:
+* Ensures current and future implementers of the non-ISA extension have
+something that can be used to cross-check their implementation with +
+* For a completely hardware non-ISA extension, provides software
+developers something to verify their software against +
+. Architectural Compatibility Tests. This ensures the non-ISA extension
+is exercised and produces information, data and stimuli that can be used
+on real hardware, e.g., an RTL implementation or for software developers
+to use as reference tests +
+. Proof of Concept. This is required to provide data to show the
+specification of the non-ISA extension defines the features correctly so
+that it is implementable. For different non-ISA extensions this data
+will vary. There is no requirement for the PoC itself to be available. +
+. Sign-offs: see the checklist for the sign offs needed
+. Any customized DoD requirements must be published as a plan including
+timeline and milestones and be approved by the governing HC or IC at the
+Plan milestone (as per the
+https://docs.google.com/presentation/u/2/d/1nQ5uFb39KA6gvUi5SReWfIQSiRN7hp6z7ZPfctE4mKk/edit[extension
+lifecycle]) and notification provided to the TSC and Board of Directors
+( who may override it as they may do for any decision). If the extension
+did not go through the plan milestone (e.g. it was underway before the
+plan milestone was defined) then they must publish their plan before the
+Freeze milestone.
+
+=== Exception handling
+
+Any Task Group wanting an exception from any part of this policy must get written approval from the Chairs. The exception should list the explicit rows that need to be waived, the cause for needing the waiver, and when they will get done. To set expectations:  it is likely Chairs will only grant waivers for items in the earlier part of the DoD and unlikely that Chairs will grant permanent waivers at all.  
+

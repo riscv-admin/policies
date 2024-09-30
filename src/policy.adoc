@@ -1,0 +1,52 @@
+[[policy]]
+== Policy
+
+*Version:* 1.2 +
+*One line description:* How to propose, approve, and adopt policies +
+*Author(s):* Mark I Himelstein +
+*Status:* Approved +
+
+*Version History:* +
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+
+|1.2 | |Updated the approval process to include discussion with chairs and
+a TSC vote. |Stephano Cetola
+
+|1.0 |2020-07-08  |Original version | Mark I Himelstein
+
+|===
+
+=== Rationale
+
+We need to create and adopt policies to govern ourselves below the
+bylaws.
+
+=== Policy
+
+. Use the policy template to propose a policy. All fields should be
+filled in. +
+. Proposer should do a preliminary review with a small group of people
+before sending it broadly. +
+. Send the policy out to TSC & Chairs with a two week timeout. Reviewers
+may request a 2 week extension. Reviews must include a recommendation. +
+. Recommendations can be (approved, declined, request more info). +
+. Identify at least two specific people from TSC to review the policy
+before it is approved. +
+. Have the TSC chair review the proposal. +
+. If approved, use the transition plan to roll it out. Communicate to
+all task/sig groups. +
+. CTO has final call +
+. Policies that don’t affect TSC get final approval by TG Chairs at the
+weekly meeting. Policies that affect things like voting must go through
+the TSC for final approval vote.
+
+=== Exception handling +
+If you want to have an exception to the rules to create a policy
+escalate to TSC. If you have an exception for a specific policy follow
+its exception handling.
+
+=== Transition to start using policy +
+Immediate
+

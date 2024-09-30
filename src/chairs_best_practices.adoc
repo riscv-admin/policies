@@ -1,0 +1,233 @@
+[[chairs_best_practices]]
+== Chairs Best Practices
+
+*Version:* 1.5 +
+*One line description:* Guidance on practices if you are a chair or vice-chair +
+*Author(s):* Charlie Su, Mark Himelstein, Jeff Scheel +
+*Status:* Approved +
+
+*Version History:* +
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+
+|1.5 |2024-04-17 |Use U.S. Pacific Time as reference |Jeff Scheel
+
+|1.4 |2022-03-31 |Add a calendar scheduling tip. |Jeff Scheel
+
+|1.3 |2022-02-18 |Reference Encumbered information policy for new Chairs |Jeff Scheel
+
+|1.2 |2021-09-24 |Added information for new Chairs. Simplified handling 
+of inappropriate behavior. |Jeff Scheel
+
+|===
+
+=== Rationale
+
+Chairs may or may not have had experience running a group in an Open
+Source community or with broad company and geographical diversity. This
+policy provides best practices. These are not rules. Take what works and
+leave the rest.
+
+=== Related documentation
+
+* https://docs.google.com/presentation/d/1eEVuu6lRZd9iiDnZQSZME7Q7svtTG3pGIKHPmZ79B8E/[RISC-V
+Technical Organization] +
+* https://docs.google.com/presentation/d/1LNhpuNwU54TgwGfcl-Fgf4HUFxCxh0AztPaeqMuRQRw/edit?usp=sharing[Common
+disclaimer slides] +
+* https://docs.google.com/document/d/1f19w2a0lnW9VaXKHfKy84Ov54vfVrc35hibNDZ_t38I/edit?usp=sharing[Getting
+Started Guide] +
+* https://docs.google.com/document/d/1TdUWp-OUIQjsWgip7bRfhZBuUC64Upf5eyfBj7fWd_Q/edit?usp=sharing[Github
+Policy] +
+* https://riscv.org/community/community-code-of-conduct/[Code of
+Conduct] +
+* https://docs.google.com/document/d/1dE_4K0kiQLPrwnf1avAWYSpaSpznrrEydobVYzJybu0/[Encumbered
+Information policy] +
+* https://docs.google.com/document/d/1Hp9ZZSzjk6Tp2pIvh33mNCj6wAoJCEqsdENQUTSruQg/[Definition
+of Done policy] +
+* https://docs.google.com/spreadsheets/d/1qzu6b9kgADGjaa5fd1Qla7b9gCMOaEnGO5bUVu2oPys/[Status
+spreadsheet] +
+* https://jira.riscv.org/secure/Dashboard.jspa[RISC-V Jira Dashboard]
+
+=== Policy
+
+==== Getting started
+
+* Familiarize yourself with the
+https://docs.google.com/presentation/d/1eEVuu6lRZd9iiDnZQSZME7Q7svtTG3pGIKHPmZ79B8E/[RISC-V
+technical organizational structure], the various group types and areas
+of work. +
+* Review and understand the
+https://docs.google.com/document/d/1dE_4K0kiQLPrwnf1avAWYSpaSpznrrEydobVYzJybu0/[Encumbered
+Information policy] before you have your first meeting. +
+* Work with the Technical Project Managers (TPMs) (help@riscv.org) to
+have your community mailing list created (Groups.IO) and community
+documents repository (GitHub) setup
+** Ensure you are a moderator in the group, contact help@riscv.org if
+you are not. +
+** Provide your GitHub id to TPMs and accept the invitation to be an
+Admin to the repository +
+* Lead a discussion on the community mailing list (setup above) about
+when to hold the first meeting and schedule it. Ask help@riscv.org with
+running a survey if needed. +
+* Lead first meeting with an agenda like the following:
+** https://docs.google.com/presentation/d/1LNhpuNwU54TgwGfcl-Fgf4HUFxCxh0AztPaeqMuRQRw/edit?usp=sharing[Disclaimer
+slides] (used at all meetings) +
+** Self-introduction of all attendees - name, company, experience,
+interest in group +
+** Discussion about meeting frequency and timing +
+** Charter review, discussion, and updates. Typically, the group
+sponsor (Technical Steering Committee [TSC], Horizontal Committee [HC],
+ISA Committee [IC], or Horizontal Sub-Committee [HSC]) provides a draft
+charter statement. The goal is to have a written Charter.md file in your
+GitHub repo home directory that will be approved by your sponsors.
+*** A good Task Group (TG) charter describes how it achieves filling in
+a gap defined by the Special Interest Group (SIG) or Committee that
+spawned it (directly or dotted line). It lists the specific small set of
+deliverables it will deliver. +
+*** A SIG is an extension of a Committee, in that its only deliverables
+are strategy, gaps, and prioritizations, and helping spawn other SIGs or
+TGs to fill the gaps. A good SIG charter spells out the small set of
+topic areas their strategy will address along with its responsibilities
+as laid out in this bullet. +
+* Lead the next few working meetings focused on reviewing and refining
+the charter and gaps in your strategic area.
+** Be sure to review the Charter drafts with the RISC-V CTO and your
+sponsoring Chair and Vice-chair to get their feedback. +
+** If you are a SIG, document your gap analysis in another document and
+retain it in your GitHub repo so that you can re-visit and update as
+needed in the future. Ensure that your charter provides a vision for how
+gaps may be addressed. +
+** When your charter is defined and stable, your sponsoring Chair and
+Vice-chair will help seek approval. +
+* https://docs.google.com/document/d/14ZpciYwIzmuiB92_hKfwTAttTnc3rsLbWI-CpC7MdC8/edit?usp=sharing[Acting
+chair and/or vice chair] should work with their group to elect permanent
+leadership, which may be the acting chair/vice chair. +
+* Once the formal (non-acting) Chair and Vice-chair are elected, and
+the Charter is approved, the group should work towards completing the
+https://docs.google.com/presentation/u/2/d/1nQ5uFb39KA6gvUi5SReWfIQSiRN7hp6z7ZPfctE4mKk/edit[plan
+milestone] for the
+https://docs.google.com/document/u/2/d/1Hp9ZZSzjk6Tp2pIvh33mNCj6wAoJCEqsdENQUTSruQg/edit[definition
+of done]. +
+
+==== Regular group meetings
+
+* Do as much in email without meetings as you can
+** Take items offline as appropriate +
+** Conduct discussions on the group’s email list. Spec issues go in
+github issues. Cross group things go in
+https://jira.riscv.org/secure/Dashboard.jspa[Jira]. +
+* Groups or Committees that are active and producing work product
+(specs, etc.) should hold meetings periodically (at least once every 1-3
+months) as appropriate. +
+* Schedule and host virtual meetings +
+* Use the United States Pacific Time as the timezone for scheduling all
+meetings. By everyone uses this as the base time zone for their
+meetings, relative meeting times among different meetings won’t
+inadvertently drift either. +
+* Display the
+https://docs.google.com/presentation/d/1LNhpuNwU54TgwGfcl-Fgf4HUFxCxh0AztPaeqMuRQRw/edit?usp=sharing[common
+disclaimer slides] at all meetings. If you want them included in your
+agenda slides please use links (option when you paste in google slides)
+so you always have the latest. +
+* Be respectful of different time-zones and cultures and companies and
+countries when scheduling or running meetings. +
+* Repeat questions when answers are given +
+* Notify attendees that only members are allowed in meetings. Ask that
+non-members please exit the meeting. It is not your job to enforce the
+rules. If there is someone you don’t believe belongs there send email to
+help@riscv.org. +
+* Ask everyone to have identifiable names (first and last name and
+company/individual) when logging into zoom +
+* Use RISC-V tools (zoom, github, calendar) +
+* Send meeting agendas at least two days in advance. Ask for items
+members would like to add to the agenda +
+* Pass down messages from chairs or TSC meetings +
+* https://docs.google.com/document/d/1TdUWp-OUIQjsWgip7bRfhZBuUC64Upf5eyfBj7fWd_Q/edit?usp=sharing[Record,
+send, and archive meeting minutes] +
+* keep up-to-date with chair meeting agendas and notes +
+* If anyone is saying something inappropriate,
+** State that the behavior is inconsistent with the RISC-V
+https://riscv.org/community/community-code-of-conduct/[Code of Conduct]
+and ask them to stop. If the behavior has occurred via email, use
+reply-all for your request. +
+** To continue activity and model the proper behavior, redirect the
+conversation back to the issue at hand. +
+** If the inappropriate behavior re-occurs in a meeting, adjourn it. +
+** Report the incident to either help@riscv.org or to the code of
+conduct email, conduct@riscv.org. +
+
+==== Ongoing tasks
+
+* *Manage extension/feature lifecycle. This should be the highest
+priority*
+** include work relating to drafts, change rationale, change control,
+definition of done, etc. +
+** optimize the delivery of useful specs. +
+* Attend regular Chairs Meetings (& TSC meetings if appropriate) +
+* Attend the sponsoring committee meetings and work with the Chairs and
+Vice-chairs to deliver on their responsibilities and charter as well as
+updating them on your group’s progress +
+* Raise blockers to Chairs Meeting promptly +
+* Work with sponsoring Chair and Vice-chair to address technical
+blockers +
+* Address questions posed to the group with at least some SLA
+** E.g. "the answer will be next week" or "we decided not to address
+this now" +
+* Interact with other teams based on org chart and
+https://docs.google.com/document/d/1Hp9ZZSzjk6Tp2pIvh33mNCj6wAoJCEqsdENQUTSruQg/[Definition
+of Done] (be prepared for sign-offs -- don’t make the sign-off the first
+discussion you have with the other committees) +
+* Update monthly the
+https://docs.google.com/spreadsheets/d/1qzu6b9kgADGjaa5fd1Qla7b9gCMOaEnGO5bUVu2oPys/[Status
+spreadsheet]
+** Include dates, specs, accomplishments, issues, resources needed, new
+extension names, etc. on "ratification package" tab, columns marked
+"Fill These in Monthly Please" +
+** Request help from DevPartners by adding rows to the "development
+partners" tab. Put in as much as you can, especially the name of the
+technical person from the group who will be overseeing the work with the
+DevPartner (column marked "RISC-V liaison") +
+
+==== Evangelism
+
+* Grow partners and/or members for the group. If you identify people or
+entities that should be involved but are not and you don’t how to reach
+out to them, send email to help@riscv.org +
+* Provide SWOT (strengths, weakness, opportunities and threats)
+analysis and promotion plan for the group technologies +
+
+==== Other activities
+
+* Promote the groups’ technologies in conferences and seminars +
+* Recognize that there are two logical roles for each group:
+logistical/administrative lead, and technical lead. Try to play to
+people’s strengths and interests. If you are missing someone to play one
+of these roles and don’t know how to fill it, please send email to
+help@riscv.org +
+* Leave marketing and PR to the marketing team. If you have something
+you need them to pay attention to, please send an email to
+help@riscv.org. +
+* Groups should publish the links to charter, specs and various
+documents according to the best practices and
+https://docs.google.com/document/d/1TdUWp-OUIQjsWgip7bRfhZBuUC64Upf5eyfBj7fWd_Q/edit?usp=sharing[Github
+Policy] and go into the appropriate repo (technical group vs spec vs
+upstream, etc.). +
+* Groups should use github issues and Jira as described in the
+https://docs.google.com/document/d/1f19w2a0lnW9VaXKHfKy84Ov54vfVrc35hibNDZ_t38I/edit?usp=sharing[Getting
+Started Guide]. +
+* Remember that we as engineers often side on being critical thinkers
+and listeners. Please remember to thank and acknowledge the effort of
+members even if their effort needs more work.
+
+If you have any questions please ask for a meeting regarding this policy
+to help@riscv.org.
+
+=== Transition to start using policy
+
+Active as of now as it is only advice
+
+=== Exceptions
+
+Not applicable
+

@@ -1,0 +1,76 @@
+[[friendly_terminology]]
+== Friendly Terminology
+
+*Version:* 1.2 +
+*One line description:* Modern word choice for terminology that is
+friendly for everyone +
+*Author(s):* Mark Himelstein +
+*Status:* Approved +
+
+*Version History:* +
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+
+|Ver |Date |Details |Email
+|1.2 |2023-08-03 |Utilize Inclusive Language Initiative. Enable
+extensions. |Jeff Scheel
+
+|1.1 |2022-1-13 |Comment acceptance and cleanup for clarity. Add version
+history. |Jeff Scheel
+
+|1.0 |2020-11-25 |Original version |Mark Himelstein
+
+|===
+
+=== Rationale
+
+Historical word choice is no longer considered acceptable so we need to
+change some existing terminology in RISC-V documentation (created and
+owned) as well as future documentation.
+
+=== Policy +
+Employ inclusive and friendly terminology.
+
+. The RISC-V Foundation, like the Linux Foundation, will use the
+Inclusive Naming Initiative (https://inclusivenaming.org/[link]) for
+wordlists, actions, and recommended replacements. +
+. When found, we should go back and remove terms that are not
+inclusive. +
+. Changes should be made as soon as reasonably possible to existing
+documents. +
+. Members can report language that needs to change to help@riscv.org at
+any time. +
+. Use the RISC-V RISC-V Help Tickets hosted in GitHub
+(https://help.riscv.org) to keep track of needed changes. Set Goal dates
+for completion in the issue. +
+. RISC-V staff will address any necessary items in the Chairs meeting
+monthly (and as appropriate to the TSC and BOD) +
+. New specifications are reviewed during the Freeze and
+Ratification-Ready milestone work in the Status Checklist.
+
+=== Exception handling +
+None allowed for RISC-V specifications.
+
+When RISC-V members collaborate with third-party projects or reference
+third-party specifications with non-friendly terminology, these
+references may not be avoidable but should be used sparingly.
+
+Should the Inclusive Naming Initiative recommended replacements not meet
+the needs of the RISC-V environment, alternatives should be raised to
+the Architecture Review Committee to receive a request and make a
+decision.
+
+Additional words and replacement terms should be documented here when
+decided:
+
+[width="100%",cols="<20%,<30%,<50%",options="header",]
+|===
+|Term(s) |Recommended Replacement |Rationale for addition
+|master/slave |manager/subordinate |Existing definitions do not meet
+need
+|===
+
+=== Transition to start using policy +
+Effective immediately and strive to prevent known non-friendly
+terminology.

@@ -1,0 +1,524 @@
+[[groups_chairs]]
+== Group Chair and Vice-Chair Approvals
+
+*Version:* 1.15 +
+*One line description:* Defines RISC-V technical working groups and
+selection process. +
+*Author(s):* Mark Himelstein, Stephano Cetola +
+*Status:* Approved +
+
+*Version History:* +
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+
+|1.15 |2023-11-27 |Updates for Profiles and Platforms |Mark Himelstein
+
+|1.14 |2023-09-18 |TSC Elections and Chair/Vice-chair requirements
+clarification and early departure handle TSC Elected Member cycle
+changes Clarify CTO participation when IC/HC Chair or Vice-chair are
+candidates for TG/SIG leadership |Jeff Scheel
+
+|1.13 |2023-05-03 |Clarification of leadership selection
+|Jeff Scheel, Mark Himelstein
+
+|1.12 |2022-12-19 |Return Call for Candidate text for Committee (HC and
+IC) leadership |Jeff Scheel, Mark Himelstein
+
+|1.12 |2022-10-05 |Updates to reflect the new 6+ majority voting as
+defined by the Technical Voting policy Increase chair limits for TG/SIGS
+to 3 (and still 1 HC) Explicitly remove the Call for Candidates for
+Committee (HC and IC) leadership |Jeff Scheel, Mark Himelstein
+
+|1.11 |2022-04-20 |Only one representative per company on the TSC. As
+such, clarify the elected member text. Remove HSCs. Updated vice-chair
+positions for SIGs and TGs to unlimited per 3/8/2022 TSC.
+|Stephano Cetola, Jeff Scheel
+
+|1.10 |2022-02-18 |Add Group Hierarchy Section Add required text for any
+TSC notification |Stephano Cetola
+
+|1.9 |2022-01-13 |Comment cleanup: clarification of notification list
+for disbanded SIG or TG |Jeff Scheel
+
+| |2021-11-08 |For non-specification-approval votes, if a member is not
+eligible at the beginning of the vote, they cannot vote. |Mark Himelstein
+
+| |2021-10-06 |Clarify Elected TSC members term dates. Minor grammatical
+fixes. |Stephano Cetola
+
+|1.8 |2021-10-5 |be specific that this applies all specifications and
+make it clear that TGs and the governing committee need to provide the
+TSC with context in order to approve a TG clearer transition information
+process if there is a dispute as to where a TG reports |Mark Himelstein
+
+|1.7 |2021-06-22 |Update initial vote to be consistent with re-elections
+vote for HCs and ICs with a majority positive vote. Add process for
+creating a new HC or IC. |Mark Himelstein
+
+| |2021-06-10 |Add policy for disbanding SIGs and TGs. |Mark Himelstein
+
+| |2021-04-21 |As per Calista, Changed votes that go to the board as
+majority votes with possible dissent at both TSC and BOD. define
+Majority |Mark Himelstein
+
+| |2021-04-05 |Clarified who picks nominees for each group Added elected
+members |Mark Himelstein
+
+| |2021-03-03 |New organization names Dotted line committee involvement
+Remove org info and point to org slides HC chair & vice chair swap
+|Mark Himelstein
+
+|1.6 |2021-02-17 |Two week post Change of affiliation only requires
+notify if the chair or vice chair are still eligible according to the
+policy Chair and vice chair of TSC must approve even if a nominee is
+from their company |Mark Himelstein, Stephano Cetola
+
+|1.4 |2021-01-25 |Email to notify unchosen candidate Document 2+2 vote
+Document SIG governance tightened up language |Mark Himelstein
+
+|0.1 |2020-08-11 |Original draft | Mark Himelstein, Stephano Cetola
+
+|===
+
+=== Rationale
+
+We need this policy because we need a well defined way to evaluate new
+groups, and chair and vice-chair Nominees and resolve votes in a
+reasonable period of time.
+
+Our intent is to continue to make sure our community members have a
+voice in the direction and work products we produce. However as the
+organization grows, we will ask the Committees to collect and represent
+their constituents ideas and positions. Nothing should go to a vote at
+TSC without adequate community input and sponsorship by a Committee. If
+agreements cannot be reached, the appropriate committees should escalate
+as appropriate.
+
+Issues that are not resolved appropriately should be raised to
+help@riscv.org and the RISC-V staff will ensure we get to closure. We
+know that everyone cannot be happy with every decision.
+
+==== Introduction
+
+Please see the organization chart slide deck
+https://docs.google.com/presentation/d/1eEVuu6lRZd9iiDnZQSZME7Q7svtTG3pGIKHPmZ79B8E/edit?usp=sharing[here]
+for a high level overview of RISC-V meetings and organization groups.
+
+===== Group Hierarchy
+Per Article 3 of the
+https://riscv.org/wp-content/uploads/2020/03/RISC-V-International-Regulations-03-11-2020.pdf[RISC-V
+Regulations], the technical steering committee has "jurisdiction" over
+all other technical committees, subcommittees, and technical working
+groups. In practice, the TSC has delegated governance where appropriate
+to the Committees, which in turn delegate as appropriate to the Special
+Interest Groups, and Task Groups.
+
+The Technical Steering Committee requires notification of some decisions that these groups are making in order to provide appropriate oversight. The TSC reserves the right to review and adjust decisions made by any of the working groups or committees. Each policy will call out, at the top of the document, if the TSC requires notification of any process detailed in a RISC-V policy document. See the TSC Required Notification Statement below for the full text.
+
+[IMPORTANT]
+*TSC Required Notification Statement:* 
+This document contains delegated tasks from the Technical Steering
+Committee (TSC). The TSC requires notification of these delegated tasks
+(highlighted in red) and reserves the right to review and adjust at any
+time. +
+
+===== Types of Votes
+
+* 6+ majority positive vote. At least 6 members of the body must vote
+and the total positive votes must exceed objections. +
+* Majority vote: Majority positive out of all eligible voters.
+
+In general:
+
+* Voters must be eligible at the beginning of a vote in order to vote. +
+* Any dissent must be understood before approving the majority. This may
+include email discussions and/or meetings.
+
+=== Definitions
+
+_Acting Chair or Vice-chair_: The people who have been appointed by the
+Governing committee to help start a group. One of their many
+responsibilities is to support the Governing Committee’s Call for
+Candidates to find the permanent group leaders.
+
+_Candidates_: People who want to be considered for a position as Chair
+or Vice-chair. Generally, these people have responded to a Call for
+Candidates per below.
+
+_Nominees_: People selected by the Horizontal Committees (HCs) or ISA
+Committees (ICs) or CTO and sent to the TSC for approval as the chair or
+vice chair.
+
+=== Policy
+
+This policy will refer to some of the organization structure and
+extension lifecycle and milestones so we have context to understand the
+groups we are creating or approving chairs and vice-chairs for.
+
+Click
+https://docs.google.com/presentation/d/1nQ5uFb39KA6gvUi5SReWfIQSiRN7hp6z7ZPfctE4mKk/edit?usp=sharing[here]
+for the extension lifecycle and milestone deck.
+
+==== New Group Approvals +
+There are 3 phases to this process for new ICs, HCs, and TGs (all 3
+referred to as "group" in this policy):
+
+. Inception +
+. TSC Approval +
+. Plan Milestone Approval
+
+TGs are either developing ISA specifications, Non-ISA
+specifications/documents, Architectural Overview specifications, or
+hybrid specifications. All new TGs must go through this approval
+process. Existing TGs may finish their specs to be ratified or request a
+waiver from TSC to not instantiate under this approval process.
+
+Remember that groups and committees are not meetings. Meetings may, in
+fact, include multiple TGs or Committees in order to minimize meeting
+time and optimize results.
+
+If there is a dispute as to where a TG reports directly (dotted line can
+be many) then the committee chairs decide. If they can’t decide it gets
+escalated to the CTO for resolution. The CTO acts as Acting Chair of any
+committees that are in inception mode and don’t yet have an Acting
+Chair.
+
+The Inception phase has the following steps in order:
+
+* For TGs, the TSC/IC/HC must identify someone to drive the process and
+for HCs and ICs the CTO identifies that person. This person will be
+known as the "Acting Chair" The committee may also appoint an acting
+vice chair. +
+* The group may start convening under the leadership of the Acting Chair
+from the time the Acting Chair is appointed to help with this process.
+RISC-V staff will create a groups.io email group. The Governing
+Committee or CTO will notify the tech announce email group about the
+group. +
+* The Acting Chair should develop a description & preliminary charter
+and get it approved by the governing TSC/IC/HC or CTO. The description
+consists of a couple of short paragraphs describing what the group is
+for and should list possible deliverables (some can be guesses).
+Preferably, the maximum time allotted for this step should be 6-weeks
+with the exceptions managed by Committee Chairs. +
+* During this phase, the Governing Committee should send an email with
+the Call for Candidates for chair and vice-chair to the
+tech-announce@lists.riscv.org alias and allow 2 weeks for responses. The
+Call for Candidates should include the proposed preliminary charter and
+skills/background developed in the above steps. The Governing COmmittee
+Chairs may get help from the RISC-V staff. +
+* Candidates must provide a written Bio and a statement of intent of
+what they would want to accomplish as a chair or vice chair in their own
+words. The bio and statement needs to be included in the package to the
+TSC. +
+* The TSC/IC/HC or CTO decides among the Candidates and picks a Nominee
+for chair and a nominee for vice-chair. If an TSC/IC/HC Chair or
+Vice-chair is a candidate themselves, the CTO will replace them in the
+decision process. The TSC/IC/HC or CTO may move forward even if it only
+has a chair Nominee and fill the vice-chair later under the rules of
+filing empty positions in an existing group described below. The
+committee should not move forward with a vote until there is a chair
+Nominee. +
+* The TSC chairs or HC or IC or CTO will take the group description,
+preliminary charter & Nominees and send it as a package to TSC for
+approval. +
+* The TSC-vote is a 6+ majority positive vote defined above for TGs and
+majority positive vote for HCs and ICs. +
+* The Governing Committee chairs should notify the Candidates that were
+not picked as Nominees that they were not chosen in a constructive email
+thanking them for offering before announcing the new chairs. +
+* SIGs
+** All aspects are decided by the governing committee (TSC, IC, HC)
+including the charter and chairs. This does not need to go to TSC
+(unless it is governed by the TSC) or Chairs for approval. SIGs should
+follow the same Nominee process as TGs except the Committee approves. +
+** The Committee must notify the TSC and Chairs upon approvals or state
+change (creation, charter, final charter, and Nominee approval, etc.)
+and send a notice to tech-announce. +
+** If a SIG evolves into a TG or HC or IC, it must go to TSC for vote as
+described above. Since the same process that is used to collect
+Candidates and pick Nominees, the existing chair and vice-chair can be
+included in the TSC vote package without redoing the call for
+candidates. +
+* If a chair or vice-chair changes affiliation and is still eligible
+according to the policy (e.g. chair and vice-chair not from the same
+company or only the vice chair can be individual member) then the TSC,
+HC or IC governing the group or the CTO if it is a committee notifies
+Chairs and the TSC of the change but does not need approval. +
+* The chair and vice-chair may not come from the same organization. +
+* Chairs must be affiliated with (i.e. a member of the organization
+through) a Premier, Strategic, or Community Organization member. The
+vice-chair may be an Individual member. Exceptions for this part of the
+policy need a waiver. Waivers for SIGs go through the Committee
+governing the SIG and for TGs through the governing committee and the
+TSC. +
+* The TSC and HCs and ICs must consult with any Committees that consider
+the TG as a dotted-lineTG under the committee before picking Nominees. +
+* One person can only hold a chair position for three groups (SIG or TG)
+and one committee (HC, IC) simultaneously and may hold unlimited
+vice-chair positions (TG and SIG). Exceptions can be requested with a 6+
+majority positive vote from TSC. +
+* The governing committee for Profiles or Platforms SIGs or TGs is the
+TSC. Any Profiles TG must have a second vice chair with a software
+skillset.
+
+The TSC Approval phase is the act of TSC approving or rejecting the
+package described at the end of the Inception phases steps. The TSC has
+2 weeks to approve or reject the package. If the TSC has actionable
+issues, the TSC/IC/HC may choose to go back to the inception phase and
+fix the issues and submit a revised package to the TSC. The TSC may
+request email or meeting interactions with the Committee and/or nominees
+in their approval process.
+
+Once the group package is approved, the group’s first deliverable must
+be a Plan milestone. We expect them to have the Plan milestone including
+a final charter (see extension lifecycle), preferably within a maximum
+of 8 weeks from the TSC approval, with exceptions managed by Committee
+Chairs. The TG must present the Plan milestone including the final
+charter to the tech chairs meeting and can request that it be added to
+the meeting schedule via help@riscv.org. After the Plan Milestone
+Presentation, the chairs will conduct a no-objection vote and may also
+provide contingent approval pending action item resolution. Once
+presented to chairs, the Committee must send the full Plan (milestone)
+information to the TSC.
+
+A new HC or IC must be approved by a majority positive vote and approval
+by the board of directors because adding a committee also adds a voting
+position on the TSC.
+
+==== Call for Candidates
+
+All HC, IC, TG and SIG Chair and Vice-chair positions in RISC-V groups
+must follow this process to solicit their leadership. This process
+includes the following steps:
+
+. The forming group with guidance from its governing and dotted-line
+committee(s) defines the following: +
+.. A set of requirements and/or skills for the chair and vice-chair
+positions. +
+.. The timeframe for the call of at least 2 weeks is determined. +
+. An email containing the previous step information and the group draft
+charter is sent to the RISC-V Technical Announcement mailing list
+(tech-announce@lists.riscv.org), the governing committee mailing list,
+the dotted-line committee mailing list (if one exists), and the newly
+formed group mailing list. Candidates must submit a brief bio and a
+statement of intent for the position. A template for this email may be
+requested from help@riscv.org. +
+. Once the call timeframe has expired, the governing committee chairs
+will select the new chair and vice chair in consultation with the RISC-V
+CTO. Governing HCs and ICs must consult with any Dotted-line HC/IC
+Chairs and Vice-chairs before picking Nominees.
+
+==== Filling a Chair or Vice Chair Vacancy
+
+* The group or IC or HC chair or vice-chair or CTO should issue a Call
+for Candidates using the process defined above. +
+* Once the Nominee has been selected from candidates, the Nominee(s) for
+a TG, HC, and IC Chair or Vice-chair is sent to TSC
+(tsc@lists.riscv.org) for approval by the appropriate Committee (and
+potentially with RISC-V staff help if needed). TSC has 2 weeks to
+approve or reject the Nominee with a 6+ Majority vote for TGs and a
+Majority positive vote for HCs and ICs. the TSC may ask the nominating
+committee for more information. Nominee(s) for a SIG Chair or Vice-chair
+is approved by the Governing Committee. +
+* The same policy bullets as those discussed above in the group creation
+section above apply here.
+
+==== Chair and Vice chair swap
+
+* HC/IC:
+** The chair and vice-chair may swap positions in a HC or IC at their
+choice if the vice chair is allowed to be a chair. The rationale is that
+TSC should only approve vice-chairs who would also be appropriate as
+chairs for HCs and ICs. +
+** This must be approved by the CTO +
+** Notice must be sent to TSC and Chairs +
+* TG:
+** A TG may request from their governing HC/IC that the chair and
+vice-chair may swap positions if the vice chair is allowed to be a
+chair. +
+** The governing HC/IC must approve this to even be considered. +
+** We, at times, let less senior folks be vice chairs so we grow our
+next generation of leaders. In this case, the HC/IC should not approve
+such a swap. +
+** Notice must be sent to TSC and Chairs. +
+* Any swap continues to require a re-approval if the person in either
+chair or vice-chair has been in the leadership role for more than 6
+months.
+
+==== Yearly Cycle
+
+Chair and Vice-Chair terms are one year. This section describes the
+selection and approval process. The cycles have been staggered so we
+have continuity in the leadership at one organizational level while we
+conduct the cycle for another level.
+
+Existing Chairs and Vice Chairs may be Candidates.
+
+Here is the yearly cycle cadence:
+
+* TG or SIG Chair and Vice-Chairs:
+** Driven by HC or IC governing the Task Group, +
+** Request for Candidates by Feb 1, +
+** Candidates identified by Feb 15. +
+** Committee sends Nominees who are not incumbents (Bio, Statement of
+Intent) to the TSC by Feb 22, +
+** For TGs, the TSC must do a 6+ majority positive vote of new Nominees
+by March 6 with an option to request for "more time needed" up to two
+weeks. Incumbent chairs and vice-chairs who remain do not require a new
+vote. +
+** For SIGs, the Committee will pick the chair and vice chair from the
+candidates. +
+** Term starts after TSC votes with time for transition on or before
+April 1. +
+* HC and IC Chairs and Vice Chairs
+** Driven by CTO, +
+** Candidates identified by May 15, CTO talks with appropriate people in
+chairs, committee chairs and TSC. +
+** CTO Picks Nominees and sends the new nominees to TSC by June 1.
+Incumbent chairs and vice-chairs who remain do not require a new vote. +
+** TSC approval by Majority vote (may have dissents) by June 15, +
+** Term starts July 1. +
+* TSC chair and vice-chair
+** Driven by CTO, +
+** Call for Candidates from TSC members sent out by approximately August
+1st for a 2-week period. Candidates need to provide a short biography
+and statement of intent (what they want to accomplish in the position,
+and if possible how). +
+** Candidates may be any voting member of the TSC, including elected
+members and voting committee chairs or vice-chairs. +
+** Roll call or OpaVote vote by the September TSC meeting. Whichever
+Candidate gets the most votes serves for a one year period starting
+October 1. +
+* Elected TSC members (2 strategic, 1 community/individual)
+** Driven by CTO. +
+** Call for Candidates by approximately May 15th. Candidates need to
+provide a short biography and statement of intent (how they will engage
+their constituents, what they want to accomplish in the position, and if
+possible how). +
+** All Candidates are voted on by their constituent groups. +
+** Vote sent out to constituent groups approximately by June 15 for a 2
+week vote. Strategic members get 2 votes each for their strategic
+Candidates of choice and community/individual members get one vote of
+their community/individual Candidate of choice. +
+** Candidates with the most votes serve a year term starting when the
+vote is complete or July 1 whichever is later. The term ends on July 1
+of the following year. +
+** Candidates with the most votes for the 2023 to 2024 term will serve a
+9-month period starting when the vote is complete or October 1,2023
+whichever is later. The term ends on July 1, 2024. This abbreviated term
+is required only once to transition to the earlier election cycle. +
+** Companies may only be represented once on the TSC. As such, if the
+elected member changes affiliation, or if the elected member’s company
+changes membership, the company must determine which one person will
+represent them on the TSC, and a special election may be held at the
+discretion of RISC-V staff.
+
+Q4 is left off because of the holidays likely slowing down
+participation.
+
+==== Disbanding a SIG or TG
+
+* The governing body that created it, must approve disbanding it. +
+* HCs and ICs can decide to disband a SIG. They must notify the chairs
+meeting and the TSC of the action and provide a cause. +
+* HCs and ICs can ask the TSC to disband a TG. If the request emanates
+from below the HC or IC, the request must be approved of and sponsored
+by the HC or IC, and the HC or IC sends the request to the TSC with a
+cause. The TSC will conduct a majority positive vote to approve
+disbanding the TG. +
+* The HC or IC must notify the members of the group with an email and
+give them a day to read it before announcing the approved changes to the
+HC’s or IC’s whole constituency via email on the HC/IC’s mailing list. +
+* The HC or IC may decide to restart a new group , split up the group,
+or manage the group’s topic area itself as it sees fit. If the group is
+being recreated, the HC or IC must follow the rules found above in this
+document
+
+==== TSC Chair and Vice Chair Early Departure
+
+A number of events might lead to the natural voluntary or involuntary
+early departure of an individual in their role of Chair or Vice Chair of
+TSC. These cases were not included in the original Policy called
+https://docs.google.com/document/u/1/d/1_0Mnd5sXn8KcyOUI4-qvCdG7ITPY6vSAIhFc5Iy-URI/edit[Groups
+& Chairs].
+
+===== Voluntary Early Departure Cases +
+Voluntary Cases include but are not limited to:
+
+* The person steps down from their role of Committee Chair or Vice
+Chair, which granted them the TSC voting rights that enabled them to run
+for the position originally. +
+* The person steps down from their Strategic or Community/Individual
+position as a TSC voting member which enabled them to run for the
+position originally. +
+* The person steps down from their role as Chair or Vice Chair of TSC. +
+* The person’s company is no longer Premier or Premier TSC which enabled
+them to run for the position originally (either the company chooses not
+to be Premier or Premier TSC or the person leaves the company).
+
+In the voluntary cases, if there is a Chair or Vice Chair remaining,
+they will assume the duties of both Chair and Vice Chair until the next
+election.
+
+If there is no other Chair or Vice Chair (e.g. they had also previously
+voluntarily departed), then the action depends on the time left in the
+term as to whether immediate Chair/Vice-Chair elections would be held or
+wait for the next election cycle.
+
+* In order to mitigate really short terms, if the time left in the
+current Chair/Vice-Chair’s term of office is less than or equal to 4
+months, then we would hold elections for TSC Chair and Vice Chair early
+and the term will be from the completion of the election until October 1
+of the following year (resulting in an elongated term). +
+* If the remaining time-in-term is greater than or equal to 4 months,
+then a special election will be held for TSC Chair and/or Vice Chair
+whose term ends on what would have been the end of the original position
+holder’s term. This scenario would result in a shortened term.
+
+===== Involuntary Early Departure Cases +
+Involuntary cases include, but are not limited to:
+
+* The person loses their elected seat (as representative of Strategic or
+Community / Individual members) which enabled them to run for the
+position initially +
+* The person loses their committee role with TSC voting privileges,
+which enabled them to run for the position originally.
+
+In these involuntary cases, if the person is willing and the time left
+in their term of office is less than 4 months, they will be allowed to
+continue in the position but without their voting rights (since their
+voting rights ended and retaining them would add one more voting member
+to TSC during that period).
+
+Involuntary cases where the time left is greater than 4 months, the
+remedy is the same as for the voluntary cases.
+
+===== Additional Considerations +
+If someone becomes disqualified for both voluntary and involuntary
+reasons, the voluntary remedy takes precedence.
+
+If a new situation arises that is not covered by the above cases, the
+TSC may take a no-objection vote to determine whether to follow the
+voluntary remedy, involuntary remedy, or some other remedy.
+
+RISC-V Technical Program Management will update the appropriate policies
+based on the result of this vote and subsequent new cases that the TSC
+adjudicates.
+
+=== Effective Date
+
+Acting policy as of December 1, 2020. Officially starts upon approval.
+Nominations in flight should comply with as much of the policy as
+possible.
+
+=== Escalations
+
+Members should escalate to their HC or IC. HCs and ICs should try to
+resolve escalations and if they cannot, they bring any escalations to
+the CTO. the CTO may further escalate to TSC or the BOD.
+
+Members who feel their escalation is not being addressed appropriately
+should send email to help@riscv.org. Members should try to work through
+their HC or IC first, if possible, before sending email.
+
