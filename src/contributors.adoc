@@ -3,5 +3,19 @@
 This RISC-V specification has been contributed to directly or indirectly by:
 
 [%hardbreaks]
-* Author1 <required1@email.com>
-* Author2 <required2@email.com>
+* Allen Baum <allen.baum@esperantotech.com>
+* Arun Thomas
+* Charlie Su <charlie@andestech.com>
+* Ed Jones <ed.jones@embecosm.com>
+* Gajinder Panesar <gajinder.panesar@gmail.com>
+* Greg Favor <gfavor@ventanamicro.com>
+* Jeff Scheel <jeff@riscv.org>
+* Jeremy Bennett <jeremy.bennett@embecosm.com>
+* Ken Dockser <kdockser@tenstorrent.com>
+* Krste Asanović <krste@sifive.com>
+* Mark Himelstein
+* Nidal Faour
+* Philipp Tomsich <philipp.tomsich@vrull.eu>
+* Rafael Sens <rafael@riscv.org>
+* Stephano Cetola <stephano.cetola@intel.com>
+* Tariq Kurd <tariq.kurd@codasip.com>

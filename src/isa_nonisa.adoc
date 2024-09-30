@@ -1,0 +1,122 @@
+[[isa_nonisa]]
+=== ISA & Non-ISA Specifications
+
+*Version:* 1.1 +
+*One line description:* Differentiate governance and branding for Non-ISA
+specifications and artifacts +
+*Author(s):* Mark Himelstein +
+*Status:* Approved +
+
+==== Version History
+
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+
+|1.1 |2022-01-28 a| Handle this:
+* ISA - one only, ISA HW +
+* non-ISA - small number. SW and Systems HW +
+* hybrid -– where all there is a CSR(s) then include through priv either
+as fast track or next rev +
+|Mark Himelstein
+
+|1.0 |2020-07-18 |Original version | Mark Himelstein
+
+|===
+
+==== Rationale
+
+The RISC-V charter is to specify the RISC-V ISA and formal models.
+However we need to host, encourage, and publish specifications and other
+deliverables so that the community can more easily make their RISC-V
+based products successful. Examples include OSs (Linux, Zephyr, etc.),
+and Trace (Trace group, Nexus). Without this differentiation, conflicts
+arose about which of the non-ISA topics were the official RISC-V choice.
+While RISC-V International should enable these non-ISA topics, they
+should not pick one over another. The community will self choose which
+is appropriate for them. Many choices may exist for non-ISA topics.
+RISC-V will host them according to member wishes.
+
+ISA specifications only specify instructions, state and behavior and
+they are unique. Non-ISA specification may include other things like
+calling conventions, debug protocol message or field types, guidance on
+how to write architecture tests, etc, Non-ISA may have multiple ways or
+standards to do things (e.g. E-Trace and Nexus). Some existing
+specifications contain both ISA and NON-ISA specifications together. It
+will be up to the documentation SIG to determine the long term strategy
+of how to arrange ISA and Non-ISA specifications that depend on each
+other. The approval/ratification rules are different for ISA and Non-ISA
+specifications and can be found in the
+https://docs.google.com/document/u/2/d/1-UlaSGqk59_myeuPMrV9gyuaIgnmFzGh5Gfy_tpViwM/edit[Ratification
+Policy].
+
+==== Policy
+
+. ISA topics can be branded with "RISC-V ISA'" as a prefix like +
+*_RISC-V ISA vector extension_*. Non-ISA topics can be branded with a
+"for RISC-V" suffix like *_Nexus for RISC-V_*. Documents should be
+clearly labeled as a *_RISC-V ISA Specification_* or for non-ISA
+specifications as a *_RISC-V Ecosystem Specification_*. +
+. There shall be only one Specification for ISA specification topics.
+There may be multiple competing specifications for non-ISA
+specifications (e.g. nexus and e-trace or linux and zyphir). +
+. A hybrid non-ISA specification that only has a small number of ISA
+specificationCSRs with minor behavioral impact may be split where the
+ISA portion may be done as a fast track or as part of a privilege
+update. The rest can be done as non-ISA through a non-ISA TG. The TG can
+work with the privilege committee to push the ISA portion to
+ratification. The ISA portion shall be ratified in the same year or
+earlier than the non-ISA specification. Larger ISA changes must convene
+a separate TSC approved TG for those changes. +
+. Groups are defined by their roles and lifetimes +
+.. Task Groups +
+... Spawned by a committee +
+... Report to their respective committees +
+... create specifications (ISA or non-ISA) +
+... Exist until "Done" +
+.. Committees +
+... Define strategy and identify gaps +
+... Identify and track new and on-going issues +
+... Oversee their task groups +
+... Exist indefinitely (at the pleasure of the Board) +
+.. Special Interest Groups +
+... Explore new areas +
+... Exist as long as there is (special) interest +
+... Provide the continuity for a technical area beyond the lifetime of a
+task group +
+... May request that they morph into a Committee +
+. All draft specifications must clearly delineate between what is: +
+.. Normative +
+... required, or +
+... Optional - left to the discretion of a higher-level (e.g. Platform)
+specifications +
+.. Non-normative - not required; include in specification only to
+provide: +
+... Background, context, clarity +
+... Implementation hints +
+... Usage or coding hints +
+.. Groups should keep ISA and Non-ISA prose or information separate and
+if possible in separate documents. Non-normative text, including
+explanations or implementation hints, must be clearly delineated so that
+the technical editors can readily recognize it and put it in the
+standard format for the released specification.Groups may choose to
+place Non-ISA prose or information in a RISC-V ISA specification in a
+clearly labeled delimited e.g. ("RISC-V Ecosystem comment" in a box,
+"RISC-V Ecosystem Appendix", etc.) area as appropriate to provide the
+reader with the best possibility to understand the RISC-V ISA
+specification.
+
+==== Exception handling: +
+Escalate exception requests for this policy to the TSC. Please allow two
+weeks for a response. Please include rationale, scope, and any resulting
+impact resulting from such an exception.
+
+==== Transition to start using policy
+
+. Any new specification or revision to an existing specification must
+adhere to this policy. +
+. Any existing policy without a revision must modify their specification
+by 2021-07-01. +
+. Any non-ISA items that were already ratified will be considered
+approved.
+

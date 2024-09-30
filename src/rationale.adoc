@@ -1,0 +1,107 @@
+[[rationale]]
+=== Rationale
+
+*Version:* 1.1 +
+*One line description:* Provide answers to a common set of question before proposing a new ISA extension or modification of an existing ISA specification +
+*Author(s):* Mark Himelstein +
+*Status:* Approved +
+
+==== Version History
+
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+
+|1.1 |2020-10-13 |Minor naming updates |Mark Himelstein
+|1.0 |2020-07-09 |Original version |Mark Himelstein
+
+|===
+
+==== Rationale
+
+We have no common way to evaluate or understand the implications for
+part or all of proposed extensions or changes to existing ratified
+specifications that results in a new extension. This policy would
+require the requester to answer the standard questions and make it
+available before the freeze milestone (see the extensions lifecycle ppt
+in the supporting docs folder). Think of this as a reviewer and voter
+guide to common questions we may ask for any change. The vote is
+independent of this document. The document is only intended to be
+informative and the answers don’t directly change the vote outcome. It
+should be as objective as possible and be explicit about countering
+views.
+
+This way RISC-V members will be informed in a common formatted
+questionnaire. It will help keep the instruction set smaller and more
+maintainable. It will also expose some cases about what the owner is
+proposing.
+
+==== Policy +
+Questions may be answered with "not applicable" or "unknown" as
+appropriate. Please describe why it is not applicable or unknown in the
+questionnaire. Also please provide your best guess of how we can find
+out more about an unknown.
+
+. Provide the requestor(s)’ name(s). +
+. Provide date of submission. +
+. Provide what group does the request emanate from? (individual,
+task/sig/standing-committee group, ceo, cto, TSC, BOD, etc.). +
+. Provide a date (month or quarter is ok) by which you want a vote on
+the proposed item. +
+. Please fill this in as one of the pieces of information at The Kickoff
+milestone or at the latest at the Freeze milestone. If you can’t answer
+something please indicate that with a "TBD" and what is blocking you
+from doing so (e.g. need to do prototyping first -- will be done by
+year-month-day). If the answer is no, please indicate why. FInal updates
+must be made before a request for vote by TSC. +
+. List of questions are below. Please explain your answers where
+appropriate (like why did you say yes): +
+.. Is this a functionality gap? +
+.. Is this a horizontal attribute enhancement or gap? (e.g. performance,
+security, RAS)? If so provide end user benefit. +
+.. Does it affect a ratified ISA specification (e.g. cause there to be a
+new extension related to the original extension)? +
+.. Can you do this with already ratified instructions? If so, how? +
+.. Which users/markets will benefit from this and how? +
+.. Will this affect base or derived or custom profiles (and other
+descriptions represented by markup languages)? +
+.. Will this require any software change (compliance tests, bootloader,
+hypervisor, os, exception/interrupt/miss code, tool chain, apps, etc.)?
+If so, list and delineate: +
+... changes in the number of cycles needed for any handler entry and
+exit, and changes in the number of save/restores required. +
+... changes required to support an extension (e.g. context switch
+needing to save/restore vector registers) vs changes needed to take
+advantage of the extension (e.g. kernel using vector to implement
+memcpy). +
+... Are there known resources who have time to implement either or both
+of the above to work? +
+.. If you can, please give an estimate of the expected impact on
+logic/gates (s/m/l/xl). +
+.. Is it part of a base ISA string’s extensions (e.g. G includes M)? +
+.. are there components of the information about the extension only
+available at runtime from the specific implementation (e.g max stride
+for the vector extension). +
+.. what is explicitly not included in this extension or change that you
+might otherwise expect? +
+.. Are there any unknowns or issues?
+
+==== Exception handling +
+All escalations go to the chair of the group, if unresolved then CTO, if
+unresolved then TSC.
+
+==== Transition to start using policy +
+Start effective August 15, 2020.
+
+Specifications that are close to ratification/approval may not be able
+to easily comply with this policy without delays to
+ratification/approval this late in the game. We request that those specs
+do two things: 1) answer the policy questions as best they can in a
+limited time like 1 or 2 hours and 2) identify the questions which the
+TG thinks might have critical answers for the TSC when they consider
+ratification/approval but they cannot answer without causing delays and
+hardship along with a recommendation on how, if, and when to answer
+them. Alternatively they can escalate to TSC and should include some
+idea about what the TG thinks might have been useful had they had this
+policy in a more convenient time period.
+

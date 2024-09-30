@@ -1,0 +1,289 @@
+[[ratification]]
+=== Ratfication
+
+*Version:* 1.7 +
+*One line description:* These are the rules governing the ratification
+of RISC-V Specifications +
+*Author(s):* Mark Himelstein, Stephano Cetola +
+*Status:* Approved +
+
+==== Version History
+
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+
+|1.7 |2024-01-12 |Define escalation path through CTO |Jeff Scheel
+
+|1.6 |2023-03-31 |Shorten Public Review to 30 days from 45 per BoD
+decision Add specification roles per Tech Govern |Jeff Scheel
+
+|1.5 |2023-02-10 |Remove DoD references and add in acceptance criteria
+|Stephano Cetola
+
+|1.4 |2022-04-12 |Closure after pub review that the review is closed and
+a list of the proposed changes sent to the same bodies that got notified
+at the freeze milestone. Update language: remove DoD and insert
+Acceptance Criteria Formatting |Mark Himelstein,
+Stephano Cetola, Jeff Scheel
+
+|1.3 |2022-01-13 |Revive some language regarding non-ISA and resolve
+comments. 10-5-2021: |Mark Himelstein
+
+|1.2 |2021-10-05 |Add verbiage about Non-ISA documents consistent with
+the Non-ISA Acceptance Criteria policy |Mark Himelstein
+
+| |2021-09-09 |Clarify that HC/IC Signoff, Architectural Review, and
+Waiver approval may be parallel. |Mark Himelstein
+
+|1.1 |2021-08-20 |Removed ISA vs Non-ISA language and replaced with
+specification. |Mark Himelstein
+
+| |2021-08-16 |what process non usa specs go through and how it is
+decided |Mark Himelstein, gfavor@ventana.com
+
+| |2021-05-12 |add language around non-isa documents and specs
+|Mark Himelstein
+
+| |2021-04-22 |cleanup language around sending top sheet & cover letters
+for vote for TSC and BOD |Mark Himelstein
+
+|0.2 |2021-04-15 |As per Calista no-dissent votes changed to Majority
+votes with possible dissent. Pertinent Acceptance Criteria columns sent
+to BOD in advance of ratification vote |Mark Himelstein,
+Stephano Cetola
+
+|===
+
+==== Rationale
+
+Ratification of extensions is one of the most important charters given to RISC-V International. This document calls out specific steps necessary such that both the groups and committees developing extensions conform to a process that is publicly documented.
+
+We are an open and transparent community of developers. It is our goal
+to produce specifications that adhere to best open source practices.
+
+==== Definitions
+
+_Initiator_: The requester of an extension or specification.
+
+Anyone can request that a committee consider creating a new Task Group
+or Fast Track specification.
+
+_Governing Committee_: the committee sponsoring and governing the
+specification work.
+
+A Governing Committee approves progression to the next milestone. If
+there are issues during the life cycle, they should be addressed by the
+Governing Committee.
+
+Sponsorship includes sponsoring Task Group creation with TSC or
+proposing a Fast Track extension with the Architecture Review Committee.
+
+A Governing Committee may delegate day to day execution of the
+development of a specification but must be the one approving and
+sponsoring the steps in the life cycle.
+
+_Owner_: the first point of contact for the specification. The Owner is
+responsible for driving the specification through the lifecycle and
+ensuring all the work gets completed to ratify the specification.
+
+For standard (non-Fast Track) specifications, the Owner is the Chair of
+the Task Group. For Fast Track specifications, the Owner is typically
+the Initiator but the Governing Committee may identify an alternative
+Owner.
+
+If the TG members and Development Partners cannot help, the Owner needs
+to escalate to the Governing Committee to resolve the resource gaps. The
+Governing Committee in turn may escalate to the RISC-V CTO, who may
+escalate to TSC, the RISC-V CEO, or the BOD.
+
+Resources should generally be identified in the Plan Milestone and any
+gaps identified during the presentation to the Tech Chairs.
+
+Governing Committees should not sponsor a Fast Track without an
+identified Owner.
+
+_Author_: the Author is the primary writer, editor, and organizer of a
+specification.
+
+The Owner works with the Author to help drive a specification through
+the lifecycle but the Author is not directly responsible for interfacing
+with the Governing Committee or TPMs, but likely will be involved in the
+specification review with the Architecture Review Committee.
+
+==== Policy
+
+The ratification process starts with the lifecycle. Please see the
+lifecycle
+https://docs.google.com/presentation/d/1nQ5uFb39KA6gvUi5SReWfIQSiRN7hp6z7ZPfctE4mKk/edit?usp=sharing[here].
+
+Each Milestone requires that tasks get done in compliance with the
+https://docs.google.com/document/d/1uJFEpTTei_Mr78MWZ9bPRDgWj85Gh14PuX4u8p7q66o/edit?usp=sharing[Acceptance
+Criteria] policy.
+
+The process involves various groups and committees and meetings in our
+organization. Please see the organization slide deck
+https://docs.google.com/presentation/d/1eEVuu6lRZd9iiDnZQSZME7Q7svtTG3pGIKHPmZ79B8E/edit?usp=sharing[here]
+for details on those groups and venues.
+
+In addition, the Freeze and Ratification-Ready milestones have well
+defined steps (before and after those milestones) to complete the
+ratification process.
+
+The TSC voting members provide approval for specifications and send them
+to the Board requesting ratification. See the organization slides
+referred to above for details.
+
+We develop specifications and other documents. The governing HC or IC
+committee decides whether a document is a specification or other type of
+document and requires a standard or modified process. The governing HC
+or IC committee notifies the TSC and the BOD at the plan milestone of
+these decisions and, as in all decisions, the TSC or BOD may choose to
+override a decision. The other documents are supported by RISC-V as a
+convenience and the governing HC or IC must propose the approval process
+they should go through.
+
+Non-ISA specifications and documents may specify their own timelines and
+milestones as per the Non-ISA Acceptance Criteria policy. As per policy
+they must publish those decisions to the TSC and BOD. As with any
+decision under the technical organizations,either the TSC or Board may
+investigate and/or override the Committee and Task/Special Interest
+Group decisions. +
+Architectural Overview specifications and documents follow the same
+process as the Non-ISA equivalent. The fundamental difference between
+the two becomes topical content: Architecture Overview specifications
+typically provide an overview that provides readers with the knowledge
+on how to use a number of specifications in concert to implement
+complete solutions. As such they may refer to existing specifications,
+future specifications as well as normative text to fill in pieces
+missing from those specifications.
+
+===== Plan Milestone
+
+* The Plan Milestone focuses on the planning activities for the
+specification including the schedule, resources and criteria which may
+be met to complete the work. The content of this information is defined
+by the Acceptance Criteria. Templates are provided by the RISC-V
+Staff. +
+* Approval of the Plan Milestone occurs from the Tech Chairs after a
+presentation of the planning information. +
+* The Governing Committee works with the specification Owner to set the
+Public Review duration which shall be a minimum of 30 days. The duration
+will be presented as a part of the Plan Milestone Review to Tech Chairs.
+
+===== Freeze Milestone
+
+* The TG will make sure the Acceptance Criteria is accurate for the
+freeze milestone and notify help@riscv.org that it is ready for signoff
+(at least 2 weeks before needed) to conduct an automated signoff
+process. +
+* RISC-V staff will create a top sheet and cover letter from the
+Acceptance Criteria and verify all of the artifacts are in the right
+place in Github and use the top sheet and cover letter for the vote.
+Each extension’s top sheet must include individual links in each line
+item to the relevant documentation for each specific deliverable. For
+example, each waived line item must link to the request for that waiver,
+the rationale provided by the TSC for allowing the waiver, the TG’s plan
+for completing the waived deliverable post ratification, and the results
+of the vote for the waiver. Likewise, each completed line item must
+include a link to the actual deliverable. For example, the
+proof-of-concept line item must link to a document specifying what was
+required for the proof of concept for the extension, and what was done
+to meet that requirement including links to the software, RTL,
+simulation results, or any other work done as part of the proof of
+concept. The links are required to ensure that members of the TSC and
+Board can quickly and easily look up each detail as a part of their
+review. +
+* The TG must complete the freeze milestone Acceptance Criteria tasks
+including Committee Chari sign offs before the TG sends the
+specification to the governing HC/IC for approval of the freeze
+milestone. +
+* The HC/IC must approve a specification ready for public review. +
+Note: HC/IC sign-off may be granted contingent upon Architectural Review
+completion and/or Waiver approval, allowing for parallelization of
+activities. +
+* RISC-V staff will send the cover letter and top sheet and
+specification link to the following email lists at the beginning of the
+public review cycle.
+** Board of directors bod@lists.riscv.org +
+** Committee Chairs Meeting (CCM) ccm@lists.riscv.org +
+** Task Group Chairs tech-chairs@lists.riscv.org +
+* The HC/IC will send the specification link to the following email
+lists at the beginning of the review period.
+** Tech - tech-announce@lists.riscv.org +
+** Public review email isa-dev@groups.riscv.org +
+* The email must include one email address to respond to with
+comments. +
+* All public review comments must be resolved even if the resolution
+explains why RVI will not follow the commentor’s object or suggestion. +
+* Public review comments and responses will be stored in the top
+sheet. +
+* Member comments may be added as a Github issue or sent as email to
+isa-dev as a response to the public notification email. Non-members must
+send email to isa-dev as a response to the public notification email. +
+* If non-member comments have substantive suggestions that would
+potentially include items normally governed by the RISC-V membership
+agreement the comments should not be put into github or the
+specification without the commenter becoming a member or signing a
+CLA. +
+* Comments and responses must be saved in the github repository for the
+specification in the location and format specified by the
+https://docs.google.com/document/d/1TdUWp-OUIQjsWgip7bRfhZBuUC64Upf5eyfBj7fWd_Q/edit?usp=sharing[RVI
+github policy]. +
+* Any commenter may dispute a comment resolution by escalating to the
+CTO at cto@riscv.org if they want to dispute a comment resolution. +
+* Once the comments are resolved to the committee’s satisfaction
+(including escalations), the HC/IC shall send email to the same email
+lists as above to announce the availability of comments and resolutions.
+This must be done in advance of the Ratification-ready sign-off to
+provide time for the HC/IC chairs to review. (The intent is to automate
+this step.)
+
+===== Ratification-Ready Milestone
+
+* The TG will make sure the Acceptance Criteria is accurate for the
+ready milestone and notify help@riscv.org that it is ready for signoff
+(at least 2 weeks before needed) to conduct an automated signoff
+process. +
+* RISC-V staff will create a top sheet and cover letter from the
+Acceptance Criteria and verify all of the artifacts are in the right
+place in Github and use the top sheet and cover letter for the vote. +
+* The TG must complete all of the Ratification-ready Acceptance Criteria
+tasks including committee sign-offs. +
+* The TG sends the specification and completed Acceptance Criteria
+checklist to the Governing Committee (HC or IC) for approval. +
+* Once the Governing Committee approves the specification for vote, the
+HC or IC sends the vote to the tsc-vote@lists.riscv.org mailing list and
+CC CCM and Chairs meetings. The TSC reserves the option of using voting
+software, voting via email, or virtual meeting to hold a vote. +
+* The vote requires a majority of eligible voting members of the TSC at
+the time of the vote and must include the TSC chair and vice chair. The
+vote may have dissents. +
+* Once the TSC has voted positively, the governing HC/IC Chair will
+notify the Board of Directors via email and add the ratification notice
+to the next board agenda. HC/IC will send the top sheet and cover letter
+to the Board and have the committee chair answer any questions from the
+Board. Once the Board provides notification of Ratification, the HC/IC
+will notify all of the above email lists of the official ratification. +
+* The TG must complete the Acceptance Criteria tasks that were waived
+and remained unfinished at the time of ratification for the complete
+milestone and report on progress or roadblocks to the Chairs meeting. +
+* Any ratified specification shall appear in the next available set of
+profiles in one of the categories. See the Profiles policy for more
+information. +
+* Any ratified specification shall appear in the revision of the overall
+unpriv or priv specifications as appropriate. +
+* Any ERRATA must be published to those same email lists and added to
+the specification in accordance with the
+https://docs.google.com/document/d/1zRUSx8Cx3MhQqKCGBlhfLxhdwNMW8Ajwsv12M69y3kY/edit?usp=sharing[documentation
+policy]. +
+* No substantive changes (i.e., new instructions or state) may be made
+to a ratified specification; these can only take the form of a new
+extension in a new specification. HCs may approve any non-substantive
+changes (editing, formatting, clarifications, etc.) at any time in a
+ratified specification.
+
+==== Exceptions
+
+Any exceptions get escalated to the CTO who may choose to resolve the
+issue, or escalate to the TSC or the CEO or the BOD.

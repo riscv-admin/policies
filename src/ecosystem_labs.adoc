@@ -1,0 +1,142 @@
+[[ecosystem_labs]]
+=== Ecosystem Labs
+
+*Version:* 1.2 +
+*One line description:* processes and policies regarding being a RISC-V Ecosystem Lab +
+*Author(s):* Mark Himelstein, Jeff Scheel +
+*Status:* Approved +
+
+==== Version History
+
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+
+|1.2 |2024-08-21 |Rename to “Ecosystem Labs”, not just “Labs” to avoid confusion with future CSC Labs |Jeff Scheel
+
+|1.1 |2024-03-08 |Recommend including SLA in on-boarding process |Jeff Scheel
+
+|1.0 |2023-02-14 |Approved version |Jeff Scheel
+
+|0.4 |2023-02-06 |Final edits for CTO approval |Jeff Scheel
+
+|0.3 |2022-11-10 |Proposal version to Tech Chairs |Jeff Scheel
+
+|0.2 |2022-03-24 |Additional granularity of Labs definition and
+requirements. Allow for self-defined capacity and SLA. |Jeff Scheel
+
+|0.1 |2021-04-27 |Original draft |Mark Himelstein
+
+|===
+
+==== Rationale
+
+The main goal of the RISC-V Ecosystem Labs program is to make RISC-V successful,
+either as a vendor or industry proponent, through the following
+contributions:
+
+* Finding software regressions early for the whole community +
+* Increasing RISC-V recognition and public-relations +
+* Engaging open source communities to bring in new workloads, etc. +
+* Broadening the set of RISC-V platforms available for testing and
+improving the hardware and software ecosystem +
+* Testing RISC-V hardware earlier and more broadly +
+* Growing the RISC-V community by providing RISC-V machines for
+developers and researchers. +
+* Connecting RISC-V Labs with vendors to provide early hardware access
+
+==== Policy
+
+RISC-V Ecosystem Labs offer one or more of the following:
+
+. Continuous Integration (CI) testing of RISC-V software (see
+https://docs.google.com/spreadsheets/d/1JENqHLyrfDStluwkz80rseNrA-qeSf2hVuiE2_Bucr4/[CI
+Testing spreadsheet], "Test Matrix" tab) for a portion of the "Test
+Matrix" with flexibility to constrain the focus into a subset of Test
+Suites, Boards, or Specific Components. +
+[NOTE]
+CI may be a Lab commitment of coverage to RISC-V or a service
+provided to external users in the broader community. +
+. Sandbox access of RISC-V platforms to external users of the following
+types: +
+.. Bare-metal servers +
+.. Containers +
+.. Native virtual machines (KVM on RISC-V) +
+.. Specialized hardware configurations such as HPC clusters, FPGA farm,
+IOT
+
+To become a RISC-V Ecosystem Lab, all of the following requirements must be met:
+
+* Join and participate in the RISC-V Labs community
+(https://lists.riscv.org/g/lab-partners[lab-partners]) community +
+* Have at least 10 physical machines/boards or 20 physical cores of
+RISC-V hardware as resources for the Labs. +
+* Implement a Labs solution/service (CI and/or Sandbox) with
+consideration of the best-practices and software frameworks of the
+RISC-V Labs community
+(https://lists.riscv.org/g/lab-partners[lab-partners]) community.
+Contribute to and improve such practices as-needed. +
+* If you are providing an external service, on a best-effort basis,
+address on-going capacity requirements through the following steps: +
+. Publish to the user(s) the complete list of resources (systems, cpus,
+memory, storage, networking) available for use and for which service (CI
+or Sandbox) +
+. Define a set of metrics which will be monitored to determine resource
+utilization. +
+. Regularly report status of the capacity utilization to the Lab
+Partners group. +
+. Evaluate resource additions as needs require and new platforms become
+available. +
+* If you are providing an external service, on a best-effort basis,
+address service guidelines as follows: +
+. Provide a written policy for use of the resources. This policy should
+address data retention, privacy, intellectual property, security, usage
+restrictions, and other areas which may need to be addressed per
+geographic location. +
+. Publish a Service Level Agreement (SLA) for current and future
+users. +
+[NOTE]
+It is strongly encouraged to ensure the SLA is included as part of the application or on-boarding process for projects. +
+. Define a set of metrics which will be monitored to track SLA
+performance +
+. Regularly report status of the SLA metrics to the Lab Partners
+group. +
+. Build and execute action plans as needed to address gaps in SLA +
+* Create and maintain a web presence for the Lab that provides the above
+information as well as providing additional mission information and a
+description of how to gain/request access. +
+* Report Lab status for the capacity utilization, SLA metrics, and/or CI
+Results (when applicable) to the Lab Partners working group at regular
+intervals (quarterly) +
+* Publish all report status information in the Google Drive for risc-v
+members -> Status -> Labs Google folder or other public location as
+defined by the Lab Partners working group. +
+* Maintain a public, real-time status information via the web, e.g. a
+"dashboard" +
+* Self-manage the capacity requirements and the SLA on an honor system
+("best effort") basis. +
+* Perform triage (not full diagnosis) on failures. +
+* Provide a means for users to submit and track issues (JIRAs or
+GitHub).
+
+Once a RISC-V Ecosystem Lab can demonstrate compliance with the above requirements
+for 2 consecutive quarters, they can submit a formal request via email
+with documentation which demonstrates completion of the criteria to
+become a RISC-V Lab (help@riscv.org). Once the RISC-V program has
+reviewed and approved the request, the organization logo will be
+displayed on the Labs program page (TBD, but similar to the RISC-V
+https://riscv.org/risc-v-development-partner/[DevPartners page]) of the
+RISC-V website (https://riscv.org[riscv.org]).
+
+If an approved Lab fails to continue to meet the criteria, they will be
+informed of their gap in writing and allowed 90 days to comply. Failure
+to comply by the correction deadline will result in their approval being
+revoked in writing and from their logo being removed from the program
+page.
+
+==== Exception handling +
+If you have problems with implementing any of this, you should send an
+email to help@riscv.org.
+
+==== Transition to start using policy +
+Immediately upon approval

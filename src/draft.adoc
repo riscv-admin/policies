@@ -1,0 +1,10 @@
+[[draft]]
+== Draft Policies
+
+Policies in this section have been been drafted but not yet approved.
+
+include::llvm_toolchain_signoff.adoc[]
+include::os_hypervisor_requirements.adoc[]
+include::universes.adoc[]
+include::versioning.adoc[]
+

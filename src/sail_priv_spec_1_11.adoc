@@ -1,0 +1,39 @@
+[[sail_priv_spec_1_11]]
+=== SAIL Requirements for Privileged 1.11 Extensions
+
+*Version:* 1.0 +
+*One line description:* This policy provides a SAIL waiver for
+Privileged extensions to be ratified in 2021. +
+*Author(s):* Greg Favor +
+*Status:* Approved +
+
+==== Version History
+
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+|1.0 |2021-07-21 |Initial policy. |Greg Favor
+|===
+
+==== Rationale
+
+SAIL modeling is required for all specifications being ratified under
+the governance of the Privileged ISA Committee . As SAIL modeling for
+the Privileged Specification v1.11 is incomplete and does not exist for
+the privileged specifications, and not enough knowledgeable SAIL
+resources will be available this year to develop this in time for
+ratification, this policy defers the
+https://docs.google.com/document/u/2/d/1Hp9ZZSzjk6Tp2pIvh33mNCj6wAoJCEqsdENQUTSruQg/edit[Definition
+of Done] tasks related to SAIL until next year when suitable resources
+become available.
+
+==== Policy
+
+This policy is temporary and applies only to ratification of
+Privileged Specification 1.12 and Privileged architecture-related
+extensions (such as the H extension, AIA-IMSIC, Sstc, Sccofpmf, Svnapot,
+Svinval, Svpbmt, Smdisc, Smstateen).
+
+==== Transition to start using policy
+
+Immediate

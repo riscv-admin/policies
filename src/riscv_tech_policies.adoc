@@ -71,6 +71,11 @@ include::contributors.adoc[]
 
 include::intro.adoc[]
 include::approved.adoc[]
+include::draft.adoc[]
+include::archived.adoc[]
+
+[appendex]
+include::template.adoc[]
 
 // The index must precede the bibliography
 include::index.adoc[]

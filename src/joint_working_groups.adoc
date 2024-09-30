@@ -1,0 +1,99 @@
+[[joint_working_groups]]
+=== Joint Working Groups with External Organizations
+
+*Version:* 1.0 +
+*One line description:* policy and process to set up a joint working group
+with other organizations +
+*Author(s):* Mark Himelstein +
+*Status:* Approved +
+
+==== Version History
+
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+
+|1.0 |2021-06-19|Original version | Mark Himelstein
+
+|===
+
+==== Rationale
+
+RISC-V only does work for implementation independent ISA specifications
+and software ecosystem components. However, in order for members to be
+successful we need to ensure that the RISC-V work interoperates with
+implementation dependent components including design, DV, etc.
+
+This policy describes a mechanism to partner with external entities to
+ensure the implementation dependent components work appropriately with
+RISC-V ISA and ecosystem components.
+
+These meetings are not covered by the RISC-V membership agreement. They
+do have open source and unencumbered constraints but there is no legal
+document binding us to them.
+
+==== Policy
+
+RISC-V and other entities may create a Joint Working Group (JWG). We can
+create JWGs for a number of reasons including:
+
+* Ensuring that implementation dependent items done by other entities
+and implementation independent items done by RISC-V interoperate in a
+robust fashion +
+* Third parties who are not part of RISC-V are working on ecosystem
+components and need to coordinate with RISC-V efforts +
+* Support providing implementation examples of RISC-V specifications so
+that members can use the example for their own implementations +
+* Develop a plan for a technology that has implications to both RISC-V
+and the other entity. +
+* Any members of two groups may propose a Joint Working Group. Each
+entity will select one person to approve group creation. For RISC-V,
+this is the CTO. The Joint working group charter will specify who from
+each entity approved starting the group. The charter should also list
+entities and approvers that join after creation.
+
+The JWG must (no particular order):
+
+* Have meetings that are open for anyone to join. +
+* Be an open forum where all communication and documentation are
+publicly available. +
+* It is up to the JWG to publicize itself wherever appropriate. For
+RISC-V all JWGs must be announced on Tech announce and appear in the
+organization charts and spreadsheets. +
+* Ensure that machine independent work products (work not related to a
+specific RISC-V vendor system implementation) must be Open Source (under
+a license in compliance with the "Preferred Licenses" from the
+https://wiki.riscv.org/display/TECH[RISC-V Tech Wiki]) and unencumbered.
+Any software related to upstream open source projects will follow the
+conventions of those upstream projects, regardless of the previous
+sentence. +
+* Attendees agree not to bring encumbered information to these
+meetings. +
+* Require that each entity must identify a responsible liaison who can
+represent their entity’s interests. +
+* Require that each entity identify an executive responsible for their
+involvement in the JWG. +
+* Allow each JWG to decide it’s own internal governance (e.g. chair,
+vice-chair, voting, etc.) +
+* Allow all entities to publicize their involvement with and results of
+the JWG. +
+* Establish and publish soft goals / objectives in a github repo (exact
+location will be determined shortly) +
+* Create a public agenda and take minutes for each meeting stored in a
+github repo (exact location will be determined shortly) +
+* Abide by Anti-trust policies for the US & other countries. +
+* Be an open and welcoming group +
+* Abide by the RISC-V
+https://riscv.org/about/risc-v-international-community-code-of-conduct/[code
+of conduct] +
+* Allow the JWGs to work on both machine independent and machine
+dependent components.
+
+==== Exception handling
+
+Escalations get sent to the executives to resolve.
+
+==== Transition to start using policy
+
+Effective immediately
+

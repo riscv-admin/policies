@@ -1,0 +1,75 @@
+[[ccm_guest_policy]]
+=== Committee Chair Meeting (CCM) Guests
+
+*Version:* 1.1 +
+*One line description:* Under what circumstances do we allow/ask guests to join CCM +
+*Author(s):* Mark Himelstein, Stephano Cetola +
+*Status:* Approved +
+
+==== Version History
+
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+
+|1.1 |2022-05-10 |Add text regarding stand-in or substitute attendees to the CCM. |Stephano Cetola
+
+|1.0 |2021-10-06 |Initial commit. |Mark Himelstein
+
+|===
+
+==== Rationale
+
+Numerous members have asked to present or attend the CCM who are not
+committee chairs or Premier members or Premier TSC members. In order to
+be fair about who gets to visit, when they get to visit, what part of
+the meeting they can attend, and the process for such requests, we
+developed this policy.
+
+==== Policy
+
+. Guests may request to present to the CCM by approaching a member of
+the CCM and asking them to sponsor the presentation. Guests who don’t
+know who to use as a sponsor, may use the CTO as a sponsor. +
+. The sponsor should review the presentation. If the sponsor agrees to
+having the CCM see the presentation, then they forward the request with
+slides to the CCM email list for review. +
+. During the review period CCM members may reply to the email with
+issues, questions, or objections. +
+. The TSC chair and CTO jointly make a final decision as to whether to
+approve a presentation. +
+. If the CTO or the TSC chair are the sponsor for the guest, the TSC
+vice chair will participate with the other non-sponsor (CTO or TSC
+chair) to make the final decision as to whether to approve a
+presentation. +
+. If there are no objections and the questions and issues are resolved,
+the guest will have an up to 30 minute slot at the meeting following the
+2 week review period. +
+. Guests who present may only attend the CCM for the duration of their
+presentation. +
+. Guests may bring one extra person to help make the presentation. +
+. CCM will allow 2 guests/presentations maximum per meeting +
+. The sponsor can work with the CTO & TSC Chair if more than 30 minutes
+is needed. +
+. The CCM may ask questions of the guest during the meeting and conduct
+a dialog, but this is intended as a technical discussion regarding the
+merits of the topic/proposal and not a strategic discussion about RISC-V
+strategy, vision, or priorities. +
+. Any discussions amongst the CCM resulting from the presentation must
+occur after the guest has left the meeting. This privilege is reserved
+for Premier members, Premier TSC members, and committee chairs. Allowing
+others in those conversations dilutes the value of membership levels.
+Guests are not permitted to join the general CCM for the same reasons. +
+. If any regular member of the CCM is not able to attend a meeting, they
+may designate a stand-in. That substitute cannot vote, but can attend
+the meeting and participate in discussions.
+
+==== Exception handling
+For any escalations about guests being turned down (either by the
+sponsor or by the CCM), please contact the CTO. +
+The TSC chair and CTO may jointly ask a guest to join a non-presentation
+conversation if they feel the member is needed to conduct the
+conversation. Guests may not request this.
+
+==== Transition to start using policy
+Immediate

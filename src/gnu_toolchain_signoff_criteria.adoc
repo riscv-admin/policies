@@ -1,0 +1,68 @@
+[[gnu_toolchain_signoff_criteria]]
+=== GNU Tool Chain Sign-Off Criteria
+
+*Version:*  1.1 +
+*One line description:*  Criteria for acceptance of GNU tool chain modifications +
+*Author(s):*  Tariq Kurd, Huawei; Jeremy Bennett, Embecosm +
+*Status:*  Approved by Toolchain & Runtimes SSC on 28 Jan 2021 +
+
+==== Version History
+
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+| 1.1 |2022-01-13 |Comment acceptance.  Add version history. |Jeff Scheel
+
+| 1.0 |2019-12-16 |Document creation |Tariq Kurd, Jeremy Bennett
+
+|===
+
+
+==== Rationale
+
+Various task groups commission work to add GNU tool chain support for extensions and features.  This policy provides a baseline set of sign-off criteria. It also serves as a framework for other software projects requiring sign-off criteria.
+
+Components affected are GNU assembler (GAS), GNU linker, GNU binutils, GNU CGEN, GNU Compiler Collection (GCC), libgcc (emulation library), newlib/GlibC and the GNU debugger (GDB).  Not all of these are necessarily affected. Typically only C/C++ support is considered, but for some projects, support for other languages may be appropriate.
+
+==== Policy
+
+. All contributors must have FSF copyright assignment agreements in place. All code must have been transferred to the FSF, which is achieved by adding FSF copyright declarations at the top of all source files. +
+. The project should have added regression tests in the following categories where relevant. +
+.. GNU assembler target specific regression tests of all new instructions, including tests expected to fail, testing boundary and median cases +
+.. GNU assembler target specific regression tests of **\-march** flag extensions, both to verify that new instructions are available when the flag(s) is/are set and that they are not available when not set +
+.. GNU linker target specific regression tests of any new relocations added. +
+.. GNU compiler target specific tests of all new builtins, intrinsic functions and preprocessor defines. +
+.. GNU compiler C/C++ target specific regression tests of **\-march** flag extensions, both to verify that new builtins/intrinsics/preprocessor defines are available when the flag(s) is/are set and that they are not available when not set +
+.. GNU compiler C/C++ target specific regression tests of libgcc and newlib multilibs (these tests may belong here, or in the libraries) +
+.. GDB target specific regression tests of new features, such as register display, disassembly and XML target feature transfer. +
+. Provide test results, which should demonstrate no new failures or unresolved tests compared to the upstream compiler. Total new successes (passes or expected failures) should match the number added above. Results should be identical for Spike and QEMU. +
+[NOTE]
+This may require extending Spike and/or QEMU.  Depending on the specific work, the following are typically required.  +
+
+.. GAS regression tests +
+.. GNU linker regression test results +
+.. GCC C/C++ regression test result +
+.. GDB regression test results +
+. RISC-V architectural compliance tests (ACT) for underlying architecture should pass (i.e. we haven’t done anything to break base architectures) +
+. Agreed benchmark results should be presented. The choice of benchmark will depend on the specific project. For example [Embench](https://www.embench.org/) may be appropriate for a project targeting small integer RV32 machines, but not for a project targeting large multicore RV32G machines. General projects may require multiple sets of benchmarks. +
+. Upstream maintainer reviews and approves the patches. +
+[NOTE]
+There are different maintainers for different tools, so more than one approver may be needed. +
+. The project must be signed off by the Toolchain & Runtimes SSC, who have responsibility for coordination with other projects and can defer that sign-off and responsibility to appropriate subcommittees. +
+
+==== Exception handling
+
+None
+
+==== Transition to start using policy
+
+Immediate on approval
+
+==== Next steps
+
+. Review by T&R mailing list with timeout to the next T\&R meeting (2020-01-28) +
+. Review of policy with recommendation by TSC  & Chairs with a two week timeout on immediately following next T\&R meeting (extendable on request by reviewers by two weeks). +
+. Identify at least two specific people from TSC to review the policy before it is approved. +
+. Have the TSC chair and CTO review the proposal. +
+. If approved, communicate to all task/sig groups commissioning GNU tool chain work. +
+

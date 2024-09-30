@@ -1,0 +1,8 @@
+[[archived]]
+== Archived Policies
+
+Policies in this section are no longer in use by RISC-V.
+
+include::act_priv_spec_1_11.adoc[]
+include::nonisa_definition_of_done.adoc[]
+include::sail_priv_spec_1_11.adoc[]

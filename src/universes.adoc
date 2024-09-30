@@ -1,0 +1,102 @@
+[[universes]]
+=== Universes
+
+*Version:* 0.1 +
+*One line description:* An optional technical area that potentially
+pervasively impacts all specifications +
+*Author(s):* Mark Himelstein +
+*Status:* Draft +
+
+==== Version History
+
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+
+|0.1 |2022-10-13 |Original draft |Mark Himelstein
+
+|===
+
+==== Rationale
+
+There are optional technical areas like CHERI or GPUs that could
+potentially affect all or a pervasive amount of specifications. Rather
+than embedding the efforts and specifications together with the
+mainstream, we define Universes to establish a boundary or partition to
+keep specifications easier to understand.
+
+Like any RISC-V topic, the efforts will have to be driven by members for
+them to be successful.
+
+This policy describes how to establish and maintain Universes. All
+efforts will now fall under a Universe. The existing efforts will fall
+under the _Base_ Universe. New Universes may inherit or adopt anything
+from other existing Universes (loops not allowed).
+
+Just as with existing SIGs and TGs and Committees, Universes do not
+define meetings. We optimize meetings and try to minimize meeting
+fatigue. Meetings may include committees, SIGs and TGs from multiple
+Universes at the discretion of the meeting organizers.
+
+==== Policy
+
+Establishing a Universe:
+
+. An existing committee must sponsor a new Universe and will be the
+governing committee through the process of establishing the new
+Universe +
+. The governing committee must create a SIG through the normal SIG
+creation process for the new Universe including notify TSC (like any
+other SIG and notifying them this will be a Universe). The charter of
+the SIG should be the charter for the Universe. +
+. The SIG will work on Universe plan which shall include: +
+.. A Universe name +
+.. Final charter +
+.. List of potential initial deliverables (including TGs and specs and
+extensions and timeframe) based on the specs and extensions in the Base
+Universe. +
+.. Paradigm of when something is defined in the Base Universe that will
+require work product in the new Universe. +
+. A Universe plan must be approved by the governing committee and then
+TSC. +
+. Once approved, TSC will create a non-voting committee and the CTO will
+hold elections like they do for any other committee. The governing
+committee’s responsibilities end once TSC approves the Universe
+committee.
+
+Ongoing Universe activities:
+
+. The Universe committee does not get a TSC vote but the chairs attend
+CCM and tech governance meetings. +
+. The Universe may create TGs and SIGs and must comply with the normal
+processes to do so. Unless agreed to by Base Universe counterparts, all
+specifications will remain independent of the Base Universe
+specification. Universe specifications may depend on, inherit or refer
+to other Universe specifications. +
+. The Universe must maintain a roadmap and update it (or have its
+subgroups update it) once per month in preparation for the BOD meeting
+just like all committees and groups. +
+. The Universe may call its own meetings or join in other meetings (at
+the discretion of the meeting organizer). +
+. Any work done by the Universe must follow the lifecycle processes
+including appropriate Base Universe AR(s) approval. +
+. A Universe may not drive or approve any work that belongs in another
+Universe. Committee chairs are the arbiter if there is any questions. +
+. A Universe may establish their own AR. They must create a policy just
+like the other ARs do. +
+. The TSC may disband a Universe. This may occur because of non-activity
+or other reasons. +
+. Any referral to Universe groups or specifications must include the
+Universe as a prefix (e.g. "Cheri:"). Base Universe groups or
+specifications require no prefix. Anything without a prefix is expected
+to be in the Base Universe.
+
+==== Exception handling +
+If you have problems with implementing any of this, you should send an
+email to help@riscv.org.
+
+==== Transition to start using policy +
+Cheri will be the test universe and we will not create any others until
+we agree that the Cheri universe is successful and the universe paradigm
+is appropriate.
+

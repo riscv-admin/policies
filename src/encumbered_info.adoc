@@ -1,0 +1,81 @@
+[[encumbered_info]]
+=== Encumbered Information
+
+*Version:* 1.3 +
+*One line description:* When and why you can or cannot discuss or
+reference encumbered information +
+*Author(s):* Mark I Himelstein +
+*Status:* Approved +
+
+==== Version History
+
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+
+|1.3 |2022-02-28 |Comment acceptance and updates for clarity. Add
+version history. |Jeff Scheel
+
+|1.2 |2021-05-06 |Moved venue earlier so it can be used and used it in
+the item starting with "never discuss" Clarified some of the review
+process policy item |Mark Himelstein
+
+|===
+
+==== Rationale
+
+
+Create a clear and definitive set of guidelines for how and when you can and cannot discuss or reference encumbered information. Policy:
+
+. Encumbered information can have a wide set of definitions and
+instances. This policy may apply to situations where it appears that a
+good faith mistake may have been made around the sensitivity or
+licensing status of materials present in a RISC-V hosted location. If
+you have a question about whether something is encumbered, please send
+an email to help@riscv.org to set up a meeting to discuss the specifics.
+If you are unsure, consider the information encumbered until you know
+otherwise. +
+. The word "venue" used below refers to RISC-V emails, meetings,
+RISC-V GitHub or shared drive files, riscv.org website or wiki pages,
+etc.that include RISC-V staff, meetings, files. +
+. Never discuss or use encumbered information in any RISC-V venue unless
+it is clearly identifiable as greater than 20 years old (e.g. published
+paper with a date published). All later parts of this document refer to
+encumbered information as items being less than 20 years old. +
+. Never derive or copy or refer to encumbered information. If someone
+adds something to a specification that you know is encumbered, please
+alert the governing committee to determine if the specification refers
+to or copies encumbered information. If it does then have it removed
+from the specification. +
+. You may compare your results to results the originators or their
+partners or customers get from an encumbered implementation to a RISC-V
+implementation. +
+. Please pay attention to the fact that even though an open source
+implementation may exist for an item, the documents or ideas may still
+be encumbered. Unless you can solely refer to the open source code,
+please treat it as encumbered information. +
+. The Horizontal or ISA Committee should provide best-effort review of
+specifications for the use of or reference to encumbered information and
+remove it before Freeze and Vote-Ready milestones (see the
+https://docs.google.com/presentation/d/1nQ5uFb39KA6gvUi5SReWfIQSiRN7hp6z7ZPfctE4mKk/edit?usp=sharing[extension
+lifecycle]). +
+. The RISC-V Technical Program Managers will provide final review for
+encumbered information as a sign-off step to the Freeze and Vote-Ready
+Milestones (requirement for public review). +
+. If you want to discuss encumbered information, you should do this
+outside any RISC-V venue. +
+. You must also abide by the
+https://riscv.org/wp-content/uploads/2020/03/RISC-V-International-Regulations-03-11-2020.pdf[RISC-V
+regulations and rules] (found on the riscv.org website). If anything in
+this policy is contradictory to that information, the riscv.org rules
+and regulations override anything in this policy. +
+. If you have any questions please send a request for a meeting
+regarding this policy to help@riscv.org.
+
+==== Transition to start using policy +
+This will be the acting policy until approved (possibly with
+modifications before approval).
+
+==== Exceptions +
+None allowed.
+

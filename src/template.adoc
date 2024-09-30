@@ -1,0 +1,46 @@
+[[template]]
+== New Policy Template
+
+To create a new policy, perform the following steps:
+
+. Copy all information included in the block quote below into a new file. +
+. Update the `[[newname]]` label with the same name as the base neme of the new file. +
+. Add a `include::newname.adoc[]` statement to the `draft.adoc` file.
+
+[quote]
+----
+[[newname]]
+=== New Policy Name
+
+*Version:*  +
+*One line description:*  +
+*Author(s):*  +
+*Status:*  +
+
+==== Version History
+
+[width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
+|===
+|Ver |Date |Details |Name(s)
+|0.1 |YYYY-MM-DD |Original draft |Firstname Lastname
+|===
+
+==== Rationale
+
+
+==== Definitions
+
+
+==== Related documentation
+
+
+==== Policy
+
+
+==== Exception handling
+
+
+==== Transition to start using policy
+
+
+----
