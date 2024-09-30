@@ -1,5 +1,5 @@
 [[joint_working_groups]]
-=== Joint Working Groups with External Organizations
+== Joint Working Groups with External Organizations
 
 *Version:* 1.0 +
 *One line description:* policy and process to set up a joint working group
@@ -7,8 +7,7 @@ with other organizations +
 *Author(s):* Mark Himelstein +
 *Status:* Approved +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -17,7 +16,7 @@ with other organizations +
 
 |===
 
-==== Rationale
+=== Rationale
 
 RISC-V only does work for implementation independent ISA specifications
 and software ecosystem components. However, in order for members to be
@@ -32,7 +31,7 @@ These meetings are not covered by the RISC-V membership agreement. They
 do have open source and unencumbered constraints but there is no legal
 document binding us to them.
 
-==== Policy
+=== Policy
 
 RISC-V and other entities may create a Joint Working Group (JWG). We can
 create JWGs for a number of reasons including:
@@ -89,11 +88,11 @@ of conduct] +
 * Allow the JWGs to work on both machine independent and machine
 dependent components.
 
-==== Exception handling
+=== Exception handling
 
 Escalations get sent to the executives to resolve.
 
-==== Transition to start using policy
+=== Transition to start using policy
 
 Effective immediately
 

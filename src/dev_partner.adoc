@@ -1,5 +1,5 @@
 [[dev_partner]]
-=== Development Partner Model
+== Development Partner Model
 
 *Version:* 1.1 +
 *One line description:* Process and policies regarding being a development
@@ -8,8 +8,7 @@ public review and ratification +
 *Author(s):* Mark Himelstein +
 *Status:* Approved +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -29,7 +28,7 @@ simultaneously +
 
 |===
 
-==== Rationale
+=== Rationale
 
 We are starting to work with Development Partners (i.e. institutions or
 groups that are volunteering to take on Development tasks for RISC-V
@@ -47,7 +46,7 @@ for example we did not do the architecture tests for floating point when
 we ratified the extension). This model will also be used to address the
 technical debt.
 
-==== Policy
+=== Policy
 
 Ramp project to on board get a Development Partner productive :
 
@@ -56,7 +55,7 @@ initial results can be visible in a month (not including holidays). When
 we make enough progress to know we are being productive, we can expand
 the work to include more projects.
 
-===== General process
+==== General process
 
 . The RISC-V group driving the work (IC, HC, HSC, or TG) picks a liaison
 to work with the Development Partner. +
@@ -121,10 +120,11 @@ leverage that effort on the RISC-V side). +
 manager/project leader per 15 students or junior Developments maximum
 (so a big project may need both a liaison and some managers).
 
-==== Exception handling
+=== Exception handling
 
 Not applicable
 
-==== Transition to start using policy
+=== Transition to start using policy
 
 Immediately
+

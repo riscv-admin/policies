@@ -1,13 +1,12 @@
 [[rationale]]
-=== Rationale
+== Rationale
 
 *Version:* 1.1 +
 *One line description:* Provide answers to a common set of question before proposing a new ISA extension or modification of an existing ISA specification +
 *Author(s):* Mark Himelstein +
 *Status:* Approved +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -17,7 +16,7 @@
 
 |===
 
-==== Rationale
+=== Rationale
 
 We have no common way to evaluate or understand the implications for
 part or all of proposed extensions or changes to existing ratified
@@ -36,7 +35,7 @@ questionnaire. It will help keep the instruction set smaller and more
 maintainable. It will also expose some cases about what the owner is
 proposing.
 
-==== Policy +
+=== Policy +
 Questions may be answered with "not applicable" or "unknown" as
 appropriate. Please describe why it is not applicable or unknown in the
 questionnaire. Also please provide your best guess of how we can find
@@ -86,11 +85,11 @@ for the vector extension). +
 might otherwise expect? +
 .. Are there any unknowns or issues?
 
-==== Exception handling +
+=== Exception handling +
 All escalations go to the chair of the group, if unresolved then CTO, if
 unresolved then TSC.
 
-==== Transition to start using policy +
+=== Transition to start using policy +
 Start effective August 15, 2020.
 
 Specifications that are close to ratification/approval may not be able

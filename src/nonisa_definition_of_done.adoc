@@ -1,13 +1,12 @@
 [[nonisa_definition_of_done]]
-=== Non-ISA Definition of Done
+== Non-ISA Definition of Done
 
 *Version:*  1.2 +
 *One line description:* What must be completed before TSC can ratify a specification or change to a specification +
 *Author(s):* Gajinder Panesar, Arun Thomas and Greg Favor +
 *Status:* Archived +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -18,11 +17,11 @@
 |0.1 |2021-03-22 |Original draft |Gajinder Panesar, Arun Thomas and Greg Favor +
 |===
 
-==== Rationale
+=== Rationale
 
 There needs to be a documented, detailed, and consistent set of tasks to be completed during specification development to ensure that all non-ISA work items and changes are well documented, implementable and testable at all levels.
 
-==== Definitions
+=== Definitions
 
 See the
 https://docs.google.com/presentation/d/1nQ5uFb39KA6gvUi5SReWfIQSiRN7hp6z7ZPfctE4mKk/edit?usp=sharing[extension
@@ -33,7 +32,7 @@ lifecycle deck] for milestone definitions.
 The non-ISA DoD checklist contains both plan and status of non-ISA DoD
 tasks.
 
-==== Policy
+=== Policy
 
 . When a non-ISA TGs completes the definition of done tasks and wishes
 to transition to the next phase by passing the milestone, it needs to
@@ -84,7 +83,7 @@ help. +
 .. The checklist will be used to provide an update to the TG Chairs
 Committee, TSC and the CTO monthly for the board meeting.
 
-===== List of tasks
+==== List of tasks
 
 . Specification: content is complete, and approved by the task group +
 . Consistency cross-check. This is to ensure any new extensions that
@@ -114,7 +113,7 @@ did not go through the plan milestone (e.g. it was underway before the
 plan milestone was defined) then they must publish their plan before the
 Freeze milestone.
 
-==== Exception handling
+=== Exception handling
 
 Any Task Group wanting an exception from any part of this policy must get written approval from the Chairs. The exception should list the explicit rows that need to be waived, the cause for needing the waiver, and when they will get done. To set expectations:  it is likely Chairs will only grant waivers for items in the earlier part of the DoD and unlikely that Chairs will grant permanent waivers at all.  
 

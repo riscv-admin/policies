@@ -1,5 +1,5 @@
 [[universes]]
-=== Universes
+== Universes
 
 *Version:* 0.1 +
 *One line description:* An optional technical area that potentially
@@ -7,8 +7,7 @@ pervasively impacts all specifications +
 *Author(s):* Mark Himelstein +
 *Status:* Draft +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -17,7 +16,7 @@ pervasively impacts all specifications +
 
 |===
 
-==== Rationale
+=== Rationale
 
 There are optional technical areas like CHERI or GPUs that could
 potentially affect all or a pervasive amount of specifications. Rather
@@ -38,7 +37,7 @@ define meetings. We optimize meetings and try to minimize meeting
 fatigue. Meetings may include committees, SIGs and TGs from multiple
 Universes at the discretion of the meeting organizers.
 
-==== Policy
+=== Policy
 
 Establishing a Universe:
 
@@ -91,11 +90,11 @@ Universe as a prefix (e.g. "Cheri:"). Base Universe groups or
 specifications require no prefix. Anything without a prefix is expected
 to be in the Base Universe.
 
-==== Exception handling +
+=== Exception handling +
 If you have problems with implementing any of this, you should send an
 email to help@riscv.org.
 
-==== Transition to start using policy +
+=== Transition to start using policy +
 Cheri will be the test universe and we will not create any others until
 we agree that the Cheri universe is successful and the universe paradigm
 is appropriate.

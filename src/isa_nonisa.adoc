@@ -1,5 +1,5 @@
 [[isa_nonisa]]
-=== ISA & Non-ISA Specifications
+== ISA & Non-ISA Specifications
 
 *Version:* 1.1 +
 *One line description:* Differentiate governance and branding for Non-ISA
@@ -7,8 +7,7 @@ specifications and artifacts +
 *Author(s):* Mark Himelstein +
 *Status:* Approved +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -24,7 +23,7 @@ as fast track or next rev +
 
 |===
 
-==== Rationale
+=== Rationale
 
 The RISC-V charter is to specify the RISC-V ISA and formal models.
 However we need to host, encourage, and publish specifications and other
@@ -50,7 +49,7 @@ specifications and can be found in the
 https://docs.google.com/document/u/2/d/1-UlaSGqk59_myeuPMrV9gyuaIgnmFzGh5Gfy_tpViwM/edit[Ratification
 Policy].
 
-==== Policy
+=== Policy
 
 . ISA topics can be branded with "RISC-V ISA'" as a prefix like +
 *_RISC-V ISA vector extension_*. Non-ISA topics can be branded with a
@@ -106,12 +105,12 @@ clearly labeled delimited e.g. ("RISC-V Ecosystem comment" in a box,
 reader with the best possibility to understand the RISC-V ISA
 specification.
 
-==== Exception handling: +
+=== Exception handling: +
 Escalate exception requests for this policy to the TSC. Please allow two
 weeks for a response. Please include rationale, scope, and any resulting
 impact resulting from such an exception.
 
-==== Transition to start using policy
+=== Transition to start using policy
 
 . Any new specification or revision to an existing specification must
 adhere to this policy. +

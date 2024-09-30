@@ -1,5 +1,5 @@
 [[github_administration]]
-=== GitHub Repo Structure & Administration
+== GitHub Repo Structure & Administration
 
 *Version:* 1.2 +
 *One line description:* This policy governs use of RISC-V’s GitHub
@@ -7,8 +7,7 @@ organization. +
 *Author(s):* Stephano Cetola, Arun Thomas +
 *Status:* Approved +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -21,16 +20,16 @@ organization. +
 
 |===
 
-==== Rationale
+=== Rationale
 
 This document will cover the use of GitHub repositories for RISC-V. The
 goal is to work on specifications in a unified way and to promote
 collaboration and an "upstream first" mentality for all software and
 firmware development.
 
-==== Policy
+=== Policy
 
-===== General Repo Guidelines
+==== General Repo Guidelines
 
 * All RISC-V repositories will be created by RISC-V Staff. To request a
 new repo, send an email to help@riscv.org with information about the
@@ -115,7 +114,7 @@ continue to make progress at regular intervals in a timely fashion,
 preferable within 1-2 working days. +
 ** This can be done in the README or in a separate file.
 
-===== RISC-V Administrative Repos
+==== RISC-V Administrative Repos
 
 * Every Task Group must store their charter in a GitHub Repository +
 ** If there are multiple repositories for the Task Group they can choose
@@ -131,7 +130,7 @@ once available. +
 GitHub repo
 ** Please store minutes by date
 
-===== RISC-V Specifications Repos
+==== RISC-V Specifications Repos
 
 * Each ISA specification repo must contain an errata folder. +
 ** The folder must contain text files which detail the errata and
@@ -158,7 +157,7 @@ https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin[Developer
 Certification of Origin] (DCO) signoff process when commiting code (see
 https://git-scm.com/docs/git-commit[git-commit -s]).
 
-===== Software and Firmware Repos
+==== Software and Firmware Repos
 
 * We prefer to do work in upstream repositories rather than development
 forks if possible. +
@@ -185,7 +184,7 @@ file or documentation on how to properly upstreamed code.
 1 giant commit if that upstream repo works off small incremental
 changes.
 
-==== Exception Handling
+=== Exception Handling
 
 The CTO is the escalation path for all policy issues, with the authority to resolve them or, if necessary, escalate further to the TSC or the BOD.
 

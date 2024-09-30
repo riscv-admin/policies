@@ -1,5 +1,5 @@
 [[act]]
-=== Architectural Compatibility Test
+== Architectural Compatibility Test
 
 *Version:* 1.2 +
 *One line description:* These are the rules that explain the rationale
@@ -8,8 +8,7 @@ architectural tests, and conditions for waiving failures. +
 *Author(s):* Allen Baum, Ken Dockser +
 *Status:* Approved +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -24,7 +23,7 @@ architectural tests, and conditions for waiving failures. +
 |===
 
 
-==== Rationale
+=== Rationale
 
 RISC-V Architectural Tests (ACT) are an evolving set of tests that are
 created to help ensure that SW written for a given RISC-V Profile will
@@ -47,9 +46,9 @@ The RISC-V Architectural Tests are *_not_* a substitute for rigorous
 design verification; it is the responsibility of the implementer to
 deploy extensive testing.
 
-==== Policy
+=== Policy
 
-===== Who Must Test
+==== Who Must Test
 
 Anyone who develops RTL or a functional model for a RISC-V core and
 wants to be listed as RISC-V ISA Compatible (e.g., in order to use the
@@ -67,7 +66,7 @@ the new design listed as RISC-V ISA Compatible by passing the
 appropriate RISC-V ACT and by self-certifying that the changed design is
 RISC-V compatible.
 
-===== What Must be Tested
+==== What Must be Tested
 
 The RTL or functional model of the core design must run and pass all of
 the tests within the ACT that RISC-V International says are required for
@@ -100,7 +99,7 @@ the tests in a repository README file. This will also include which
 reference model to use for the test as well as any other environmental
 requirements (e.g., amount of RAM).
 
-===== Where to Report Test Results
+==== Where to Report Test Results
 
 The ACT framework will generate a test report file with the name +
 <instanceID>-<test-date>.html with the <test-date> in YYYY-MM-DD format
@@ -141,14 +140,14 @@ Vendors can submit their test results by filing a Pull Request that adds
 the test report into a directory named for the vendor in the
 https://github.com/riscv/riscv-arch-test-reports repository
 
-===== *When to Report Test Results*
+==== When to Report Test Results
 
 To retain their RISC-V ISA Compatibility listing, cores must pass the
 ACT yearly if ACT tests, toolchain, reference simulators, or framework
 change from those used to generate the test report, and issue errata if
 new issues are found.
 
-===== Test-Case Waivers
+==== Test-Case Waivers
 
 There are some special cases where it is not possible for an
 implementation to pass all of the tests due to issues that may be
@@ -169,7 +168,7 @@ the same PR number as the waiver.
 Waivers are categorized into Flawed-Test,Constraint-Based, and
 Errata-Based types.
 
-====== Flawed-test test-case waiver
+===== Flawed-test test-case waiver
 
 If there is a demonstrable bug in the test, reference model, or tool
 chain that causes a test to fail, a Flawed-Test Test-Case Waiver may be
@@ -188,7 +187,7 @@ test-report for the most recent test-suite. +
 architecture. Cases that involve architectural ambiguity should be
 resolved by clarification in the specification.
 
-====== Constraint-based test-case waiver
+===== Constraint-based test-case waiver
 
 Constraint waivers may be granted in special cases including when:
 
@@ -203,7 +202,7 @@ In order to qualify for and be granted a constraint-based waiver:
 * The implementer must document the constraint and its rationale to TSC,
 and demonstrate that it is an architecturally valid configuration.
 
-====== Errata-based test-case waiver
+===== Errata-based test-case waiver
 
 Errata-based waivers may be granted in special cases including when:
 
@@ -256,7 +255,7 @@ implementations (e.g., the physical design is substantially changed) as
 these are considered new designs; implementers are expected to use this
 opportunity to fix known bugs.
 
-===== Test-case waiver conditions
+==== Test-case waiver conditions
 
 When a test-case waiver is granted, it
 
@@ -284,7 +283,7 @@ All waivers must be approved by a majority vote of the appropriate ISA
 Committee (i.e., privileged or unprivileged) and the SW or other related
 non-ISA HC..
 
-===== Test Case Failures due to ISA restrictions or ambiguity
+==== Test Case Failures due to ISA restrictions or ambiguity
 
 If a design fails on a test case, and the implementer believes that the
 failure is due to either an ambiguity in the ISA or that the ISA is
@@ -320,7 +319,7 @@ ACT point to a major gap in the understanding of the architecture or the
 design verification process.
 ====
 
-==== Exceptions
+=== Exceptions
 
 Exceptions to the test requirements are handled through the waiver
 process and changes to the ISA as mentioned above.
@@ -332,3 +331,4 @@ be only supported through vendor efforts and not through RISC-V.
 
 Any escalation should occur to the CTO who may choose to resolve the
 issue, or escalate to the TSC or the CEO or the BOD.
+

@@ -1,13 +1,12 @@
 [[fast_track_extension]]
-=== Fast Track Architecture Extension
+== Fast Track Architecture Extension
 
 *One line description:* ast track process for developing "small"
 architecture extensions +
 *Author(s):* Greg Favor +
 *Status:* Approved +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -40,7 +39,7 @@ Committee (TSC). The TSC requires notification of these delegated tasks
 is received within 14 days after notification the decision can be
 considered approved. +
 
-==== Rationale
+=== Rationale
 
 The standard Task Group process is unnecessarily heavyweight,
 cumbersome, and slow for developing and standardizing "small"
@@ -51,7 +50,7 @@ conducting a new Task Group, while ensuring suitable quality control
 over this process under the oversight and approval of the relevant
 Horizontal or ISA Committee.
 
-==== Policy
+=== Policy
 
 This fast track process is a means to create a relatively small
 architecture extension without the overheads of creating and running a
@@ -187,11 +186,11 @@ links are to the extension-specific documents for each line item to
 enable the TSC and Board members to quickly and easily look up the
 specific details. +
 
-==== Transition to start using policy
+=== Transition to start using policy
 
 Immediately, once approved.
 
-==== Exceptions
+=== Exceptions
 
 The CTO is the escalation path for all policy issues, with the authority
 to resolve them or, if necessary, escalate further to the TSC or the

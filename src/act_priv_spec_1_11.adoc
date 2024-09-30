@@ -1,5 +1,5 @@
 [[act_priv_spec_1_11]]
-=== ACT Requirements for Privileged 1.11 Specification
+== ACT Requirements for Privileged 1.11 Specification
 
 *Version:* 0.2 +
 *One line description:* This policy describes simplified Architectural
@@ -7,10 +7,9 @@ Compatibility Test (ACT) requirements for the privileged specification.
 This policy is temporary and will be replaced by a standard ACT suite in
 the future. +
 *Author(s):* Greg Favor, Arun Thomas +
-*Status:* Approved +
+*Status:* Archived +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -21,7 +20,7 @@ the future. +
 |0.1 |2021-05-03 |Original draft |Greg Favor, Arun Thomas
 |===
 
-==== Rationale
+=== Rationale
 
 https://docs.google.com/document/u/2/d/1ZKSLQ5HPT3E_CqTVOQlBPs7qJ9v1mpnMDXHhtOQJFcU/edit[Architectural
 Compatibility Tests (ACT)] are required for Privileged Specification
@@ -32,7 +31,7 @@ compatibility testing methodology based on running operating system and
 hypervisor software that exercises new features added in Privileged
 Specification 1.12.
 
-==== Policy:
+=== Policy:
 
 . In lieu of member’s running ACT suite for Privileged Specification
 1.12 features which are intended to be used for compatibility,
@@ -70,5 +69,5 @@ corner cases. +
 . This policy is temporary and applies only to Privileged Specification
 1.12 ratification.
 
-==== Transition to start using policy: +
+=== Transition to start using policy: +
 Immediate

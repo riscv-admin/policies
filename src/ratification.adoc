@@ -1,5 +1,5 @@
 [[ratification]]
-=== Ratfication
+== Ratification
 
 *Version:* 1.7 +
 *One line description:* These are the rules governing the ratification
@@ -7,8 +7,7 @@ of RISC-V Specifications +
 *Author(s):* Mark Himelstein, Stephano Cetola +
 *Status:* Approved +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -55,14 +54,14 @@ Stephano Cetola
 
 |===
 
-==== Rationale
+=== Rationale
 
 Ratification of extensions is one of the most important charters given to RISC-V International. This document calls out specific steps necessary such that both the groups and committees developing extensions conform to a process that is publicly documented.
 
 We are an open and transparent community of developers. It is our goal
 to produce specifications that adhere to best open source practices.
 
-==== Definitions
+=== Definitions
 
 _Initiator_: The requester of an extension or specification.
 
@@ -111,7 +110,7 @@ the lifecycle but the Author is not directly responsible for interfacing
 with the Governing Committee or TPMs, but likely will be involved in the
 specification review with the Architecture Review Committee.
 
-==== Policy
+=== Policy
 
 The ratification process starts with the lifecycle. Please see the
 lifecycle
@@ -158,7 +157,7 @@ complete solutions. As such they may refer to existing specifications,
 future specifications as well as normative text to fill in pieces
 missing from those specifications.
 
-===== Plan Milestone
+==== Plan Milestone
 
 * The Plan Milestone focuses on the planning activities for the
 specification including the schedule, resources and criteria which may
@@ -171,7 +170,7 @@ presentation of the planning information. +
 Public Review duration which shall be a minimum of 30 days. The duration
 will be presented as a part of the Plan Milestone Review to Tech Chairs.
 
-===== Freeze Milestone
+==== Freeze Milestone
 
 * The TG will make sure the Acceptance Criteria is accurate for the
 freeze milestone and notify help@riscv.org that it is ready for signoff
@@ -239,7 +238,7 @@ This must be done in advance of the Ratification-ready sign-off to
 provide time for the HC/IC chairs to review. (The intent is to automate
 this step.)
 
-===== Ratification-Ready Milestone
+==== Ratification-Ready Milestone
 
 * The TG will make sure the Acceptance Criteria is accurate for the
 ready milestone and notify help@riscv.org that it is ready for signoff
@@ -283,7 +282,8 @@ extension in a new specification. HCs may approve any non-substantive
 changes (editing, formatting, clarifications, etc.) at any time in a
 ratified specification.
 
-==== Exceptions
+=== Exceptions
 
 Any exceptions get escalated to the CTO who may choose to resolve the
 issue, or escalate to the TSC or the CEO or the BOD.
+

@@ -1,13 +1,12 @@
 [[gnu_toolchain_signoff_criteria]]
-=== GNU Tool Chain Sign-Off Criteria
+== GNU Tool Chain Sign-Off Criteria
 
 *Version:*  1.1 +
 *One line description:*  Criteria for acceptance of GNU tool chain modifications +
 *Author(s):*  Tariq Kurd, Huawei; Jeremy Bennett, Embecosm +
 *Status:*  Approved by Toolchain & Runtimes SSC on 28 Jan 2021 +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -18,13 +17,13 @@
 |===
 
 
-==== Rationale
+=== Rationale
 
 Various task groups commission work to add GNU tool chain support for extensions and features.  This policy provides a baseline set of sign-off criteria. It also serves as a framework for other software projects requiring sign-off criteria.
 
 Components affected are GNU assembler (GAS), GNU linker, GNU binutils, GNU CGEN, GNU Compiler Collection (GCC), libgcc (emulation library), newlib/GlibC and the GNU debugger (GDB).  Not all of these are necessarily affected. Typically only C/C++ support is considered, but for some projects, support for other languages may be appropriate.
 
-==== Policy
+=== Policy
 
 . All contributors must have FSF copyright assignment agreements in place. All code must have been transferred to the FSF, which is achieved by adding FSF copyright declarations at the top of all source files. +
 . The project should have added regression tests in the following categories where relevant. +
@@ -50,15 +49,15 @@ This may require extending Spike and/or QEMU.  Depending on the specific work, t
 There are different maintainers for different tools, so more than one approver may be needed. +
 . The project must be signed off by the Toolchain & Runtimes SSC, who have responsibility for coordination with other projects and can defer that sign-off and responsibility to appropriate subcommittees. +
 
-==== Exception handling
+=== Exception handling
 
 None
 
-==== Transition to start using policy
+=== Transition to start using policy
 
 Immediate on approval
 
-==== Next steps
+=== Next steps
 
 . Review by T&R mailing list with timeout to the next T\&R meeting (2020-01-28) +
 . Review of policy with recommendation by TSC  & Chairs with a two week timeout on immediately following next T\&R meeting (extendable on request by reviewers by two weeks). +

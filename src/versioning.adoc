@@ -1,13 +1,11 @@
 [[versioning]]
-=== Versioning
+== Versioning
 
 *Version:* 0.1 +
 *One line description:* Rules governing how we version RISC-V
 artifacts +
 *Author(s):* Philipp Tomsich, Stephano Cetola, Rafael Sene +
 *Status:* Draft +
-
-==== Version History
 
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
@@ -18,21 +16,21 @@ artifacts +
 
 |===
 
-==== Rationale
+=== Rationale
 
 We use version numbers for RISC-V items like specifications, standards,
 and software. It’s crucial for everyone, both inside and outside of the
 RISC-V community, to understand these version numbers.
 
-==== Policy
+=== Policy
 
-===== Versioning Standard
+==== Versioning Standard
 
 * We follow "semantic versioning" 2.0.0. Details can be found at
 https://semver.org/spec/v2.0.0.html[SemVer]. +
 * The first official version of any item is 1.0.0.
 
-===== Version Structure
+==== Version Structure
 
 We follow the X.Y.Z-STATUS:
 
@@ -58,13 +56,13 @@ like +[build-date]. +
 development version and the cycle restarts. For instance, if the last
 ratified version is 1.2.3, the next cycle will start with 2.0.0-dev.
 
-==== Exception handling
+=== Exception handling
 
 None.
 
-==== Transition to start using policy +
+=== Transition to start using policy +
 [TEXT or "Immediate on approval"]
 
-==== Next steps
+=== Next steps
 
 . ...

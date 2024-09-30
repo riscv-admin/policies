@@ -1,5 +1,5 @@
 [[question_response]]
-=== Question Response 
+== Question Response 
 
 *Version:* 1.1 +
 *One line description:* Answer member questions reliably within a SLA and
@@ -7,8 +7,7 @@ identify who is responsible for ensuring questions are answered +
 *Author(s):* Mark I Himelstein +
 *Status:* Approved +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -19,7 +18,7 @@ identify who is responsible for ensuring questions are answered +
 
 |===
 
-==== Rationale
+=== Rationale
 
 This is a best practice. We need this policy because when people ask
 questions to the general email lists sometimes no one responds.
@@ -32,7 +31,7 @@ committees and their chairs and vice-chairs to achieve. There is no
 intent to enforce this in any way. Obviously there will be times that it
 cannot or does not happen
 
-==== Policy
+=== Policy
 
 This policy applies to any question from technical to procedural to
 resources etc.
@@ -82,7 +81,7 @@ group to defer the question for a fixed time or indefinitely.
 If requesters don’t know where to send a question they should do so to
 help@riscv.org.
 
-==== Exception handling +
+=== Exception handling +
 Escalate to help@riscv.org if you don’t get a response after trying
 twice.
 

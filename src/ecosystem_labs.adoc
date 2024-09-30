@@ -1,13 +1,12 @@
 [[ecosystem_labs]]
-=== Ecosystem Labs
+== Ecosystem Labs
 
 *Version:* 1.2 +
 *One line description:* processes and policies regarding being a RISC-V Ecosystem Lab +
 *Author(s):* Mark Himelstein, Jeff Scheel +
 *Status:* Approved +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -29,7 +28,7 @@ requirements. Allow for self-defined capacity and SLA. |Jeff Scheel
 
 |===
 
-==== Rationale
+=== Rationale
 
 The main goal of the RISC-V Ecosystem Labs program is to make RISC-V successful,
 either as a vendor or industry proponent, through the following
@@ -45,7 +44,7 @@ improving the hardware and software ecosystem +
 developers and researchers. +
 * Connecting RISC-V Labs with vendors to provide early hardware access
 
-==== Policy
+=== Policy
 
 RISC-V Ecosystem Labs offer one or more of the following:
 
@@ -134,9 +133,10 @@ to comply by the correction deadline will result in their approval being
 revoked in writing and from their logo being removed from the program
 page.
 
-==== Exception handling +
+=== Exception handling +
 If you have problems with implementing any of this, you should send an
 email to help@riscv.org.
 
-==== Transition to start using policy +
+=== Transition to start using policy +
 Immediately upon approval
+

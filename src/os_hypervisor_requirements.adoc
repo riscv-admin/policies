@@ -1,5 +1,5 @@
 [[os_hypervisor_requirements]]
-=== OS & Hypervisor Requirements for Specification Ratification
+== OS & Hypervisor Requirements for Specification Ratification
 
 *Version:* 0.1 +
 *One line description:* Provide a reference implementation (as a patchset)
@@ -8,8 +8,7 @@ FreeRTOS/Zephyr. +
 *Author(s):* Philipp Tomsich +
 *Status:* Draft +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -20,7 +19,7 @@ FreeRTOS/Zephyr. +
 
 |===
 
-==== Rationale
+=== Rationale
 
 This policy provides a reference implementation (as a patchset)
 providing basic enablement for the following (see `Plan Requirements'):
@@ -54,7 +53,7 @@ is also needed: the choice of FreeRTOS is based on its minimalist design
 (which we consider to cause the least learning curve and smallest
 possible reference case for implementers).
 
-==== Policy +
+=== Policy +
 *Application Notes* +
 Application notes for the Plan milestone, Freeze milestone, and
 Approval-milestone follow. +
@@ -66,7 +65,7 @@ be presented (by the group developing the extension) and approved (by
 the Software HC) — i.e., the group states what parts of the stack they
 will modify and why only these are required.
 
-===== Plan requirements
+==== Plan requirements
 
 * The group responsible for an extension shall create an `applicability
 & impact statement' for the extension, which details the software
@@ -96,7 +95,7 @@ HC meeting) and received sign-off from the Software HC. +
 impact on the software ecosystem and whether independent evaluation and
 experimentation are possible with the proposed plan.
 
-===== Freeze requirements
+==== Freeze requirements
 
 * The proposed patches for the enablement have been sent to the
 communities governing the upstream projects identified in the Plan as
@@ -110,13 +109,13 @@ an effective review and foster good community relations), +
 ** include a cover letter explaining the purpose of the extension,
 request a community review, and reference the frozen documentation
 
-===== Ratification-ready requirements
+==== Ratification-ready requirements
 
 * Feedback from the upstream communities (e.g. Linux, KVM, OpenSSL,
 etc.) has been received (if not: it is the TGs responsibility to follow
 up!) and any comments have been treated as public review comments (and,
 consequently, been addressed)
 
-==== Transition to start using policy +
+=== Transition to start using policy +
 Immediate
 

@@ -1,12 +1,12 @@
 [[ccm_guest_policy]]
-=== Committee Chair Meeting (CCM) Guests
+== Committee Chair Meeting (CCM) Guests
 
 *Version:* 1.1 +
 *One line description:* Under what circumstances do we allow/ask guests to join CCM +
 *Author(s):* Mark Himelstein, Stephano Cetola +
 *Status:* Approved +
 
-==== Version History
+*Version History:* +
 
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
@@ -18,7 +18,7 @@
 
 |===
 
-==== Rationale
+=== Rationale
 
 Numerous members have asked to present or attend the CCM who are not
 committee chairs or Premier members or Premier TSC members. In order to
@@ -26,7 +26,7 @@ be fair about who gets to visit, when they get to visit, what part of
 the meeting they can attend, and the process for such requests, we
 developed this policy.
 
-==== Policy
+=== Policy
 
 . Guests may request to present to the CCM by approaching a member of
 the CCM and asking them to sponsor the presentation. Guests who don’t
@@ -64,12 +64,13 @@ Guests are not permitted to join the general CCM for the same reasons. +
 may designate a stand-in. That substitute cannot vote, but can attend
 the meeting and participate in discussions.
 
-==== Exception handling
+=== Exception handling
 For any escalations about guests being turned down (either by the
 sponsor or by the CCM), please contact the CTO. +
 The TSC chair and CTO may jointly ask a guest to join a non-presentation
 conversation if they feel the member is needed to conduct the
 conversation. Guests may not request this.
 
-==== Transition to start using policy
+=== Transition to start using policy
 Immediate
+

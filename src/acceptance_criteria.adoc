@@ -1,12 +1,12 @@
 [[acceptance_criteria]]
-=== Acceptance Criteria
+== Acceptance Criteria
 
 *Version:* 1.2 +
 *One line description:* What must be complete before TSC can approve a specification for ratification +
 *Author(s)*: Mark I Himelstein, Stephano Cetola +
 *Status:* Approved +
 
-==== Version History
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -24,13 +24,23 @@ https://docs.google.com/spreadsheets/d/1iXUZdNH6aZ-EDxsOqhYW82Ha6L7K4uVZt0-Rw9ZR
 Status Checklist] |Stephano Cetola
 |===
 
-===== Milestone
+=== Rationale
+
+This document acts as a minimum viable definition of tasks, while the
+https://docs.google.com/spreadsheets/d/1iXUZdNH6aZ-EDxsOqhYW82Ha6L7K4uVZt0-Rw9ZR-nY/edit?usp=sharing[ISA
+Status Checklist] contains the details. For any given specification, see
+the relevant status checklist for how that specification meets the
+requirements defined in this policy.
+
+=== Related documentation
+
+==== Milestone
 See the
 https://docs.google.com/presentation/d/1nQ5uFb39KA6gvUi5SReWfIQSiRN7hp6z7ZPfctE4mKk/edit?usp=sharing[Specification
 Lifecycle and Milestone Definitions] for more detailed milestone
 definitions.
 
-===== Task
+==== Task
 
 See the
 https://docs.google.com/spreadsheets/d/1iXUZdNH6aZ-EDxsOqhYW82Ha6L7K4uVZt0-Rw9ZR-nY/edit?usp=sharing[ISA
@@ -41,15 +51,7 @@ for Non-ISA Specifications] are much more flexible based on the nature
 of Non-ISA Specifications. This document is meant only as a guide for
 Non-ISA Specifications and Architectural Overview specifications.
 
-==== Rationale
-
-This document acts as a minimum viable definition of tasks, while the
-https://docs.google.com/spreadsheets/d/1iXUZdNH6aZ-EDxsOqhYW82Ha6L7K4uVZt0-Rw9ZR-nY/edit?usp=sharing[ISA
-Status Checklist] contains the details. For any given specification, see
-the relevant status checklist for how that specification meets the
-requirements defined in this policy.
-
-==== Policy
+=== Policy
 
 The TG must complete or provide waivers for all of the
 link:#list-of-tasks[List of Tasks] to reach the given milestone. The TG
@@ -62,9 +64,9 @@ checklist] by:
 . Providing milestone date projections and a monthly status updates +
 . Identifying any delays and providing mitigation plans
 
-===== List of Tasks
+==== List of Tasks
 
-====== Freeze
+===== Freeze
 
 . *Document Complete* - the document must describe the semantics of
 instructions or operations and any other extension-specific visible
@@ -95,7 +97,7 @@ waiver. The committee may ask for revisions in the POC. +
 (e.g. encumbered information, friendly terminology, anonymous
 contributor) currently in development.
 
-====== Ratification Ready
+===== Ratification Ready
 
 . *Resolve Freeze Waivers* - Either resolve freeze waivers or get new
 waivers for vote-ready updating the status of the old waivers. +
@@ -123,7 +125,7 @@ RISC-V profile. +
 (e.g. encumbered information, friendly terminology, anonymous
 contributor) currently in development.
 
-===== Waivers
+==== Waivers
 
 Waivers for Freeze are approved by Tech Chairs 6+ majority vote. Waivers
 for ratification are approved by TSC 6+ majority vote.
@@ -132,7 +134,7 @@ For ratification, any infrastructure that does not exist and will not
 exist within the next year requires a Committee Chairs majority vote to
 waive, and for the TSC to be notified of the waiver (and may override).
 
-==== Exceptions
+=== Exceptions
 
 The CTO is the escalation path for all policy issues, with the authority
 to resolve them or, if necessary, escalate further to the TSC or the

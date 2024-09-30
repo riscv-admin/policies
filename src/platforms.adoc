@@ -1,5 +1,5 @@
 [[platforms]]
-=== Platforms
+== Platforms
 
 NOTE: This policy is out-of-date but will not be updated until 2023.
 It is left here for historical reasons.
@@ -9,8 +9,7 @@ It is left here for historical reasons.
 *Author(s):* Philipp Tomsich +
 *Status:* Approved +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<15%,<15%,<40%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -37,7 +36,7 @@ leadership. |Philipp Tomsich
 
 |===
 
-==== Rationale
+=== Rationale
 
 This document summarizes the policies and procedures adopted for RISC-V
 Platforms.
@@ -53,7 +52,7 @@ All RISC-V Platforms are developed and released by the Platforms
 Horizontal Subcommittee, operating under the auspices of the Software
 Horizontal Committee.
 
-===== Intended audience
+==== Intended audience
 
 This policy document targets the following audiences:
 
@@ -63,14 +62,14 @@ Subcommittee +
 * Architects and Integrators of software and hardware solutions for the
 RISC-V ecosystem
 
-===== How to read this document
+==== How to read this document
 
 This policy interleaves Rationale and Policy. +
 For easier readability, the policy elements are *highlighted in bold
 type*.
 
 [[platforms-policy]]
-==== Policy
+=== Policy
 
 A solid foundation for software development and interoperability is
 required to support the growth of the software ecosystem for RISC-V.
@@ -94,7 +93,7 @@ Both hardware and software are expected to claim compatibility towards a
 given Platform: such a compatibility claim indicates interoperability
 for any combination of compatible hardware and software.
 
-===== Scope
+==== Scope
 
 The focus of the platform standards is software-centric. However, both
 software and hardware will be affected by the requirements put forth in
@@ -108,7 +107,7 @@ Consequently, a Platform shall avoid performance requirements or whether
 mechanisms have to be implemented in hardware (i.e. if they can be
 emulated through trap-and-emulate).
 
-===== Specification coverage
+==== Specification coverage
 
 *The Platforms released must cover at least the following runtime
 environments:*
@@ -146,7 +145,7 @@ products are compliant "__with the mobile and automotive extensions__"
 (both mobile and automotive include virtualization features) rather than
 “_with the virtualization, mobile and automotive extensions.”_
 
-===== Naming and Versioning
+==== Naming and Versioning
 
 *The full name of each platform shall be constructed as follows:*
 
@@ -163,7 +162,7 @@ Platform 2022.3".
 *Only official Platforms released by RISC-V International can use the
 "RISC-V" prefix.*
 
-===== Machine-readable identification and experimental versions
+==== Machine-readable identification and experimental versions
 
 *For machine-identifiable purposes, we use an URI-encoded name, where
 the scheme is prefixed as `riscv-platform' for official/standardized
@@ -180,7 +179,7 @@ cannot use `RISC-V' as part of their platform name)*.
 shall result in a valid URL that hosts the specification and ancillary
 documentation.*
 
-===== Claiming Compatibility
+==== Claiming Compatibility
 
 Products implementing a RISC-V Platform shall claim compatibility with a
 Platform and any applicable extensions that the product implements.
@@ -234,7 +233,7 @@ compatibility tests for the profile included in the platform spec).
 After passing the PCT, please follow the steps at the following RISC-V
 website http://www.riscv.org/TBD[www.riscv.org/TBD].
 
-===== Structure
+==== Structure
 
 *Platforms consist of:*
 
@@ -277,7 +276,7 @@ back to Requirements. +
 * *Rationales and application notes must reference the corresponding
 requirement or subclause*.
 
-===== Deprecation of requirements
+==== Deprecation of requirements
 
 Platforms address both _forward compatibility_ and _backward
 compatibility:_
@@ -310,7 +309,7 @@ requirement).
 products to drop the respective feature, as long as the feature is not
 incompatible with any new requirements.*
 
-===== No non-obvious requirements
+==== No non-obvious requirements
 
 Platforms will frequently reference third-party documents,
 specifications and standards. This introduces the risk of affecting
@@ -323,7 +322,7 @@ requirements resulting from third-party specifications. If necessary,
 the list of mandatory requirements introduced through any document
 reference must be repeated in the Platform specification.*
 
-==== *Platforms release cycle and versioning*
+=== Platforms release cycle and versioning
 
 *Major versions of platform specifications are published in a bi-annual
 cadence for even years.* While no major revisions of the platform
@@ -333,9 +332,9 @@ up to date with new Profiles.
 
 Amendments and new extensions are published as-needed.
 
-==== Platforms Lifecycle
+=== Platforms Lifecycle
 
-===== Inception
+==== Inception
 
 *A new platform specification or an extension can be proposed to the
 Platform HSC by:*
@@ -356,18 +355,18 @@ and software products.* Following this inquiry process, the Platform HSC
 submits the proposal—including a schedule to release—to the Software
 Horizontal Committee for resource and schedule approval.
 
-===== Preparatory stage
+==== Preparatory stage
 
 If resources and schedules are approved, the Platform HSC drafts a
 specification document. After completion, it is submitted to the
 Software HC for review and approval.
 
-===== Publication stage
+==== Publication stage
 
 After approval by the Software HC, it is published and enters into
 immediate effect.
 
-==== Retirement of Platforms
+=== Retirement of Platforms
 
 Corrections are not issued to update information that has become
 outdated since publication. +
@@ -376,7 +375,7 @@ version. +
 *In general, a correction will not be issued for a publication that is
 older than three years.*
 
-==== Exceptions
+=== Exceptions
 
 Implementations (both hardware and software) may decide not to be
 compatible with any Platform, as long as no misleading compatibility

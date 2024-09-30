@@ -1,13 +1,12 @@
 [[profiles]]
-=== Profiles
+== Profiles
 
 *Version:* 3.3 +
 *One line description:* Rules for profiles +
 *Author(s):* Mark Himelstein +
 *Status:*  +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -19,11 +18,11 @@
 
 |===
 
-==== Rationale
+=== Rationale
 
 We need to define Profiles and how they work. (Note that profiles were called collections for a short period of time and the name was changed to match well known industry standards). Using the year we are beginning is meant so that the profile does not sound antiquated the moment it is released and since it is on the cusp of the year it could have gone either way.
 
-==== Definitions
+=== Definitions
 
 Organization acronyms can be found in the organization slide doc
 https://docs.google.com/presentation/d/1eEVuu6lRZd9iiDnZQSZME7Q7svtTG3pGIKHPmZ79B8E/edit?usp=sharing[here].
@@ -81,9 +80,9 @@ optional extensions. For example Zfinx will likely be optional in RVM
 but incompatible with RVA because the floating point instructions use
 the separate floating point registers.
 
-==== Policy
+=== Policy
 
-===== Profiles:
+==== Profiles:
 
 . Profiles are defined and approved by the TSC. +
 . TSC should publish the updated roadmap by April 1 of each year, using
@@ -128,7 +127,7 @@ are complete, and they pass the tests. +
 mechanism) and still have non-conforming extensions if those extensions
 don’t conflict in any way with required or optional standard extensions.
 
-==== Transition to start using policy
+=== Transition to start using policy
 
 This will be the acting policy until approved (possibly with modifications before approval). 
 
@@ -139,7 +138,7 @@ is granted.
 All implementers and TGs must comply with the strings and versions
 described in this policy immediately.
 
-==== Exceptions
+=== Exceptions
 
 Profile naming and versioning exceptions must be approved by the TSC.
 

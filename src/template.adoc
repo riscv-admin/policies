@@ -10,37 +10,36 @@ To create a new policy, perform the following steps:
 [quote]
 ----
 [[newname]]
-=== New Policy Name
+== New Policy Name
 
 *Version:*  +
 *One line description:*  +
 *Author(s):*  +
 *Status:*  +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
 |0.1 |YYYY-MM-DD |Original draft |Firstname Lastname
 |===
 
-==== Rationale
+=== Rationale
 
 
-==== Definitions
+=== Definitions
 
 
-==== Related documentation
+=== Related documentation
 
 
-==== Policy
+=== Policy
 
 
-==== Exception handling
+=== Exception handling
 
 
-==== Transition to start using policy
+=== Transition to start using policy
 
 
 ----

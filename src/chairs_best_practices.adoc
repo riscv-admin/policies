@@ -1,13 +1,12 @@
 [[chairs_best_practices]]
-=== Chairs Best Practices
+== Chairs Best Practices
 
 *Version:* 1.5 +
 *One line description:* Guidance on practices if you are a chair or vice-chair +
 *Author(s):* Charlie Su, Mark Himelstein, Jeff Scheel +
 *Status:* Approved +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -23,14 +22,14 @@ of inappropriate behavior. |Jeff Scheel
 
 |===
 
-==== Rationale
+=== Rationale
 
 Chairs may or may not have had experience running a group in an Open
 Source community or with broad company and geographical diversity. This
 policy provides best practices. These are not rules. Take what works and
 leave the rest.
 
-==== Related documentation
+=== Related documentation
 
 * https://docs.google.com/presentation/d/1eEVuu6lRZd9iiDnZQSZME7Q7svtTG3pGIKHPmZ79B8E/[RISC-V
 Technical Organization] +
@@ -50,9 +49,9 @@ of Done policy] +
 spreadsheet] +
 * https://jira.riscv.org/secure/Dashboard.jspa[RISC-V Jira Dashboard]
 
-==== Policy
+=== Policy
 
-===== Getting started
+==== Getting started
 
 * Familiarize yourself with the
 https://docs.google.com/presentation/d/1eEVuu6lRZd9iiDnZQSZME7Q7svtTG3pGIKHPmZ79B8E/[RISC-V
@@ -111,7 +110,7 @@ milestone] for the
 https://docs.google.com/document/u/2/d/1Hp9ZZSzjk6Tp2pIvh33mNCj6wAoJCEqsdENQUTSruQg/edit[definition
 of done]. +
 
-===== Regular group meetings
+==== Regular group meetings
 
 * Do as much in email without meetings as you can
 ** Take items offline as appropriate +
@@ -158,7 +157,7 @@ conversation back to the issue at hand. +
 ** Report the incident to either help@riscv.org or to the code of
 conduct email, conduct@riscv.org. +
 
-===== Ongoing tasks
+==== Ongoing tasks
 
 * *Manage extension/feature lifecycle. This should be the highest
 priority*
@@ -190,7 +189,7 @@ partners" tab. Put in as much as you can, especially the name of the
 technical person from the group who will be overseeing the work with the
 DevPartner (column marked "RISC-V liaison") +
 
-===== Evangelism
+==== Evangelism
 
 * Grow partners and/or members for the group. If you identify people or
 entities that should be involved but are not and you don’t how to reach
@@ -198,7 +197,7 @@ out to them, send email to help@riscv.org +
 * Provide SWOT (strengths, weakness, opportunities and threats)
 analysis and promotion plan for the group technologies +
 
-===== Other activities
+==== Other activities
 
 * Promote the groups’ technologies in conferences and seminars +
 * Recognize that there are two logical roles for each group:
@@ -224,10 +223,11 @@ members even if their effort needs more work.
 If you have any questions please ask for a meeting regarding this policy
 to help@riscv.org.
 
-==== Transition to start using policy
+=== Transition to start using policy
 
 Active as of now as it is only advice
 
-==== Exceptions
+=== Exceptions
 
 Not applicable
+

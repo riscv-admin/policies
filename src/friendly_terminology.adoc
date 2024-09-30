@@ -1,5 +1,5 @@
 [[friendly_terminology]]
-=== Friendly Terminology
+== Friendly Terminology
 
 *Version:* 1.2 +
 *One line description:* Modern word choice for terminology that is
@@ -7,8 +7,7 @@ friendly for everyone +
 *Author(s):* Mark Himelstein +
 *Status:* Approved +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -24,13 +23,13 @@ history. |Jeff Scheel
 
 |===
 
-==== Rationale
+=== Rationale
 
 Historical word choice is no longer considered acceptable so we need to
 change some existing terminology in RISC-V documentation (created and
 owned) as well as future documentation.
 
-==== Policy +
+=== Policy +
 Employ inclusive and friendly terminology.
 
 . The RISC-V Foundation, like the Linux Foundation, will use the
@@ -50,7 +49,7 @@ monthly (and as appropriate to the TSC and BOD) +
 . New specifications are reviewed during the Freeze and
 Ratification-Ready milestone work in the Status Checklist.
 
-==== Exception handling +
+=== Exception handling +
 None allowed for RISC-V specifications.
 
 When RISC-V members collaborate with third-party projects or reference
@@ -72,6 +71,6 @@ decided:
 need
 |===
 
-==== Transition to start using policy +
+=== Transition to start using policy +
 Effective immediately and strive to prevent known non-friendly
 terminology.

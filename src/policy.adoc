@@ -1,13 +1,12 @@
 [[policy]]
-=== Policy
+== Policy
 
 *Version:* 1.2 +
 *One line description:* How to propose, approve, and adopt policies +
 *Author(s):* Mark I Himelstein +
 *Status:* Approved +
 
-==== Version History
-
+*Version History:* +
 [width="100%",cols="<5%,<15%,<50%,<20%",options="header",]
 |===
 |Ver |Date |Details |Name(s)
@@ -19,12 +18,12 @@ a TSC vote. |Stephano Cetola
 
 |===
 
-==== Rationale
+=== Rationale
 
 We need to create and adopt policies to govern ourselves below the
 bylaws.
 
-==== Policy
+=== Policy
 
 . Use the policy template to propose a policy. All fields should be
 filled in. +
@@ -43,11 +42,11 @@ all task/sig groups. +
 weekly meeting. Policies that affect things like voting must go through
 the TSC for final approval vote.
 
-==== Exception handling +
+=== Exception handling +
 If you want to have an exception to the rules to create a policy
 escalate to TSC. If you have an exception for a specific policy follow
 its exception handling.
 
-==== Transition to start using policy +
+=== Transition to start using policy +
 Immediate
 
