@@ -89,14 +89,14 @@ In the process of developing the RISC-V Specification, Architecture
 Review (AR) serves a pivotal function. This review can occur at various
 stages: Planning, Development, Freeze, and Ratification-Ready.
 
-During the Planning and Development phases, AR functions primarily as a 
-consultative activity, offering requested guidance on possible architectural 
-choices and suggestions for improvement. However, the Architecture Review 
-conducted during the Freeze stage is particularly important and mandatory, as 
-it determines whether the specification is genuinely prepared to advance or if 
-modifications and enhancements are needed. Lastly, AR is required during the 
-Ratification-Ready phase if the specification text has undergone any significant 
-changes (i.e. past simple typo corrections, formatting corrections, and very 
+During the Planning and Development phases, AR functions primarily as a
+consultative activity, offering requested guidance on possible architectural
+choices and suggestions for improvement. However, the Architecture Review
+conducted during the Freeze stage is particularly important and mandatory, as
+it determines whether the specification is genuinely prepared to advance or if
+modifications and enhancements are needed. Lastly, AR is required during the
+Ratification-Ready phase if the specification text has undergone any significant
+changes (i.e. past simple typo corrections, formatting corrections, and very
 simple clarifications).
 
 === Exception handling
