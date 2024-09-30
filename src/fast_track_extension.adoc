@@ -162,7 +162,7 @@ https://drive.google.com/drive/folders/1hzoPukaf5I-r12kdjpMY5KetoYfvHeCb?usp=sha
 * This spreadsheet and any associated waivers must be submitted to Tech
 Chairs and approved. +
 . Public review +
-* The proposer, the two chairs of the relevant Horizontal or ISA 
+* The proposer, the two chairs of the relevant Horizontal or ISA
 Committee, and two others outside the proposer’s organization must agree
 to push for public review and then present such a motion to the `tech'
 email list - with a two-week period for objections to be raised. +
@@ -171,7 +171,7 @@ enters the standard 30-day public review process. This is announced via
 email to `isa-dev' and to the `tech' email list. +
 . Approval by TSC +
 * All comments from the public review must be addressed. +
-* The proposer, the two chairs of the relevant Horizontal or ISA 
+* The proposer, the two chairs of the relevant Horizontal or ISA
 Committee, and two others outside the proposer’s organization must agree
 to push for approval and then present such a motion to the
 `tech-announce' email list (tech-announce@lists.riscv.org) - with a
