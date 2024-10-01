@@ -16,7 +16,7 @@ DOCS := \
 	riscv_tech_policies.adoc
 
 DATE ?= $(shell date +%Y-%m-%d)
-VERSION ?= v0.0.0
+VERSION ?= v1.0.0_rc2
 REVMARK ?= Draft
 DOCKER_IMG := riscvintl/riscv-docs-base-container-image:latest
 ifneq ($(SKIP_DOCKER),true)
