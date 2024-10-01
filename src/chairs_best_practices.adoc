@@ -17,8 +17,7 @@
 
 |1.3 |2022-02-18 |Reference Encumbered information policy for new Chairs |Jeff Scheel
 
-|1.2 |2021-09-24 |Added information for new Chairs. Simplified handling 
-of inappropriate behavior. |Jeff Scheel
+|1.2 |2021-09-24 |Added information for new Chairs. Simplified handling of inappropriate behavior. |Jeff Scheel
 
 |===
 
@@ -230,4 +229,3 @@ Active as of now as it is only advice
 === Exceptions
 
 Not applicable
-

@@ -13,7 +13,7 @@ public review and ratification +
 |===
 |Ver |Date |Details |Name(s)
 
-|1.1 |2021-02-02 
+|1.1 |2021-02-02
 
 a| Updates:
 
@@ -127,4 +127,3 @@ Not applicable
 === Transition to start using policy
 
 Immediately
-

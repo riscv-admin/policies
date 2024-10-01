@@ -120,4 +120,3 @@ by reviewers by two weeks). +
 . Identify at least two specific people from TSC to review the policy
 before it is approved. +
 . Have the TSC chair and CTO review the proposal.
-

@@ -117,7 +117,7 @@ Interest Groups, and Task Groups.
 The Technical Steering Committee requires notification of some decisions that these groups are making in order to provide appropriate oversight. The TSC reserves the right to review and adjust decisions made by any of the working groups or committees. Each policy will call out, at the top of the document, if the TSC requires notification of any process detailed in a RISC-V policy document. See the TSC Required Notification Statement below for the full text.
 
 [IMPORTANT]
-*TSC Required Notification Statement:* 
+*TSC Required Notification Statement:*
 This document contains delegated tasks from the Technical Steering
 Committee (TSC). The TSC requires notification of these delegated tasks
 (highlighted in red) and reserves the right to review and adjust at any
@@ -521,4 +521,3 @@ the CTO. the CTO may further escalate to TSC or the BOD.
 Members who feel their escalation is not being addressed appropriately
 should send email to help@riscv.org. Members should try to work through
 their HC or IC first, if possible, before sending email.
-

@@ -55,7 +55,7 @@ OPTIONS := --trace \
            $(XTRA_ADOC_OPTS) \
 		   -D build \
            --failure-level=ERROR
-REQUIRES := --require=asciidoctor-bibtex 
+REQUIRES := --require=asciidoctor-bibtex
 
 .PHONY: all build clean build-container build-no-container build-docs
 

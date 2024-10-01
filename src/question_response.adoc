@@ -1,5 +1,5 @@
 [[question_response]]
-== Question Response 
+== Question Response
 
 *Version:* 1.1 +
 *One line description:* Answer member questions reliably within a SLA and
@@ -45,12 +45,12 @@ github in the README.
 The chairs of those groups should at least respond to emails within
 24-48 hours M-F except on holidays (i.e. business days).
 
-Responses can be one of three things: 
+Responses can be one of three things:
 
 . answer and resolve the question, +
 . notify the requester that the question belongs to another
 group and CC that group who in turn should respond in accordance with
-this policy or 
+this policy or
 . acknowledge receipt of the question and tell the
 responder when they should expect an answer by the chair or someone else
 (it may take time to get someone to answer because they don’t have the

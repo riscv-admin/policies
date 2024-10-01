@@ -117,12 +117,10 @@ implemented,
 
 * Any optional feature and configuration parameters allowed by the
 architecture that are used, defined by listing a YAML formatted file
-using the schema defined by the riscv-config format (see
-https://riscv-config.readthedocs.io/en/latest/overview.html), 
+using the schema defined by the riscv-config format (see https://riscv-config.readthedocs.io/en/latest/overview.html),
 
 * The vendor and implementation IDs that the DUT will report in those
-respective CSRs (should be in the YAML feature/config file),
-
+respective CSRs (should be in the YAML feature/config file),+
 NOTE: these may be zero if unimplemented
 
 * Name, commit hash, and either version tags or git commit date (in ISO
@@ -331,4 +329,3 @@ be only supported through vendor efforts and not through RISC-V.
 
 Any escalation should occur to the CTO who may choose to resolve the
 issue, or escalate to the TSC or the CEO or the BOD.
-

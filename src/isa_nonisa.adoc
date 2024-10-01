@@ -118,4 +118,3 @@ adhere to this policy. +
 by 2021-07-01. +
 . Any non-ISA items that were already ratified will be considered
 approved.
-

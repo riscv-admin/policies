@@ -11,9 +11,9 @@
 |===
 |Ver |Date |Details |Name(s)
 
-|1.2 |2021-10-05 |elaborate on custom plans | 
-|1.1 |2021-09-28 |require sign off for non isa specs | 
-|1.0 |2021-08-16 |who approves customized portions of Non-ISA DoD | 
+|1.2 |2021-10-05 |elaborate on custom plans |
+|1.1 |2021-09-28 |require sign off for non isa specs |
+|1.0 |2021-08-16 |who approves customized portions of Non-ISA DoD |
 |0.1 |2021-03-22 |Original draft |Gajinder Panesar, Arun Thomas and Greg Favor +
 |===
 
@@ -115,5 +115,4 @@ Freeze milestone.
 
 === Exception handling
 
-Any Task Group wanting an exception from any part of this policy must get written approval from the Chairs. The exception should list the explicit rows that need to be waived, the cause for needing the waiver, and when they will get done. To set expectations:  it is likely Chairs will only grant waivers for items in the earlier part of the DoD and unlikely that Chairs will grant permanent waivers at all.  
-
+Any Task Group wanting an exception from any part of this policy must get written approval from the Chairs. The exception should list the explicit rows that need to be waived, the cause for needing the waiver, and when they will get done. To set expectations:  it is likely Chairs will only grant waivers for items in the earlier part of the DoD and unlikely that Chairs will grant permanent waivers at all.
