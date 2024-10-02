@@ -1,9 +1,9 @@
 [[groups_chairs]]
 == Group Chair and Vice-Chair Approvals
 
+Defines RISC-V technical working groups and selection process.
+
 *Version:* 1.15 +
-*One line description:* Defines RISC-V technical working groups and
-selection process. +
 *Author(s):* Mark Himelstein, Stephano Cetola +
 *Status:* Approved +
 

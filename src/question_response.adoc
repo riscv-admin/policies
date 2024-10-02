@@ -1,9 +1,10 @@
 [[question_response]]
 == Question Response
 
+Answer member questions reliably within a SLA and
+identify who is responsible for ensuring questions are answered.
+
 *Version:* 1.1 +
-*One line description:* Answer member questions reliably within a SLA and
-identify who is responsible for ensuring questions are answered +
 *Author(s):* Mark I Himelstein +
 *Status:* Approved +
 

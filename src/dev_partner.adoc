@@ -1,10 +1,11 @@
 [[dev_partner]]
 == Development Partner Model
 
-*Version:* 1.1 +
-*One line description:* Process and policies regarding being a development
+Describes the process and policies regarding being a development
 partner and doing projects to help Task Groups complete DoD tasks for
-public review and ratification +
+public review and ratification
+
+*Version:* 1.1 +
 *Author(s):* Mark Himelstein +
 *Status:* Approved +
 

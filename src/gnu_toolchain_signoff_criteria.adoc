@@ -1,8 +1,9 @@
 [[gnu_toolchain_signoff_criteria]]
 == GNU Tool Chain Sign-Off Criteria
 
+Defines the criteria for acceptance of GNU tool chain modifications.
+
 *Version:*  1.1 +
-*One line description:*  Criteria for acceptance of GNU tool chain modifications +
 *Author(s):*  Tariq Kurd, Huawei; Jeremy Bennett, Embecosm +
 *Status:*  Approved by Toolchain & Runtimes SSC on 28 Jan 2021 +
 
@@ -64,3 +65,4 @@ Immediate on approval
 . Identify at least two specific people from TSC to review the policy before it is approved. +
 . Have the TSC chair and CTO review the proposal. +
 . If approved, communicate to all task/sig groups commissioning GNU tool chain work. +
+

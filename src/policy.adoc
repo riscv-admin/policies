@@ -1,8 +1,9 @@
 [[policy]]
 == Policy
 
+Outlines how to propose, approve, and adopt policies.
+
 *Version:* 1.2 +
-*One line description:* How to propose, approve, and adopt policies +
 *Author(s):* Mark I Himelstein +
 *Status:* Approved +
 

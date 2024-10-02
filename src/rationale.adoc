@@ -1,8 +1,9 @@
 [[rationale]]
 == Rationale
 
+Provides answers to a common set of question before proposing a new ISA extension or modification of an existing ISA specification.
+
 *Version:* 1.1 +
-*One line description:* Provide answers to a common set of question before proposing a new ISA extension or modification of an existing ISA specification +
 *Author(s):* Mark Himelstein +
 *Status:* Approved +
 

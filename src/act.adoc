@@ -1,10 +1,11 @@
 [[act]]
 == Architectural Compatibility Test
 
-*Version:* 1.2 +
-*One line description:* These are the rules that explain the rationale
+These are the rules that explain the rationale
 for, and the requirements for running and reporting results of RISC-V
-architectural tests, and conditions for waiving failures. +
+architectural tests, and conditions for waiving failures.
+
+*Version:* 1.2 +
 *Author(s):* Allen Baum, Ken Dockser +
 *Status:* Approved +
 

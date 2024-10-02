@@ -1,8 +1,9 @@
 [[acceptance_criteria]]
 == Acceptance Criteria
 
+Describes what must be complete before TSC can approve a specification for ratification.
+
 *Version:* 1.2 +
-*One line description:* What must be complete before TSC can approve a specification for ratification +
 *Author(s)*: Mark I Himelstein, Stephano Cetola +
 *Status:* Approved +
 

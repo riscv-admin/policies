@@ -1,9 +1,9 @@
 [[technical_voting]]
 == Technical Voting
 
+Defines the types of votes we use in our technical leadership groups.
+
 *Version:* 1.2 +
-*One line description:* The types of votes we use in our technical
-leadership groups. +
 *Author(s):* Mark I Himelstein, Stephano Cetola +
 *Status:* Approved +
 

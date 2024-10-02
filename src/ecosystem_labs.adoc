@@ -1,8 +1,9 @@
 [[ecosystem_labs]]
 == Ecosystem Labs
 
+Provides the processes and policies for RISC-V Ecosystem Labs.
+
 *Version:* 1.2 +
-*One line description:* processes and policies regarding being a RISC-V Ecosystem Lab +
 *Author(s):* Mark Himelstein, Jeff Scheel +
 *Status:* Approved +
 

@@ -1,9 +1,9 @@
 [[versioning]]
 == Versioning
 
+Outlines the rules that govern how RISC-V artifacts are versioned.
+
 *Version:* 0.1 +
-*One line description:* Rules governing how we version RISC-V
-artifacts +
 *Author(s):* Philipp Tomsich, Stephano Cetola, Rafael Sene +
 *Status:* Draft +
 

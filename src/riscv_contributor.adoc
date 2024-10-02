@@ -1,8 +1,9 @@
 [[riscv_contributor]]
 == Contributor
 
+Describes who can contribute to RISC-V specifications.
+
 *Version:* 1.1 +
-*One line description:* Who can contribute to RISC-V specifications +
 *Author(s):* Mark Himelstein +
 *Status:* Approved +
 

@@ -1,8 +1,9 @@
 [[ccm_guest_policy]]
 == Committee Chair Meeting (CCM) Guests
 
+Describes the circumstances for allowing or asking guests to join CCM.
+
 *Version:* 1.1 +
-*One line description:* Under what circumstances do we allow/ask guests to join CCM +
 *Author(s):* Mark Himelstein, Stephano Cetola +
 *Status:* Approved +
 
