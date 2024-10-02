@@ -1,8 +1,7 @@
 [[os_hypervisor_requirements]]
 == OS & Hypervisor Requirements for Specification Ratification
 
-Provide a reference implementation (as a patchset) providing basic 
-enablement for Linux (including KVM) and FreeRTOS/Zephyr.
+Provide a reference implementation (as a patchset) providing basic enablement for Linux (including KVM) and FreeRTOS/Zephyr.
 
 *Version:* 0.1 +
 *Author(s):* Philipp Tomsich +
