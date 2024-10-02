@@ -9,43 +9,43 @@ The project to build the document is maintained in GitHub at https://github.com/
 
 The following policies are in the Approved state and are in use:
 
-* Acceptance Criteria +
-* Architectural Compatibility Test +
-* Architecture Review +
-* Committee Chair Meeting (CCM) Guests +
-* Chairs Best Practices +
-* Contributor +
-* Development Partner Model +
-* Ecosystem Labs +
-* Encumbered Information +
-* Fast Track Architecture Extension +
-* Friendly Terminology +
-* GitHub Repo Structure & Administration +
-* GNU Tool Chain Sign-Off Criteria +
-* Group Chair and Vice-Chair Approvals +
-* ISA & Non-ISA Specifications +
-* Joint Working Groups with External Organizations +
-* Platforms +
-* Policy +
-* Profiles +
-* Questions Response +
-* Ratification +
-* Rationale +
-* Technical Voting +
+* <<acceptance_criteria>> +
+* <<act>> +
+* <<architecture_review>> +
+* <<ccm_guest_policy>> +
+* <<chairs_best_practices>> +
+* <<riscv_contributor>> +
+* <<dev_partner>> +
+* <<ecosystem_labs>> +
+* <<encumbered_info>> +
+* <<fast_track_extension>> +
+* <<friendly_terminology>> +
+* <<github_administration>> +
+* <<gnu_toolchain_signoff_criteria>> +
+* <<groups_chairs>> +
+* <<isa_nonisa>> +
+* <<joint_working_groups>> +
+* <<platforms>> +
+* <<policy>> +
+* <<profiles>> +
+* <<question_response>> +
+* <<ratification>> +
+* <<rationale>> +
+* <<technical_voting>> +
 
 === Draft policy list
 
 Policies in this section have been been drafted but not yet approved:
 
-* LLVM Tool Chain Sign-Off Criteria +
-* OS & Hypervisor Requirements for Specification Ratification +
-* Universes +
-* Versioning +
+* <<llvm_toochain_singoff>> +
+* <<os_hypervisor_requirements>> +
+* <<universes>> +
+* <<versioning>> +
 
 === Archived policy list
 
 Policies in this section are no longer in use by RISC-V:
 
-* ACT Requirements for Privileged 1.11 Specification +
-* Non-ISA Definition of Done +
-* SAIL Requirements for Privileged 1.11 Extensions +
+* <<act_priv_spec_1_11>> +
+* <<nonisa_definition_of_done>> +
+* <<sail_priv_spec_1_11>> +

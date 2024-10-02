@@ -1,9 +1,9 @@
 [[joint_working_groups]]
 == Joint Working Groups with External Organizations
 
+Defines the policy and process to set up a joint working group with other organizations.
+
 *Version:* 1.0 +
-*One line description:* policy and process to set up a joint working group
-with other organizations +
 *Author(s):* Mark Himelstein +
 *Status:* Approved +
 
@@ -94,4 +94,5 @@ Escalations get sent to the executives to resolve.
 
 === Transition to start using policy
 
-Effective immediately
+Effective immediately +
+

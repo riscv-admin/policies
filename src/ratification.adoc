@@ -1,9 +1,10 @@
 [[ratification]]
 == Ratification
 
+These are the rules governing the ratification of RISC-V Specifications.
+
 *Version:* 1.7 +
-*One line description:* These are the rules governing the ratification
-of RISC-V Specifications +
+*One line description:*  +
 *Author(s):* Mark Himelstein, Stephano Cetola +
 *Status:* Approved +
 

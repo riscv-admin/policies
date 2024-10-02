@@ -1,8 +1,9 @@
 [[llvm_toochain_singoff]]
 == LLVM Tool Chain Sign-Off Criteria
 
+Specifies the criteria for acceptance of LLVM tool chain.
+
 *Version:* 0.1 +
-*One line description:* Criteria for acceptance of LLVM tool chain +
 *Author(s):* Nidal Faour, Jeremy Bennett, Ed Jones +
 *Status:* Draft +
 
@@ -120,3 +121,4 @@ by reviewers by two weeks). +
 . Identify at least two specific people from TSC to review the policy
 before it is approved. +
 . Have the TSC chair and CTO review the proposal.
+

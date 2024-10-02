@@ -1,8 +1,9 @@
 [[profiles]]
 == Profiles
 
+Defines the rules for profiles.
+
 *Version:* 3.3 +
-*One line description:* Rules for profiles +
 *Author(s):* Mark Himelstein +
 *Status:*  +
 
@@ -141,3 +142,4 @@ described in this policy immediately.
 === Exceptions
 
 Profile naming and versioning exceptions must be approved by the TSC.
+

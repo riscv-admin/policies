@@ -1,8 +1,9 @@
 [[chairs_best_practices]]
 == Chairs Best Practices
 
+Guidance on practices for chairs and vice-chairs.
+
 *Version:* 1.5 +
-*One line description:* Guidance on practices if you are a chair or vice-chair +
 *Author(s):* Charlie Su, Mark Himelstein, Jeff Scheel +
 *Status:* Approved +
 

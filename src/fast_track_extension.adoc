@@ -1,8 +1,9 @@
 [[fast_track_extension]]
 == Fast Track Architecture Extension
 
-*One line description:* ast track process for developing "small"
-architecture extensions +
+Provides the fast-track process for developing "small" architecture extensions.
+
+*Version:* 1.7
 *Author(s):* Greg Favor +
 *Status:* Approved +
 

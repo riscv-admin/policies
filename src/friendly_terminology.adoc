@@ -1,9 +1,9 @@
 [[friendly_terminology]]
 == Friendly Terminology
 
+Defines the modern word choices for terminology that is friendly for everyone.
+
 *Version:* 1.2 +
-*One line description:* Modern word choice for terminology that is
-friendly for everyone +
 *Author(s):* Mark Himelstein +
 *Status:* Approved +
 

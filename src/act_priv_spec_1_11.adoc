@@ -1,11 +1,12 @@
 [[act_priv_spec_1_11]]
 == ACT Requirements for Privileged 1.11 Specification
 
-*Version:* 0.2 +
-*One line description:* This policy describes simplified Architectural
+This policy describes simplified Architectural
 Compatibility Test (ACT) requirements for the privileged specification.
 This policy is temporary and will be replaced by a standard ACT suite in
-the future. +
+the future.
+
+*Version:* 0.2 +
 *Author(s):* Greg Favor, Arun Thomas +
 *Status:* Archived +
 

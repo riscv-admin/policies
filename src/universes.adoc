@@ -1,9 +1,9 @@
 [[universes]]
 == Universes
 
+Defines optional technical areas that potentially pervasively impacts all specifications.
+
 *Version:* 0.1 +
-*One line description:* An optional technical area that potentially
-pervasively impacts all specifications +
 *Author(s):* Mark Himelstein +
 *Status:* Draft +
 

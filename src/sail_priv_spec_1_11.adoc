@@ -1,9 +1,10 @@
 [[sail_priv_spec_1_11]]
 == SAIL Requirements for Privileged 1.11 Extensions
 
+This policy provides a SAIL waiver for
+Privileged extensions to be ratified in 2021. 
+
 *Version:* 1.0 +
-*One line description:* This policy provides a SAIL waiver for
-Privileged extensions to be ratified in 2021. +
 *Author(s):* Greg Favor +
 *Status:* Archived +
 

@@ -1,8 +1,9 @@
 [[nonisa_definition_of_done]]
 == Non-ISA Definition of Done
 
+Describes the tasks that must be completed before TSC can ratify a specification or change to a specification.
+
 *Version:*  1.2 +
-*One line description:* What must be completed before TSC can ratify a specification or change to a specification +
 *Author(s):* Gajinder Panesar, Arun Thomas and Greg Favor +
 *Status:* Archived +
 

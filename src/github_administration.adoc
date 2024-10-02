@@ -1,9 +1,9 @@
 [[github_administration]]
 == GitHub Repo Structure & Administration
 
+This policy governs use of RISC-V’s GitHub organization.
+
 *Version:* 1.2 +
-*One line description:* This policy governs use of RISC-V’s GitHub
-organization. +
 *Author(s):* Stephano Cetola, Arun Thomas +
 *Status:* Approved +
 

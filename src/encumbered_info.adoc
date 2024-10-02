@@ -1,9 +1,9 @@
 [[encumbered_info]]
 == Encumbered Information
 
+Describes when and why you can or cannot discuss or reference encumbered information.
+
 *Version:* 1.3 +
-*One line description:* When and why you can or cannot discuss or
-reference encumbered information +
 *Author(s):* Mark I Himelstein +
 *Status:* Approved +
 

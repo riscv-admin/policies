@@ -1,8 +1,9 @@
 [[architecture_review]]
 == Architecture Review
 
+This policy covers the opcode encoding, mnemonics, and CSR.
+
 *Version:* 1.2 +
-*One line description:* This policy cover the opcode encoding, mnemonics, and CSR +
 *Author(s):* Greg Favor, Krste Asanović +
 *Status:* Approved +
 

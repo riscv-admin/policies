@@ -1,11 +1,12 @@
 [[platforms]]
 == Platforms
 
+Defines the rules for platforms’ specifications
+
 NOTE: This policy is out-of-date but will not be updated until 2023.
 It is left here for historical reasons.
 
 *Version:* 1.0 +
-*One line description:* Rules for platforms’ specifications +
 *Author(s):* Philipp Tomsich +
 *Status:* Approved +
 
@@ -388,3 +389,4 @@ Compatibility test.* +
 specifications and provide additional functionality, as long as they
 remain compatible* (i.e., they may not implement incompatible features
 unless these are disabled by default).
+
